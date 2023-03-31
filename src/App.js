@@ -25,8 +25,8 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/vocabulary-exercise" element={<VocabularyExercise />} />
-        <Route path="/reading-exercise" element={<ReadingExercise />} />
+        <Route path="/arabic-to-english-learing-app/vocabulary-exercise" element={<VocabularyExercise />} />
+        <Route path="/arabic-to-english-learing-app/reading-exercise" element={<ReadingExercise />} />
         {/* <Route path="/writing">
             <WritingExercise />
           </Route> */}
