@@ -1,6 +1,6 @@
 {
   "homepage": "https://daniman123.github.io/arabictoenglish/",
-  "name": "arabic-to-english-learing-app",
+  "name": "arabictoenglish",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
