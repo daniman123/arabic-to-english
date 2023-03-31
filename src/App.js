@@ -14,10 +14,10 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/vocabulary-exercise">Vocabulary Exercises</Link>
+              <Link to="/arabic-to-english-learing-app/vocabulary-exercise">Vocabulary Exercises</Link>
             </li>
             <li>
-              <Link to="/reading-exercise">Reading Exercises</Link>
+              <Link to="/arabic-to-english-learing-app/reading-exercise">Reading Exercises</Link>
             </li>
             {/* <li>
               <Link to="/writing">Writing Exercises</Link>
@@ -26,8 +26,8 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/vocabulary-exercise" element={<VocabularyExercise />} />
-          <Route path="/reading-exercise" element={<ReadingExercise />} />
+          <Route path="/arabic-to-english-learing-app/vocabulary-exercise" element={<VocabularyExercise />} />
+          <Route path="/arabic-to-english-learing-app/reading-exercise" element={<ReadingExercise />} />
           {/* <Route path="/writing">
             <WritingExercise />
           </Route> */}
