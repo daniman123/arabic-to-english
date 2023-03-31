@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arabic-to-english/static/css/main.a813275c.css",
+    "main.js": "/arabic-to-english/static/js/main.bc61ebdf.js",
+    "static/js/787.b26e2195.chunk.js": "/arabic-to-english/static/js/787.b26e2195.chunk.js",
+    "index.html": "/arabic-to-english/index.html",
+    "main.a813275c.css.map": "/arabic-to-english/static/css/main.a813275c.css.map",
+    "main.bc61ebdf.js.map": "/arabic-to-english/static/js/main.bc61ebdf.js.map",
+    "787.b26e2195.chunk.js.map": "/arabic-to-english/static/js/787.b26e2195.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a813275c.css",
+    "static/js/main.bc61ebdf.js"
+  ]
+}

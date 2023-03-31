@@ -19,8 +19,8 @@ function App() {
             <Link to="/reading-exercise">Reading Exercises</Link>
           </li>
           {/* <li>
-              <Link to="/writing">Writing Exercises</Link>
-            </li> */}
+            <Link to="/writing">Writing Exercises</Link>
+          </li>*/}
         </ul>
       </nav>
 

@@ -1119,7 +1119,7 @@
                                                                               }
                                                                               ]
                                                                               },{
-                                                                                "text": "Iraqi history dates back thousands of years. Ancient Mesopotamia, the land between the Tigris and Euphrates Rivers, was home to some of the earliest civilizations in the world, including the Sumerians, Akkadians, Babylonians, and Assyrians. The region was also a major center of trade and commerce, and its cities were known for their wealth and cultural achievements. Throughout its history, Iraq has been invaded and ruled by various empires, including the Persian, Greek, and Roman empires. In the 20th century, Iraq gained independence from Britain in 1932, and was ruled by a monarchy until 1958, when a military coup overthrew the king. Saddam Hussein came to power in 1979, and his regime was marked by brutality, war, and human rights abuses. The US-led invasion of Iraq in 2003 toppled Saddam Hussein, but also plunged the country into a period of instability and violence.",
+                                                                                "text": "Iraqi history dates back thousands of years. Ancient Mesopotamia, the land between the Tigris and Euphrates Rivers, was home to some of the earliest civilizations in the world, including the Sumerians, Akkadians, Babylonians, and Assyrians. The region was also a major center of trade and commerce, and its cities were known for their wealth and cultural achievements. Throughout its history, Iraq has been invaded and ruled by various empires, including the Persian, Greek, and Roman empires. In the 20th century, Iraq gained independence from Britain in 1932, and was ruled by a monarchy until 1958, when a military coup overthrew the king. Saddam Hussein came to power in 1979. The US-led invasion of Iraq in 2003 toppled Saddam Hussein, but also plunged the country into a period of instability and violence.",
                                                                                 "questions": [
                                                                                 {
                                                                                 "question": "What ancient civilizations lived in Mesopotamia?",
@@ -1252,21 +1252,7 @@
                                                                                               ]
                                                                                               }
                                                                                               ,
-                                                                                              {
-                                                                                              "text": "The current prime minister of Iraq is Mustafa Al-Kadhimi.",
-                                                                                              "questions": [
-                                                                                              {
-                                                                                              "question": "Who is the current prime minister of Iraq?",
-                                                                                              "options": ["Nouri al-Maliki", "Haider al-Abadi", "Mustafa Al-Kadhimi"],
-                                                                                              "answer": "Mustafa Al-Kadhimi"
-                                                                                              },
-                                                                                              {
-                                                                                              "question": "What is the topic of the text?",
-                                                                                              "options": ["The history of Iraq", "The economy of Iraq", "The politics of Iraq"],
-                                                                                              "answer": "The politics of Iraq"
-                                                                                              }
-                                                                                              ]
-                                                                                              },
+                                                                                              
                                                                                               
                                                                                               {
                                                                                               "text": "Iraq has been in a state of political instability and unrest since the US-led invasion in 2003.",
