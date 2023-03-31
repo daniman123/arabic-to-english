@@ -1,0 +1,83 @@
+{
+    "words": [
+      {
+        "english": "a",
+        "arabic": "ا",
+        "sentenceEnglish": "I have a pencil.",
+        "sentenceArabic": "لدي قلم."
+      },
+      {
+        "english": "an",
+        "arabic": "تعيين غير محدد",
+        "sentenceEnglish": "I need an umbrella.",
+        "sentenceArabic": "أحتاج مظلة."
+      },
+      {
+        "english": "the",
+        "arabic": "ال",
+        "sentenceEnglish": "The book is on the table.",
+        "sentenceArabic": "الكتاب على الطاولة."
+      },
+      {
+        "english": "is",
+        "arabic": "هو",
+        "sentenceEnglish": "She is a doctor.",
+        "sentenceArabic": "هي طبيبة."
+      },
+      {
+        "english": "are",
+        "arabic": "هي",
+        "sentenceEnglish": "They are my friends.",
+        "sentenceArabic": "هم أصدقائي."
+      },
+      {
+        "english": "and",
+        "arabic": "و",
+        "sentenceEnglish": "I like coffee and tea.",
+        "sentenceArabic": "أنا أحب القهوة والشاي."
+      },
+      {
+        "english": "in",
+        "arabic": "في",
+        "sentenceEnglish": "I live in New York.",
+        "sentenceArabic": "أنا أعيش في نيويورك."
+      },
+      {
+        "english": "on",
+        "arabic": "على",
+        "sentenceEnglish": "The cup is on the table.",
+        "sentenceArabic": "الكوب على الطاولة."
+      },
+      {
+        "english": "at",
+        "arabic": "في",
+        "sentenceEnglish": "I will meet you at the park.",
+        "sentenceArabic": "سألقاك في الحديقة."
+      },
+      {
+        "english": "with",
+        "arabic": "مع",
+        "sentenceEnglish": "I went to the store with my sister.",
+        "sentenceArabic": "ذهبت إلى المتجر مع أختي."
+      },
+      {
+        "english": "for",
+        "arabic": "لـ",
+        "sentenceEnglish": "I bought this gift for you.",
+        "sentenceArabic": "اشتريت هذه الهدية لك."
+      },
+      {
+        "english": "from",
+        "arabic": "من",
+        "sentenceEnglish": "I received a letter from my friend.",
+        "sentenceArabic": "تلقيت رسالة من صديقي."
+      },
+      {
+        "english": "to",
+        "arabic": "إلى",
+        "sentenceEnglish": "I am going to the beach.",
+        "sentenceArabic": "أنا ذاهب إلى الشاطئ."
+      }
+    ]
+  }
+  

@@ -1,0 +1,179 @@
+/* Set some basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Difficulty buttons */
+ul {
+  list-style: none;
+
+}
+div.sidebar > ul>li{
+  margin: 5px;
+  margin-left: -40px;
+}
+
+button.difficulty,button.difficulty__active {
+  vertical-align: middle;
+  width: 120px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #33bd38;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.difficulty {
+  background-color: #398b73;
+}
+  
+button.difficulty:hover,button.difficulty__active:hover {
+  background-color: #3e8e41;
+  
+}
+
+
+
+/* Center the content horizontally */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph text */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+p.text {
+  padding: 10px;
+  border: 0.5px solid rgb(101, 145, 153);
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0080ff;
+  border-bottom: 1px solid #0080ff;
+  transition: border-bottom 0.2s ease-in-out;
+}
+
+a:hover {
+  border-bottom: 1px solid transparent;
+}
+
+
+/* Style the radio buttons and labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the .next_exercise button */
+.next_exercise,.start_exercise  {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4cafaf;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next_exercise:hover,.start_exercise:hover  {
+  background-color: #3e8e73;
+}
+
+
+/* Style the score display */
+.score {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+/* Style the next exercise button */
+button.next-exercise {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.next-exercise:hover {
+  background-color: #0c7cd5;
+}
+
+/* Style the start exercise button */
+button.start-exercise {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.start-exercise:hover {
+  background-color: #d32f2f;
+}
