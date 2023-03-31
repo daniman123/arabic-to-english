@@ -2,9 +2,6 @@ import React, { useState } from "react";
 
 import "./App.css";
 
-
-import "./App.css";
-
 import words from "../data/readingData/vocabulary/commonWords.json";
 
 const VocabularyExercise = () => {
