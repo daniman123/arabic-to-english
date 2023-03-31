@@ -1,10 +1,8 @@
-
 import React, { useState } from "react";
 
-import beginner from "../data/readingData/beginner.json"
-import intermediate from "../data/readingData/intermediate.json"
-import advanced from "../data/readingData/advanced.json"
-
+import beginner from "../data/readingData/beginner.json";
+import intermediate from "../data/readingData/intermediate.json";
+import advanced from "../data/readingData/advanced.json";
 
 function ReadingExercise() {
   const [text, setText] = useState("");
@@ -25,7 +23,8 @@ function ReadingExercise() {
       advanced,
     };
 
-    const randomText = data[difficulty][Math.floor(Math.random() * data[difficulty].length)];
+    const randomText =
+      data[difficulty][Math.floor(Math.random() * data[difficulty].length)];
 
     setText(randomText.text);
     setQuestions(randomText.questions);
@@ -83,6 +82,9 @@ function ReadingExercise() {
     answers.forEach((answer, index) => {
       if (answer === questions[index].answer) {
         if (!submitted) tempScore++;
+      }
+      if (answer !== questions[index].answer) {
+        if (!submitted) tempScore--;
       }
     });
 
@@ -144,7 +146,11 @@ function ReadingExercise() {
             <ul>
               <li>
                 <button
-                  className={difficulty === "beginner" ? "difficulty__active" : "difficulty"}
+                  className={
+                    difficulty === "beginner"
+                      ? "difficulty__active"
+                      : "difficulty"
+                  }
                   onClick={() => handleDifficultyChange("beginner")}
                 >
                   Beginner
@@ -152,7 +158,11 @@ function ReadingExercise() {
               </li>
               <li>
                 <button
-                  className={difficulty === "intermediate" ? "difficulty__active" : "difficulty"}
+                  className={
+                    difficulty === "intermediate"
+                      ? "difficulty__active"
+                      : "difficulty"
+                  }
                   onClick={() => handleDifficultyChange("intermediate")}
                 >
                   Intermediate
@@ -160,7 +170,11 @@ function ReadingExercise() {
               </li>
               <li>
                 <button
-                  className={difficulty === "advanced" ? "difficulty__active" : "difficulty"}
+                  className={
+                    difficulty === "advanced"
+                      ? "difficulty__active"
+                      : "difficulty"
+                  }
                   onClick={() => handleDifficultyChange("advanced")}
                 >
                   Advanced
@@ -175,6 +189,7 @@ function ReadingExercise() {
         </>
       )}
     </div>
-  );}
+  );
+}
 
 export default ReadingExercise;
