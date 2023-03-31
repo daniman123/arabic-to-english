@@ -21,8 +21,8 @@ const VocabularyExercise = () => {
       <div>
         <p>Arabic: {words.words[currentWordIndex].arabic}</p>
         <span>
-          English: {" "}
-           <a
+          English:{" "}
+          <a
             href={`https://translate.google.com/#en/ar/${words.words[currentWordIndex].english}`}
             target="_blank"
             rel="noreferrer"
@@ -32,8 +32,8 @@ const VocabularyExercise = () => {
         </span>
         <p>Arabic sentence: {words.words[currentWordIndex].sentenceArabic}</p>
         <span>
-          English sentence: {" "}
-           <a
+          English sentence:{" "}
+          <a
             href={`https://translate.google.com/#en/ar/${words.words[currentWordIndex].sentenceEnglish}`}
             target="_blank"
             rel="noreferrer"
