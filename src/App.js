@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as HashRouter,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 
 import "./App.css";
 
@@ -9,31 +14,29 @@ import ReadingExercise from "./components/ReadingExercise";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/arabic-to-english-learing-app/vocabulary-exercise">Vocabulary Exercises</Link>
-            </li>
-            <li>
-              <Link to="/arabic-to-english-learing-app/reading-exercise">Reading Exercises</Link>
-            </li>
-            {/* <li>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/vocabulary-exercise">Vocabulary Exercises</Link>
+          </li>
+          <li>
+            <Link to="/reading-exercise">Reading Exercises</Link>
+          </li>
+          {/* <li>
               <Link to="/writing">Writing Exercises</Link>
             </li> */}
-          </ul>
-        </nav>
+        </ul>
+      </nav>
 
-        <Routes>
-          <Route path="/arabic-to-english-learing-app/vocabulary-exercise" element={<VocabularyExercise />} />
-          <Route path="/arabic-to-english-learing-app/reading-exercise" element={<ReadingExercise />} />
-          {/* <Route path="/writing">
+      <Routes>
+        <Route path="/vocabulary-exercise" element={<VocabularyExercise />} />
+        <Route path="/reading-exercise" element={<ReadingExercise />} />
+        {/* <Route path="/writing">
             <WritingExercise />
           </Route> */}
-        </Routes>
-      </div>
-    </Router>
+      </Routes>
+    </div>
   );
 }
 
