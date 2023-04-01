@@ -141,7 +141,6 @@ function ReadingExercise() {
 
     setScore((prevScore) => prevScore + tempScore);
     setSubmitted(true);
-
     const data =
       JSON.parse(window.sessionStorage.getItem("readingExerciseData")) || [];
     const newData = {
