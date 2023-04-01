@@ -78,12 +78,16 @@ function ReadingExercise() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (submitted) {
+      return;
+    }
+
     let tempScore = score;
     answers.forEach((answer, index) => {
       if (answer === questions[index].answer) {
-        if (!submitted) tempScore++;
+        tempScore++;
       } else {
-        if (!submitted) tempScore--;
+        tempScore--;
       }
     });
 
