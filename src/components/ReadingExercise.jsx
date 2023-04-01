@@ -82,8 +82,7 @@ function ReadingExercise() {
     answers.forEach((answer, index) => {
       if (answer === questions[index].answer) {
         if (!submitted) tempScore++;
-      }
-      if (answer !== questions[index].answer) {
+      } else {
         if (!submitted) tempScore--;
       }
     });
