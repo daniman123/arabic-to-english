@@ -143,7 +143,7 @@ function ReadingExercise() {
     setSubmitted(true);
 
     const data =
-      JSON.parse(sessionStorage.getItem("readingExerciseData")) || [];
+      JSON.parse(window.sessionStorage.getItem("readingExerciseData")) || [];
     const newData = {
       text,
       questions,
@@ -151,7 +151,7 @@ function ReadingExercise() {
       percentage,
     };
     data.push(newData);
-    sessionStorage.setItem("readingExerciseData", JSON.stringify(data));
+    window.sessionStorage.setItem("readingExerciseData", JSON.stringify(data));
   };
 
   const resetAnswers = () => {
