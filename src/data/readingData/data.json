@@ -684,6 +684,1173 @@
                 "answer": "To expand his business and open up more stores"
                 }
                 ]
-                }
+                },{
+                  "text": "The train will arrive at 4:30 PM.",
+                  "questions": [
+                  {
+                  "question": "What time will the train arrive?",
+                  "options": ["4:00 PM", "4:15 PM", "4:30 PM"],
+                  "answer": "4:30 PM"
+                  },
+                  {
+                  "question": "What is the topic of the text?",
+                  "options": ["The weather", "The train schedule", "The bus schedule"],
+                  "answer": "The train schedule"
+                  }
+                  ]
+                  },{
+                    "text": "Tom and Jerry are famous cartoon characters.",
+                    "questions": [
+                    {
+                    "question": "Who are Tom and Jerry?",
+                    "options": ["Movie stars", "Cartoon characters", "Athletes"],
+                    "answer": "Cartoon characters"
+                    },
+                    {
+                    "question": "What is the topic of the text?",
+                    "options": ["Famous people", "Cartoon characters", "TV shows"],
+                    "answer": "Cartoon characters"
+                    }
+                    ]
+                    },{
+                      "text": "The sky is blue.",
+                      "questions": [
+                      {
+                      "question": "What color is the sky?",
+                      "options": ["Green", "Blue", "Yellow"],
+                      "answer": "Blue"
+                      },
+                      {
+                      "question": "What is the topic of the text?",
+                      "options": ["The ocean", "The sky", "The mountains"],
+                      "answer": "The sky"
+                      }
+                      ]
+                      },{
+                        "text": "Football (soccer) is the most popular sport in the Middle East, with millions of fans and numerous professional leagues.",
+                        "questions": [
+                        {
+                        "question": "What is the most popular sport in the Middle East?",
+                        "options": ["Basketball", "Football (soccer)", "Tennis"],
+                        "answer": "Football (soccer)"
+                        },
+                        {
+                        "question": "How many professional football leagues are there in the Middle East?",
+                        "options": ["One", "Two", "Multiple"],
+                        "answer": "Multiple"
+                        }
+                        ]
+                        },{
+                          "text": "The Ottoman Empire was a powerful state that lasted from 1299 to 1922 and covered parts of Europe, Asia, and Africa.",
+                          "questions": [
+                          {
+                          "question": "When did the Ottoman Empire start?",
+                          "options": ["1299", "1432", "1675"],
+                          "answer": "1299"
+                          },
+                          {
+                          "question": "Which continents did the Ottoman Empire cover?",
+                          "options": ["Europe and Asia", "Asia and Africa", "Europe, Asia, and Africa"],
+                          "answer": "Europe, Asia, and Africa"
+                          }
+                          ]
+                          },{
+                            "text": "The Arabic language is the fifth most spoken language in the world, with over 400 million speakers worldwide.",
+                            "questions": [
+                            {
+                            "question": "What is the ranking of the Arabic language in terms of most spoken languages in the world?",
+                            "options": ["First", "Third", "Fifth"],
+                            "answer": "Fifth"
+                            },
+                            {
+                            "question": "How many Arabic speakers are there worldwide?",
+                            "options": ["Over 100 million", "Over 200 million", "Over 400 million"],
+                            "answer": "Over 400 million"
+                            }
+                            ]
+                            },{
+                              "text": "Hummus is a popular Middle Eastern dish made from chickpeas, tahini, lemon juice, and garlic.",
+                              "questions": [
+                              {
+                              "question": "What is hummus?",
+                              "options": ["A popular Middle Eastern dish", "A type of bread", "A spice"],
+                              "answer": "A popular Middle Eastern dish"
+                              },
+                              {
+                              "question": "What are the main ingredients of hummus?",
+                              "options": ["Chickpeas, rice, and salt", "Lentils, tomatoes, and onions", "Chickpeas, tahini, lemon juice, and garlic"],
+                              "answer": "Chickpeas, tahini, lemon juice, and garlic"
+                              }
+                              ]
+                              },{
+                                "text": "The Middle East has been heavily impacted by the oil industry, which has played a major role in shaping the region's economy and politics.",
+                                "questions": [
+                                {
+                                "question": "What has played a major role in shaping the Middle East's economy and politics?",
+                                "options": ["The oil industry", "The tourism industry", "The agriculture industry"],
+                                "answer": "The oil industry"
+                                },
+                                {
+                                "question": "What is the topic of the text?",
+                                "options": ["The impact of oil on the Middle East economy", "Democracy in the Middle East", "Sports in the Middle East"],
+                                "answer": "The impact of oil on the Middle East economy"
+                                }
+                                ]
+                                },{
+                                  "text": "The history of the Middle East is marked by a lack of political accountability.",
+                                  "questions": [
+                                  {
+                                  "question": "What is the history of the Middle East marked by?",
+                                  "options": ["A lack of political accountability", "A strong tradition of democracy", "A lack of oil reserves"],
+                                  "answer": "A lack of political accountability"
+                                  },
+                                  {
+                                  "question": "What is the topic of the text?",
+                                  "options": ["Political accountability in the Middle East", "Democracy in the Middle East", "The impact of oil on the Middle East economy"],
+                                  "answer": "Political accountability in the Middle East"
+                                  }
+                                  ]
+                                  },{
+                                    "text": "Democracy is a form of government in which power is held by the people.",
+                                    "questions": [
+                                    {
+                                    "question": "What is democracy?",
+                                    "options": ["A form of government in which power is held by the people", "A form of government in which power is held by a single individual", "A form of government in which power is held by the military"],
+                                    "answer": "A form of government in which power is held by the people"
+                                    },
+                                    {
+                                    "question": "What is the topic of the text?",
+                                    "options": ["Political accountability in the Middle East", "Democracy in the Middle East", "The impact of oil on the Middle East economy"],
+                                    "answer": "Democracy in the Middle East"
+                                    }
+                                    ]
+                                    },{
+                                      "text": "Football is the most popular sport in the Middle East.",
+                                      "questions": [
+                                      {
+                                      "question": "What is the most popular sport in the Middle East?",
+                                      "options": ["Basketball", "Football", "Tennis"],
+                                      "answer": "Football"
+                                      },
+                                      {
+                                      "question": "What is the topic of the text?",
+                                      "options": ["Sports in the Middle East", "Food in the Middle East", "Daily life in the Middle East"],
+                                      "answer": "Sports in the Middle East"
+                                      }
+                                      ]
+                                      },{
+                                        "text": "In the Middle East, people usually have their main meal of the day in the evening.",
+                                        "questions": [
+                                        {
+                                        "question": "When do people in the Middle East usually have their main meal of the day?",
+                                        "options": ["Morning", "Afternoon", "Evening"],
+                                        "answer": "Evening"
+                                        },
+                                        {
+                                        "question": "What is the topic of the text?",
+                                        "options": ["Food in the Middle East", "Sports in the Middle East", "Daily life in the Middle East"],
+                                        "answer": "Food in the Middle East"
+                                        }
+                                        ]
+                                        },{
+                                          "text": "In the 20th century, many Middle Eastern countries gained their independence from European colonial powers. However, some countries still struggle with internal conflict and instability.",
+                                          "questions": [
+                                          {
+                                          "question": "Did all Middle Eastern countries gain their independence from European colonial powers?",
+                                          "options": ["Yes", "No", "It is not mentioned in the text"],
+                                          "answer": "No"
+                                          },
+                                          {
+                                          "question": "Do some Middle Eastern countries still struggle with internal conflict and instability?",
+                                          "options": ["Yes", "No", "It is not mentioned in the text"],
+                                          "answer": "Yes"
+                                          }
+                                          ]
+                                          },{
+                                            "text": "The Arab Spring was a series of pro-democracy uprisings that swept across the Middle East and North Africa in 2011.",
+                                            "questions": [
+                                            {
+                                            "question": "What was the Arab Spring?",
+                                            "options": ["A series of pro-democracy uprisings", "A new type of dance", "A scientific discovery"],
+                                            "answer": "A series of pro-democracy uprisings"
+                                            },
+                                            {
+                                            "question": "When did the Arab Spring occur?",
+                                            "options": ["In 2001", "In 2011", "In 2021"],
+                                            "answer": "In 2011"
+                                            }
+                                            ]
+                                            },{
+                                              "text": "Ramadan is a month-long observance during which Muslims fast from sunrise to sunset.",
+                                              "questions": [
+                                              {
+                                              "question": "What is Ramadan?",
+                                              "options": ["A festival of lights", "A month-long observance", "A celebration of the harvest"],
+                                              "answer": "A month-long observance"
+                                              },
+                                              {
+                                              "question": "What do Muslims do during Ramadan?",
+                                              "options": ["Fast from sunrise to sunset", "Eat all day long", "Don't eat anything for the whole month"],
+                                              "answer": "Fast from sunrise to sunset"
+                                              }
+                                              ]
+                                              },{
+                                                "text": "Arabic is the official language of 26 countries, primarily in the Middle East and North Africa.",
+                                                "questions": [
+                                                {
+                                                "question": "How many countries have Arabic as their official language?",
+                                                "options": ["13 countries", "26 countries", "39 countries"],
+                                                "answer": "26 countries"
+                                                },
+                                                {
+                                                "question": "What is the primary region where Arabic is the official language?",
+                                                "options": ["North America", "South America", "Middle East and North Africa"],
+                                                "answer": "Middle East and North Africa"
+                                                }
+                                                ]
+                                                },{
+                                                  "text": "Eid al-Fitr is a religious holiday celebrated by Muslims worldwide to mark the end of Ramadan, the month of fasting.",
+                                                  "questions": [
+                                                  {
+                                                  "question": "What is Eid al-Fitr?",
+                                                  "options": ["A month of fasting", "A religious holiday to mark the end of fasting", "A time to give to charity"],
+                                                  "answer": "A religious holiday to mark the end of fasting"
+                                                  },
+                                                  {
+                                                  "question": "What is Ramadan?",
+                                                  "options": ["A religious holiday", "A month of fasting", "A time for celebrating with family"],
+                                                  "answer": "A month of fasting"
+                                                  }
+                                                  ]
+                                                  },{
+                                                    "text": "Dubai is one of the most visited cities in the world, known for its luxurious shopping, modern architecture, and vibrant nightlife.",
+                                                    "questions": [
+                                                    {
+                                                    "question": "What is Dubai known for?",
+                                                    "options": ["Its historic landmarks", "Its wildlife reserves", "Its luxurious shopping and modern architecture"],
+                                                    "answer": "Its luxurious shopping and modern architecture"
+                                                    },
+                                                    {
+                                                    "question": "What makes Dubai a popular tourist destination?",
+                                                    "options": ["Its historical significance", "Its wildlife reserves", "Its luxurious shopping, modern architecture, and vibrant nightlife"],
+                                                    "answer": "Its luxurious shopping, modern architecture, and vibrant nightlife"
+                                                    }
+                                                    ]
+                                                    },{
+                                                      "text": "Qatar Airways is the state-owned flag carrier of Qatar, known for its luxury services and extensive network of global destinations.",
+                                                      "questions": [
+                                                      {
+                                                      "question": "What is Qatar Airways?",
+                                                      "options": ["A private airline based in Qatar", "The state-owned flag carrier of Qatar", "A budget airline operating in Qatar"],
+                                                      "answer": "The state-owned flag carrier of Qatar"
+                                                      },
+                                                      {
+                                                      "question": "What is Qatar Airways known for?",
+                                                      "options": ["Its budget services", "Its luxury services and global network of destinations", "Its cargo operations"],
+                                                      "answer": "Its luxury services and global network of destinations"
+                                                      }
+                                                      ]
+                                                      },{
+                                                        "text": "Many Arab countries were colonized by European powers during the 19th and early 20th centuries, which had a significant impact on their political and economic systems.",
+                                                        "questions": [
+                                                        {
+                                                        "question": "What is the impact of colonialism on Arab countries?",
+                                                        "options": ["It had no impact on their political and economic systems", "It had a significant impact on their political and economic systems", "It only impacted their cultural systems"],
+                                                        "answer": "It had a significant impact on their political and economic systems"
+                                                        },
+                                                        {
+                                                        "question": "During which centuries did European powers colonize Arab countries?",
+                                                        "options": ["The 15th and 16th centuries", "The 17th and 18th centuries", "The 19th and early 20th centuries"],
+                                                        "answer": "The 19th and early 20th centuries"
+                                                        }
+                                                        ]
+                                                        },{
+                                                          "text": "Arabian horses are a breed of horse originating from the Arabian Peninsula, known for their distinctive head shape and high endurance.",
+                                                          "questions": [
+                                                          {
+                                                          "question": "Where do Arabian horses originate from?",
+                                                          "options": ["North America", "Europe", "The Arabian Peninsula"],
+                                                          "answer": "The Arabian Peninsula"
+                                                          },
+                                                          {
+                                                          "question": "What are Arabian horses known for?",
+                                                          "options": ["Their distinctive tail shape", "Their high endurance and distinctive head shape", "Their speed and agility"],
+                                                          "answer": "Their high endurance and distinctive head shape"
+                                                          }
+                                                          ]
+                                                          },{
+                                                            "text": "Foreign intervention in Arab countries has been a recurring issue throughout history, with various countries and international organizations getting involved in their political affairs.",
+                                                            "questions": [
+                                                            {
+                                                            "question": "What is foreign intervention in Arab countries?",
+                                                            "options": ["The involvement of Arab countries in the affairs of other countries", "The involvement of foreign countries and international organizations in the political affairs of Arab countries", "The involvement of foreign countries and international organizations in the economic affairs of Arab countries"],
+                                                            "answer": "The involvement of foreign countries and international organizations in the political affairs of Arab countries"
+                                                            },
+                                                            {
+                                                            "question": "Has foreign intervention been a recurring issue in Arab countries?",
+                                                            "options": ["Yes, it has been a recurring issue throughout history", "No, it has only happened once or twice", "It has never happened before"],
+                                                            "answer": "Yes, it has been a recurring issue throughout history"
+                                                            }
+                                                            ]
+                                                            },{
+                                                              "text": "Arab history dates back to ancient times, with the rise of civilizations like the Mesopotamians and the Phoenicians. The Arab world also saw the birth of Islam in the 7th century CE, which had a profound impact on the region's culture, society, and politics.",
+                                                              "questions": [
+                                                              {
+                                                              "question": "When did the birth of Islam take place?",
+                                                              "options": ["In the 7th century CE", "In the 1st century CE", "In the 2nd century CE"],
+                                                              "answer": "In the 7th century CE"
+                                                              },
+                                                              {
+                                                              "question": "Which ancient civilizations are associated with Arab history?",
+                                                              "options": ["The Greeks and the Romans", "The Mesopotamians and the Phoenicians", "The Egyptians and the Persians"],
+                                                              "answer": "The Mesopotamians and the Phoenicians"
+                                                              }
+                                                              ]
+                                                              },{
+                                                                "text": "Systemic corruption has been a major issue in Iraq for decades, with government officials and politicians often involved in embezzlement and bribery schemes. The problem has hindered the country's economic growth and development, and has been a source of public discontent.",
+                                                                "questions": [
+                                                                {
+                                                                "question": "What is systemic corruption in Iraq?",
+                                                                "options": ["A minor issue in the country's political and economic systems", "A major issue involving embezzlement and bribery schemes", "A minor issue involving minor cases of corruption"],
+                                                                "answer": "A major issue involving embezzlement and bribery schemes"
+                                                                },
+                                                                {
+                                                                "question": "Has systemic corruption hindered Iraq's economic growth and development?",
+                                                                "options": ["No, it has had no impact on the country's economic growth and development", "Yes, it has hindered the country's economic growth and development", "It has only impacted the country's cultural development"],
+                                                                "answer": "Yes, it has hindered the country's economic growth and development"
+                                                                }
+                                                                ]
+                                                                },{
+                                                                  "text": "The United States has a history of meddling in Arab countries, often to advance its own strategic interests. This has included supporting authoritarian regimes, promoting regime change, and intervening in conflicts. The US has faced criticism for its actions, with some arguing that its interventions have contributed to instability in the region.",
+                                                                  "questions": [
+                                                                  {
+                                                                  "question": "What is meant by 'meddling' in Arab countries?",
+                                                                  "options": ["Advancing democracy and human rights", "Interfering in the affairs of other countries for strategic reasons", "Supporting peaceful protests and political change"],
+                                                                  "answer": "Interfering in the affairs of other countries for strategic reasons"
+                                                                  },
+                                                                  {
+                                                                  "question": "What criticism has the US faced for its actions in Arab countries?",
+                                                                  "options": ["That it has contributed to stability in the region", "That it has advanced democracy and human rights", "That its interventions have contributed to instability in the region"],
+                                                                  "answer": "That its interventions have contributed to instability in the region"
+                                                                  }
+                                                                  ]
+                                                                  },{
+                                                                    "text": "During the US-led invasion of Iraq, there were numerous reports of war crimes committed by American soldiers, including the torture and abuse of prisoners at Abu Ghraib prison. The US government faced widespread criticism for its handling of the situation, and several soldiers were court-martialed and convicted of crimes. The incident remains a dark stain on America's legacy in Iraq.",
+                                                                    "questions": [
+                                                                    {
+                                                                    "question": "What were some of the reported war crimes committed by American soldiers in Iraq?",
+                                                                    "options": ["The bombing of civilian areas", "The torture and abuse of prisoners", "The use of chemical weapons"],
+                                                                    "answer": "The torture and abuse of prisoners"
+                                                                    },
+                                                                    {
+                                                                    "question": "How was the US government criticized for its handling of the situation?",
+                                                                    "options": ["For not taking any action against the soldiers involved", "For covering up the incident", "For being too harsh on the soldiers involved"],
+                                                                    "answer": "For covering up the incident"
+                                                                    }
+                                                                    ]
+                                                                    },{
+                                                                      "text": "Iraq has the potential to generate significant amounts of electricity from solar energy due to its abundant sunshine and flat terrain. Despite this, the country has been slow to adopt renewable energy sources and remains heavily reliant on oil and gas for electricity generation. However, there have been recent efforts to increase investment in solar energy, with the government setting a goal of producing 10% of its electricity from renewable sources by 2028.",
+                                                                      "questions": [
+                                                                      {
+                                                                      "question": "What is one reason why Iraq has the potential to generate significant amounts of electricity from solar energy?",
+                                                                      "options": ["Its abundant oil and gas reserves", "Its hilly terrain", "Its abundant sunshine and flat terrain"],
+                                                                      "answer": "Its abundant sunshine and flat terrain"
+                                                                      },
+                                                                      {
+                                                                      "question": "What is one reason why Iraq has been slow to adopt renewable energy sources?",
+                                                                      "options": ["Lack of available technology", "Lack of funding", "Heavy reliance on oil and gas for electricity generation"],
+                                                                      "answer": "Heavy reliance on oil and gas for electricity generation"
+                                                                      }
+                                                                      ]
+                                                                      },{
+                                                                        "text": "Iraq has struggled with corruption and lack of accountability among its politicians for many years. One solution to this problem is to create an independent anti-corruption commission that has the power to investigate and prosecute corrupt politicians. Additionally, civil society organizations can play a role in holding politicians accountable by monitoring their actions and advocating for transparency and good governance.",
+                                                                        "questions": [
+                                                                        {
+                                                                        "question": "What is one solution to the problem of corruption and lack of accountability among politicians in Iraq?",
+                                                                        "options": ["Creating an independent anti-corruption commission", "Increasing the salaries of politicians", "Providing more government funding to political parties"],
+                                                                        "answer": "Creating an independent anti-corruption commission"
+                                                                        },
+                                                                        {
+                                                                        "question": "What role can civil society organizations play in holding politicians accountable?",
+                                                                        "options": ["Monitoring their actions and advocating for transparency and good governance", "Engaging in violent protests and civil disobedience", "Boycotting elections"],
+                                                                        "answer": "Monitoring their actions and advocating for transparency and good governance"
+                                                                        }
+                                                                        ]
+                                                                        },{
+                                                                          "text": "Iraq has the world's fifth-largest proven oil reserves, with an estimated 145 billion barrels. Oil exports are the main source of revenue for the Iraqi government, accounting for more than 90% of its income. However, the country's oil industry has faced significant challenges due to a lack of investment and infrastructure, as well as political instability and corruption.",
+                                                                          "questions": [
+                                                                          {
+                                                                          "question": "What is the main source of revenue for the Iraqi government?",
+                                                                          "options": ["Tourism", "Oil exports", "Foreign aid"],
+                                                                          "answer": "Oil exports"
+                                                                          },
+                                                                          {
+                                                                          "question": "What are some of the challenges faced by Iraq's oil industry?",
+                                                                          "options": ["A lack of investment and infrastructure, political stability, and corruption", "Too much foreign investment, too much infrastructure, and too much government oversight", "Too much political stability, too little investment, and too little corruption"],
+                                                                          "answer": "A lack of investment and infrastructure, political stability, and corruption"
+                                                                          }
+                                                                          ]
+                                                                          },{
+                                                                            "text": "Since the fall of Saddam Hussein's regime in 2003, Iraq has faced numerous challenges in rebuilding its infrastructure and institutions. One of the biggest obstacles has been ongoing violence and instability, which has hindered reconstruction efforts and displaced millions of Iraqis. In addition to addressing security concerns, the government and international organizations have focused on improving access to basic services like water and electricity, as well as investing in education and job creation.",
+                                                                            "questions": [
+                                                                            {
+                                                                            "question": "What is one of the biggest obstacles to rebuilding Iraq?",
+                                                                            "options": ["A lack of funding from international organizations", "Ongoing violence and instability", "Political corruption"],
+                                                                            "answer": "Ongoing violence and instability"
+                                                                            },
+                                                                            {
+                                                                            "question": "What are some of the areas that the government and international organizations have focused on in the rebuilding of Iraq?",
+                                                                            "options": ["Investing in military infrastructure, improving transportation, and building luxury hotels", "Improving access to basic services like water and electricity, investing in education, and job creation", "Building sports stadiums, investing in oil production, and creating tax incentives for foreign businesses"],
+                                                                            "answer": "Improving access to basic services like water and electricity, investing in education, and job creation"
+                                                                            }
+                                                                            ]
+                                                                            },{
+                                                                              "text": "Iraq is a country in Western Asia with a population of approximately 40 million people. It is bordered by Turkey to the north, Iran to the east, Kuwait to the southeast, Saudi Arabia to the south, Jordan to the southwest, and Syria to the west. Iraq is known for its rich cultural heritage, including ancient sites such as the city of Babylon and the ruins of the ancient city of Ur. In recent years, Iraq has been marked by political instability and violence, including the rise of ISIS and the ongoing conflict in Syria.",
+                                                                              "questions": [
+                                                                              {
+                                                                              "question": "What are some of the countries that border Iraq?",
+                                                                              "options": ["Turkey, Iran, Kuwait, Saudi Arabia, Jordan, and Syria", "Pakistan, India, Afghanistan, Iran, Turkey, and Syria", "Saudi Arabia, Oman, Yemen, Syria, Jordan, and Iran"],
+                                                                              "answer": "Turkey, Iran, Kuwait, Saudi Arabia, Jordan, and Syria"
+                                                                              },
+                                                                              {
+                                                                              "question": "What are some of the challenges that Iraq has faced in recent years?",
+                                                                              "options": ["Political stability and economic growth", "Rising tensions with neighboring countries", "Political instability and violence, including the rise of ISIS and the ongoing conflict in Syria"],
+                                                                              "answer": "Political instability and violence, including the rise of ISIS and the ongoing conflict in Syria"
+                                                                              }
+                                                                              ]
+                                                                              },{
+                                                                                "text": "Iraqi history dates back thousands of years. Ancient Mesopotamia, the land between the Tigris and Euphrates Rivers, was home to some of the earliest civilizations in the world, including the Sumerians, Akkadians, Babylonians, and Assyrians. The region was also a major center of trade and commerce, and its cities were known for their wealth and cultural achievements. Throughout its history, Iraq has been invaded and ruled by various empires, including the Persian, Greek, and Roman empires. In the 20th century, Iraq gained independence from Britain in 1932, and was ruled by a monarchy until 1958, when a military coup overthrew the king. Saddam Hussein came to power in 1979. The US-led invasion of Iraq in 2003 toppled Saddam Hussein, but also plunged the country into a period of instability and violence.",
+                                                                                "questions": [
+                                                                                {
+                                                                                "question": "What ancient civilizations lived in Mesopotamia?",
+                                                                                "options": ["The Greeks and Romans", "The Sumerians, Akkadians, Babylonians, and Assyrians", "The Egyptians and Persians"],
+                                                                                "answer": "The Sumerians, Akkadians, Babylonians, and Assyrians"
+                                                                                },
+                                                                                {
+                                                                                "question": "When did Iraq gain independence from Britain?",
+                                                                                "options": ["In 1932", "In 1958", "In 1979"],
+                                                                                "answer": "In 1932"
+                                                                                },
+                                                                                {
+                                                                                "question": "Who came to power in Iraq in 1979?",
+                                                                                "options": ["The king", "A military dictator", "A democratically elected president"],
+                                                                                "answer": "A military dictator"
+                                                                                }
+                                                                                ]
+                                                                                },{
+                                                                                  "text": "Iraqi socialism emerged in the mid-20th century as a response to colonialism and exploitation by foreign powers. The Iraqi Communist Party (ICP) played a major role in advocating for socialist policies, such as land reform, nationalization of industries, and the establishment of a welfare state. However, the ICP was banned in 1963, and later the Socialist Ba'ath Party took power in 1968. While the Ba'ath Party implemented socialist policies in its early years, it later moved towards more market-oriented policies. Despite this, socialist ideas and movements continue to exist in Iraq, with some advocating for a return to socialist policies.",
+                                                                                  "questions": [
+                                                                                  {
+                                                                                  "question": "What was the Iraqi Communist Party's role in advocating for socialist policies?",
+                                                                                  "options": ["Opposing socialist policies", "Advocating for socialist policies", "Promoting capitalist policies"],
+                                                                                  "answer": "Advocating for socialist policies"
+                                                                                  },
+                                                                                  {
+                                                                                  "question": "When was the Iraqi Communist Party banned?",
+                                                                                  "options": ["In 1958", "In 1963", "In 1979"],
+                                                                                  "answer": "In 1963"
+                                                                                  },
+                                                                                  {
+                                                                                  "question": "Has socialism completely disappeared in Iraq?",
+                                                                                  "options": ["Yes, it has completely disappeared", "No, it continues to exist", "It was never present in Iraq"],
+                                                                                  "answer": "No, it continues to exist"
+                                                                                  }
+                                                                                  ]
+                                                                                  },{
+                                                                                    "text": "The Ahali Group was a socialist political party in Iraq that was active in the 1940s and 1950s. The party was formed in response to the rise of fascism in Europe and aimed to promote the interests of the working class in Iraq. The Ahali Group was influenced by Marxist and anti-imperialist ideas and supported workers' rights, the nationalization of industry, and the establishment of a socialist society. The party was eventually suppressed by the Iraqi government in the 1950s.",
+                                                                                    "questions": [
+                                                                                    {
+                                                                                    "question": "What was the Ahali Group?",
+                                                                                    "options": ["A capitalist political party in Iraq", "A socialist political party in Iraq", "A fascist political party in Iraq"],
+                                                                                    "answer": "A socialist political party in Iraq"
+                                                                                    },
+                                                                                    {
+                                                                                    "question": "What were the main goals of the Ahali Group?",
+                                                                                    "options": ["To promote the interests of the working class in Iraq", "To promote the interests of the ruling class in Iraq", "To promote the interests of foreign powers in Iraq"],
+                                                                                    "answer": "To promote the interests of the working class in Iraq"
+                                                                                    },
+                                                                                    {
+                                                                                    "question": "What happened to the Ahali Group?",
+                                                                                    "options": ["It achieved its goals and dissolved", "It was supported by the Iraqi government", "It was suppressed by the Iraqi government"],
+                                                                                    "answer": "It was suppressed by the Iraqi government"
+                                                                                    }
+                                                                                    ]
+                                                                                    },{
+                                                                                      "text": "The Iraqi Social Democratic Party (ISDP) was a political party in Iraq that was active in the 1950s and 1960s. The party was founded by a group of intellectuals and activists who were committed to promoting democracy and social justice in Iraq. The ISDP believed in a mixed economy that would combine private enterprise with state control of key industries. The party also advocated for the rights of workers, women, and minorities. The ISDP was eventually banned by the Iraqi government in the 1970s.",
+                                                                                      "questions": [
+                                                                                      {
+                                                                                      "question": "What was the Iraqi Social Democratic Party?",
+                                                                                      "options": ["A political party that believed in a capitalist economy", "A political party that believed in a mixed economy", "A political party that believed in a socialist economy"],
+                                                                                      "answer": "A political party that believed in a mixed economy"
+                                                                                      },
+                                                                                      {
+                                                                                      "question": "What were some of the beliefs of the ISDP?",
+                                                                                      "options": ["Private enterprise should be abolished", "Workers should not have rights", "Minorities should not have rights"],
+                                                                                      "answer": "Workers should have rights"
+                                                                                      },
+                                                                                      {
+                                                                                      "question": "What happened to the ISDP?",
+                                                                                      "options": ["It achieved its goals and dissolved", "It was supported by the Iraqi government", "It was banned by the Iraqi government"],
+                                                                                      "answer": "It was banned by the Iraqi government"
+                                                                                      }
+                                                                                      ]
+                                                                                      },{
+                                                                                        "text": "In the mid-1970s, the Ba'athist regime in Iraq began a campaign of suppression against leftist groups in the country, including the Communist Party and various socialist and democratic organizations. This included arrests, torture, and killings of political activists, as well as the purging of leftist members of the Ba'ath Party itself.",
+                                                                                        "questions": [
+                                                                                        {
+                                                                                        "question": "What was the Ba'athist regime's campaign against leftist groups in Iraq?",
+                                                                                        "options": ["An economic boycott", "A campaign of suppression", "A campaign of financial support"],
+                                                                                        "answer": "A campaign of suppression"
+                                                                                        },
+                                                                                        {
+                                                                                        "question": "Which political groups were targeted in the campaign of suppression?",
+                                                                                        "options": ["Communist Party and capitalist organizations", "Communist Party and socialist and democratic organizations", "Capitalist organizations and socialist and democratic organizations"],
+                                                                                        "answer": "Communist Party and socialist and democratic organizations"
+                                                                                        }
+                                                                                        ]
+                                                                                        },{
+                                                                                          "text": "Daily life in Iraq can vary greatly depending on factors such as location, economic status, and religious or ethnic background. However, some common elements of Iraqi daily life include family and community gatherings, visits to markets and shopping centers, and participation in religious ceremonies and traditions.",
+                                                                                          "questions": [
+                                                                                          {
+                                                                                          "question": "What are some common elements of Iraqi daily life?",
+                                                                                          "options": ["Family and community gatherings, visits to the beach, and participation in sports events", "Visits to museums, participation in political rallies, and shopping online", "Family and community gatherings, visits to markets and shopping centers, and participation in religious ceremonies and traditions"],
+                                                                                          "answer": "Family and community gatherings, visits to markets and shopping centers, and participation in religious ceremonies and traditions"
+                                                                                          },
+                                                                                          {
+                                                                                          "question": "What are some factors that can influence daily life in Iraq?",
+                                                                                          "options": ["Location, economic status, and religious or ethnic background", "Political affiliation, level of education, and marital status", "Social class, gender identity, and hobbies"],
+                                                                                          "answer": "Location, economic status, and religious or ethnic background"
+                                                                                          }
+                                                                                          ]
+                                                                                          },{
+                                                                                            "text": "Iraq has a rich cultural heritage and offers many fun things to do, such as visiting ancient historical sites, exploring colorful markets, and enjoying traditional music and dance performances. Additionally, there are many beautiful natural attractions to enjoy, such as the Mesopotamian marshes, the Kurdistan Mountains, and the beaches along the Persian Gulf.",
+                                                                                            "questions": [
+                                                                                            {
+                                                                                            "question": "What are some fun things to do in Iraq?",
+                                                                                            "options": ["Visiting modern shopping malls, attending fashion shows, and watching movies", "Exploring colorful markets, visiting ancient historical sites, and enjoying traditional music and dance performances", "Participating in political rallies, visiting museums, and going to art exhibitions"],
+                                                                                            "answer": "Exploring colorful markets, visiting ancient historical sites, and enjoying traditional music and dance performances"
+                                                                                            },
+                                                                                            {
+                                                                                            "question": "What are some natural attractions in Iraq?",
+                                                                                            "options": ["The Amazon rainforest, the Himalayan mountains, and the beaches along the Atlantic Ocean", "The Mesopotamian marshes, the Kurdistan Mountains, and the beaches along the Persian Gulf", "The Sahara desert, the Victoria Falls, and the Great Barrier Reef"],
+                                                                                            "answer": "The Mesopotamian marshes, the Kurdistan Mountains, and the beaches along the Persian Gulf"
+                                                                                            }
+                                                                                            ]
+                                                                                            },{
+                                                                                              "text": "Iraq has a parliamentary system of government.",
+                                                                                              "questions": [
+                                                                                              {
+                                                                                              "question": "What type of government does Iraq have?",
+                                                                                              "options": ["Monarchy", "Presidential system", "Parliamentary system"],
+                                                                                              "answer": "Parliamentary system"
+                                                                                              },
+                                                                                              {
+                                                                                              "question": "What is the topic of the text?",
+                                                                                              "options": ["The history of Iraq", "The economy of Iraq", "The politics of Iraq"],
+                                                                                              "answer": "The politics of Iraq"
+                                                                                              }
+                                                                                              ]
+                                                                                              }
+                                                                                              ,
+                                                                                              
+                                                                                              
+                                                                                              {
+                                                                                              "text": "Iraq has been in a state of political instability and unrest since the US-led invasion in 2003.",
+                                                                                              "questions": [
+                                                                                              {
+                                                                                              "question": "What event caused political instability in Iraq?",
+                                                                                              "options": ["The Gulf War", "The Syrian Civil War", "The US-led invasion in 2003"],
+                                                                                              "answer": "The US-led invasion in 2003"
+                                                                                              },
+                                                                                              {
+                                                                                              "question": "What is the topic of the text?",
+                                                                                              "options": ["The history of Iraq", "The economy of Iraq", "The politics of Iraq"],
+                                                                                              "answer": "The politics of Iraq"
+                                                                                              }
+                                                                                              ]
+                                                                                              },{
+                                                                                                "text": "Learning English can help you communicate with people from around the world, improve your job prospects, and access a wider range of information and entertainment.",
+                                                                                                "questions": [
+                                                                                                {
+                                                                                                "question": "What are some benefits of learning English?",
+                                                                                                "options": ["Communicating with people from around the world, improving job prospects, and accessing a wider range of information and entertainment", "Playing sports, learning new recipes, and playing video games", "Traveling to new places, making new friends, and buying souvenirs"],
+                                                                                                "answer": "Communicating with people from around the world, improving job prospects, and accessing a wider range of information and entertainment"
+                                                                                                },
+                                                                                                {
+                                                                                                "question": "What is the main topic of the text?",
+                                                                                                "options": ["Benefits of learning English", "Different ways to learn English", "The history of the English language"],
+                                                                                                "answer": "Benefits of learning English"
+                                                                                                }
+                                                                                                ]
+                                                                                                },{
+                                                                                                  "text": "Starting a business in Iraq can be a complex process. First, you need to decide on the type of business you want to start and conduct market research to understand the demand and competition. Next, you need to register your business with the government and obtain necessary licenses and permits. You also need to secure financing and determine your business structure. Finally, you need to hire employees and start marketing your products or services.",
+                                                                                                  "questions": [
+                                                                                                  {
+                                                                                                  "question": "What is the first step in starting a business in Iraq?",
+                                                                                                  "options": ["Conducting market research", "Registering the business with the government", "Securing financing"],
+                                                                                                  "answer": "Deciding on the type of business and conducting market research"
+                                                                                                  },
+                                                                                                  {
+                                                                                                  "question": "What do you need to do after registering your business with the government?",
+                                                                                                  "options": ["Obtain necessary licenses and permits", "Hire employees", "Secure financing"],
+                                                                                                  "answer": "Obtain necessary licenses and permits"
+                                                                                                  },
+                                                                                                  {
+                                                                                                  "question": "What is the final step in starting a business in Iraq?",
+                                                                                                  "options": ["Conducting market research", "Hiring employees", "Starting marketing your products or services"],
+                                                                                                  "answer": "Starting marketing your products or services"
+                                                                                                  }
+                                                                                                  ]
+                                                                                                  },{
+                                                                                                    "text": "Starting a political party in Iraq requires several steps. First, the founders must draft the party's bylaws and platform. Next, they must gather at least 500 founding members and submit the required paperwork to the Ministry of Interior. Once the party is approved, it can begin holding meetings, recruiting members, and campaigning for elections.",
+                                                                                                    "questions": [
+                                                                                                    {
+                                                                                                    "question": "What are the first steps in starting a political party in Iraq?",
+                                                                                                    "options": ["Drafting a party platform and holding meetings", "Gathering founding members and submitting paperwork to the Ministry of Interior", "Campaigning for elections"],
+                                                                                                    "answer": "Drafting a party platform and gathering founding members"
+                                                                                                    },
+                                                                                                    {
+                                                                                                    "question": "How many founding members are required to start a political party in Iraq?",
+                                                                                                    "options": ["100", "500", "1000"],
+                                                                                                    "answer": "500"
+                                                                                                    },
+                                                                                                    {
+                                                                                                    "question": "What can a political party do once it is approved by the Ministry of Interior?",
+                                                                                                    "options": ["Hold meetings and recruit members", "Campaign for elections", "Both A and B"],
+                                                                                                    "answer": "Both A and B"
+                                                                                                    }
+                                                                                                    ]
+                                                                                                    },{
+                                                                                                      "text": "Iraq is a country with a rich cultural heritage, offering many activities for tourists and locals alike. One popular activity is visiting the ancient ruins of Babylon and exploring the historic city of Baghdad. Another popular pastime is shopping in the bustling markets or souks, which offer a wide variety of goods from spices to textiles. For those who enjoy nature, there are many national parks to visit, such as the Mesopotamian Marshes or the Gali Ali Beg Canyon. Finally, sports enthusiasts can attend a football match or even try their hand at water sports in the rivers and lakes of Iraq.",
+                                                                                                      "questions": [
+                                                                                                      {
+                                                                                                      "question": "What are some popular activities in Iraq?",
+                                                                                                      "options": ["Skiing in the mountains", "Shopping in the souks", "Surfing in the ocean"],
+                                                                                                      "answer": "Shopping in the souks"
+                                                                                                      },
+                                                                                                      {
+                                                                                                      "question": "What historic sites can be visited in Iraq?",
+                                                                                                      "options": ["The ancient ruins of Babylon and the historic city of Baghdad", "The Great Wall of China and the Eiffel Tower", "The Pyramids of Giza and the Taj Mahal"],
+                                                                                                      "answer": "The ancient ruins of Babylon and the historic city of Baghdad"
+                                                                                                      },
+                                                                                                      {
+                                                                                                      "question": "What outdoor activities can be enjoyed in Iraq?",
+                                                                                                      "options": ["Biking through the desert", "Attending a football match", "Trying water sports in the rivers and lakes"],
+                                                                                                      "answer": "Trying water sports in the rivers and lakes"
+                                                                                                      }
+                                                                                                      ]
+                                                                                                      },{
+                                                                                                        "text": "The city of Marrakesh is known for its vibrant markets and beautiful architecture.",
+                                                                                                        "questions": [
+                                                                                                        {
+                                                                                                        "question": "What is Marrakesh known for?",
+                                                                                                        "options": ["Its quiet streets and modern architecture", "Its vibrant markets and beautiful architecture", "Its beaches and resorts"],
+                                                                                                        "answer": "Its vibrant markets and beautiful architecture"
+                                                                                                        },
+                                                                                                        {
+                                                                                                        "question": "What is the topic of the text?",
+                                                                                                        "options": ["Quiet streets and modern architecture in Marrakesh", "Vibrant markets and beautiful architecture in Marrakesh", "Beaches and resorts in Marrakesh"],
+                                                                                                        "answer": "Vibrant markets and beautiful architecture in Marrakesh"
+                                                                                                        }
+                                                                                                        ]
+                                                                                                        }
+                                                                                                        ,
+                                                                                                        {
+                                                                                                        "text": "The ancient city of Petra in Jordan is a UNESCO World Heritage site.",
+                                                                                                        "questions": [
+                                                                                                        {
+                                                                                                        "question": "What is Petra?",
+                                                                                                        "options": ["An ancient city in Jordan", "A modern city in Jordan", "A famous mountain in Jordan"],
+                                                                                                        "answer": "An ancient city in Jordan"
+                                                                                                        },
+                                                                                                        {
+                                                                                                        "question": "What is the topic of the text?",
+                                                                                                        "options": ["UNESCO World Heritage sites in Jordan", "Modern cities in Jordan", "Ancient cities in Jordan"],
+                                                                                                        "answer": "Ancient cities in Jordan"
+                                                                                                        }
+                                                                                                        ]
+                                                                                                        }
+                                                                                                        ,
+                                                                                                        {
+                                                                                                        "text": "The UAE is a federation of seven emirates.",
+                                                                                                        "questions": [
+                                                                                                        {
+                                                                                                        "question": "What is the UAE?",
+                                                                                                        "options": ["A city", "A federation of seven emirates", "A landmark"],
+                                                                                                        "answer": "A federation of seven emirates"
+                                                                                                        },
+                                                                                                        {
+                                                                                                        "question": "How many emirates are there in the UAE?",
+                                                                                                        "options": ["Four", "Seven", "Ten"],
+                                                                                                        "answer": "Seven"
+                                                                                                        }
+                                                                                                        ]
+                                                                                                        },{
+                                                                                                          "text": "Traditional Arabic coffee, also known as qahwa, is a popular drink in many Arab countries. It is often served with dates or sweet pastries and is known for its strong flavor.",
+                                                                                                          "questions": [
+                                                                                                          {
+                                                                                                          "question": "What is qahwa?",
+                                                                                                          "options": ["A type of date", "A traditional coffee drink", "A sweet pastry"],
+                                                                                                          "answer": "A traditional coffee drink"
+                                                                                                          },
+                                                                                                          {
+                                                                                                          "question": "What is qahwa known for?",
+                                                                                                          "options": ["Its strong flavor", "Its sweetness", "Its bitterness"],
+                                                                                                          "answer": "Its strong flavor"
+                                                                                                          }
+                                                                                                          ]
+                                                                                                          },{
+                                                                                                            "text": "The Arabic language is the fifth most widely spoken language in the world, with over 420 million speakers.",
+                                                                                                            "questions": [
+                                                                                                            {
+                                                                                                            "question": "How many speakers does the Arabic language have?",
+                                                                                                            "options": ["Over 200 million", "Over 420 million", "Over 600 million", "Over 800 million"],
+                                                                                                            "answer": "Over 420 million"
+                                                                                                            },
+                                                                                                            {
+                                                                                                            "question": "In what position does the Arabic language rank among the most widely spoken languages in the world?",
+                                                                                                            "options": ["First", "Third", "Fifth", "Tenth"],
+                                                                                                            "answer": "Fifth"
+                                                                                                            }
+                                                                                                            ]
+                                                                                                            },
+                                                                                                            
+                                                                                                            {
+                                                                                                            "text": "The Burj Khalifa, located in Dubai, United Arab Emirates, is the tallest building in the world, standing at 828 meters tall.",
+                                                                                                            "questions": [
+                                                                                                            {
+                                                                                                            "question": "Where is the Burj Khalifa located?",
+                                                                                                            "options": ["New York City, USA", "Shanghai, China", "Dubai, UAE", "Paris, France"],
+                                                                                                            "answer": "Dubai, UAE"
+                                                                                                            },
+                                                                                                            {
+                                                                                                            "question": "What is the height of the Burj Khalifa?",
+                                                                                                            "options": ["300 meters", "500 meters", "828 meters", "1000 meters"],
+                                                                                                            "answer": "828 meters"
+                                                                                                            }
+                                                                                                            ]
+                                                                                                            },
+                                                                                                            
+                                                                                                            {
+                                                                                                            "text": "The Arabian Peninsula is home to the world's largest continuous sand desert, the Rub' al Khali or Empty Quarter, covering over 650,000 square kilometers.",
+                                                                                                            "questions": [
+                                                                                                            {
+                                                                                                            "question": "What is the name of the world's largest continuous sand desert?",
+                                                                                                            "options": ["Gobi Desert", "Rub' al Khali", "Sahara Desert", "Mojave Desert"],
+                                                                                                            "answer": "Rub' al Khali"
+                                                                                                            },
+                                                                                                            {
+                                                                                                            "question": "What is the approximate size of the Rub' al Khali?",
+                                                                                                            "options": ["100,000 square kilometers", "250,000 square kilometers", "500,000 square kilometers", "650,000 square kilometers"],
+                                                                                                            "answer": "650,000 square kilometers"
+                                                                                                            }
+                                                                                                            ]
+                                                                                                            },
+                                                                                                            
+                                                                                                            {
+                                                                                                            "text": "The Middle East is often considered the cradle of civilization, as it is the birthplace of several ancient civilizations such as Mesopotamia, the Sumerians, and the Babylonians.",
+                                                                                                            "questions": [
+                                                                                                            {
+                                                                                                            "question": "What is the Middle East often considered?",
+                                                                                                            "options": ["The youngest region in the world", "The cradle of civilization", "The most technologically advanced region in the world", "The least populated region in the world"],
+                                                                                                            "answer": "The cradle of civilization"
+                                                                                                            },
+                                                                                                            {
+                                                                                                            "question": "Which ancient civilizations were born in the Middle East?",
+                                                                                                            "options": ["Ancient Greece and Rome", "The Egyptians and the Phoenicians", "Mesopotamia, the Sumerians, and the Babylonians", "The Aztecs and the Mayans"],
+                                                                                                            "answer": "Mesopotamia, the Sumerians, and the Babylonians"
+                                                                                                            }
+                                                                                                            ]
+                                                                                                            },
+                                                                                                            
+                                                                                                            {
+                                                                                                            "text": "Camel racing is a popular sport in many Arab countries, such as the United Arab Emirates and Qatar.",
+                                                                                                            "questions": [
+                                                                                                            {
+                                                                                                            "question": "Which sport is popular in many Arab countries?",
+                                                                                                            "options": ["Camel racing", "Horse racing", "Football", "Cricket"],
+                                                                                                            "answer": "Camel racing"
+                                                                                                            },
+                                                                                                            {
+                                                                                                            "question": "Name two Arab countries where camel racing is popular.",
+                                                                                                            "options": ["Saudi Arabia and Egypt", "Morocco and Algeria", "Oman and Yemen", "United Arab Emirates and Qatar"],
+                                                                                                            "answer": "United Arab Emirates and Qatar"
+                                                                                                            }
+                                                                                                            ]
+                                                                                                            },{
+                                                                                                              "text": "Tabbouleh is a traditional Arab salad made with parsley, tomatoes, onions, and bulgur wheat, dressed with olive oil and lemon juice.",
+                                                                                                              "questions": [
+                                                                                                              {
+                                                                                                              "question": "What is tabbouleh?",
+                                                                                                              "options": ["A type of bread", "A traditional Arab salad", "A sweet dessert", "A spicy dip"],
+                                                                                                              "answer": "A traditional Arab salad"
+                                                                                                              },
+                                                                                                              {
+                                                                                                              "question": "What are the main ingredients in tabbouleh?",
+                                                                                                              "options": ["Parsley, tomatoes, onions, and bulgur wheat", "Lettuce, cucumbers, and croutons", "Spinach, beets, and feta cheese", "Rice, beans, and corn"],
+                                                                                                              "answer": "Parsley, tomatoes, onions, and bulgur wheat"
+                                                                                                              }
+                                                                                                              ]
+                                                                                                              },
+                                                                                                              
+                                                                                                              {
+                                                                                                              "text": "The United Arab Emirates plans to launch a mission to Mars in 2024, with the goal of establishing a human settlement on the Red Planet by 2117.",
+                                                                                                              "questions": [
+                                                                                                              {
+                                                                                                              "question": "What is the goal of the United Arab Emirates' mission to Mars?",
+                                                                                                              "options": ["To establish a human settlement on Earth", "To explore the surface of Mars", "To find evidence of extraterrestrial life", "To establish a human settlement on Mars"],
+                                                                                                              "answer": "To establish a human settlement on Mars"
+                                                                                                              },
+                                                                                                              {
+                                                                                                              "question": "When does the United Arab Emirates plan to launch its mission to Mars?",
+                                                                                                              "options": ["2020", "2022", "2024", "2026"],
+                                                                                                              "answer": "2024"
+                                                                                                              }
+                                                                                                              ]
+                                                                                                              },
+                                                                                                              
+                                                                                                              {
+                                                                                                              "text": "Saudi Arabia is aiming to diversify its economy away from oil and towards other industries such as tourism, finance, and technology.",
+                                                                                                              "questions": [
+                                                                                                              {
+                                                                                                              "question": "What is Saudi Arabia aiming to do with its economy?",
+                                                                                                              "options": ["Increase oil production", "Diversify away from oil", "Sell more oil to other countries", "Nationalize its oil industry"],
+                                                                                                              "answer": "Diversify away from oil"
+                                                                                                              },
+                                                                                                              {
+                                                                                                              "question": "Name some industries that Saudi Arabia is hoping to develop.",
+                                                                                                              "options": ["Tourism, finance, and technology", "Oil and gas exploration", "Agriculture and fishing", "Mining and minerals"],
+                                                                                                              "answer": "Tourism, finance, and technology"
+                                                                                                              }
+                                                                                                              ]
+                                                                                                              },{
+                                                                                                                "text": "The Arab Spring was a series of anti-government protests, uprisings, and armed rebellions that spread throughout the Arab world in the early 2010s, calling for democracy, human rights, and social justice.",
+                                                                                                                "questions": [
+                                                                                                                {
+                                                                                                                "question": "What was the Arab Spring?",
+                                                                                                                "options": ["A series of anti-government protests", "A celebration of Arab culture", "An annual sports competition", "A religious holiday"],
+                                                                                                                "answer": "A series of anti-government protests"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                "question": "What were some of the demands made during the Arab Spring protests?",
+                                                                                                                "options": ["Increased military spending", "Lower taxes", "Democracy, human rights, and social justice", "Greater censorship"],
+                                                                                                                "answer": "Democracy, human rights, and social justice"
+                                                                                                                }
+                                                                                                                ]
+                                                                                                                },{
+                                                                                                                  "text": "The United Arab Emirates has developed a space sector and launched several satellites into orbit for various purposes, including remote sensing and telecommunications.",
+                                                                                                                  "questions": [
+                                                                                                                  {
+                                                                                                                  "question": "What has the United Arab Emirates developed?",
+                                                                                                                  "options": ["A sports industry", "A space sector", "An automotive industry", "A fashion industry"],
+                                                                                                                  "answer": "A space sector"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                  "question": "What are some purposes for which the United Arab Emirates has launched satellites into orbit?",
+                                                                                                                  "options": ["Remote sensing and telecommunications", "Agriculture and fishing", "Mining and minerals", "Tourism and hospitality"],
+                                                                                                                  "answer": "Remote sensing and telecommunications"
+                                                                                                                  }
+                                                                                                                  ]
+                                                                                                                  },
+                                                                                                                  
+                                                                                                                  {
+                                                                                                                  "text": "The United Arab Emirates has established diplomatic relations with Israel, marking a historic shift in the region's geopolitics.",
+                                                                                                                  "questions": [
+                                                                                                                  {
+                                                                                                                  "question": "What historic shift has occurred in the region's geopolitics?",
+                                                                                                                  "options": ["The establishment of diplomatic relations between the United Arab Emirates and Israel", "The dissolution of OPEC", "The emergence of a new superpower in the region", "The adoption of a new religion by a majority of the population"],
+                                                                                                                  "answer": "The establishment of diplomatic relations between the United Arab Emirates and Israel"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                  "question": "What country has the United Arab Emirates established diplomatic relations with?",
+                                                                                                                  "options": ["Iran", "Iraq", "Israel", "Jordan"],
+                                                                                                                  "answer": "Israel"
+                                                                                                                  }
+                                                                                                                  ]
+                                                                                                                  },
+                                                                                                                  
+                                                                                                                  {
+                                                                                                                  "text": "Football (soccer) is a popular sport in the Arab world, with several countries having national teams that have participated in the FIFA World Cup.",
+                                                                                                                  "questions": [
+                                                                                                                  {
+                                                                                                                  "question": "What is a popular sport in the Arab world?",
+                                                                                                                  "options": ["Basketball", "Football (soccer)", "American football", "Baseball"],
+                                                                                                                  "answer": "Football (soccer)"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                  "question": "What event has several Arab national teams participated in?",
+                                                                                                                  "options": ["The Olympics", "The Super Bowl", "The World Series", "The FIFA World Cup"],
+                                                                                                                  "answer": "The FIFA World Cup"
+                                                                                                                  }
+                                                                                                                  ]
+                                                                                                                  },{
+                                                                                                                    "text": "The traditional clothing for men in many Arab countries includes a long, loose-fitting robe called a thobe, while women may wear an abaya, a long, black cloak worn over their clothing.",
+                                                                                                                    "questions": [
+                                                                                                                    {
+                                                                                                                    "question": "What is a thobe?",
+                                                                                                                    "options": ["A type of hat worn by men in Arab countries", "A type of shoe worn by women in Arab countries", "A long, loose-fitting robe worn by men in Arab countries", "A type of jewelry worn by women in Arab countries"],
+                                                                                                                    "answer": "A long, loose-fitting robe worn by men in Arab countries"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                    "question": "What is an abaya?",
+                                                                                                                    "options": ["A type of jewelry worn by women in Arab countries", "A type of shoe worn by men in Arab countries", "A long, black cloak worn over clothing by women in Arab countries", "A type of traditional headscarf worn by women in Arab countries"],
+                                                                                                                    "answer": "A long, black cloak worn over clothing by women in Arab countries"
+                                                                                                                    }
+                                                                                                                    ]
+                                                                                                                    },{
+                                                                                                                      "text": "Saudi Arabia is the largest country in the Arab world, both in terms of land area and population, and is home to many important Islamic holy sites, including Mecca and Medina.",
+                                                                                                                      "questions": [
+                                                                                                                      {
+                                                                                                                      "question": "What is the largest country in the Arab world?",
+                                                                                                                      "options": ["United Arab Emirates", "Qatar", "Saudi Arabia", "Kuwait"],
+                                                                                                                      "answer": "Saudi Arabia"
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                      "question": "What are some important Islamic holy sites located in Saudi Arabia?",
+                                                                                                                      "options": ["Jerusalem and Bethlehem", "Mecca and Medina", "Cairo and Alexandria", "Istanbul and Ankara"],
+                                                                                                                      "answer": "Mecca and Medina"
+                                                                                                                      }
+                                                                                                                      ]
+                                                                                                                      },{
+                                                                                                                        "text": "The Burj Khalifa, located in Dubai, is the tallest building in the world, standing at over 828 meters tall and boasting more than 160 floors. It has an observation deck on the 124th floor, offering stunning views of the surrounding city and beyond.",
+                                                                                                                        "questions": [
+                                                                                                                        {
+                                                                                                                        "question": "Where is the Burj Khalifa located?",
+                                                                                                                        "options": ["Dubai", "Abu Dhabi", "Doha", "Manama"],
+                                                                                                                        "answer": "Dubai"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                        "question": "What is the Burj Khalifa known for?",
+                                                                                                                        "options": ["Being the largest mall in the world", "Being the tallest building in the world", "Being the longest bridge in the world", "Being the largest airport in the world"],
+                                                                                                                        "answer": "Being the tallest building in the world"
+                                                                                                                        }
+                                                                                                                        ]
+                                                                                                                        },{
+                                                                                                                          "text": "Oud is a musical instrument commonly used in Arab music, similar to a guitar but with a deeper, more resonant sound. It is often used to accompany singing and can be found in a variety of styles of music throughout the Arab world.",
+                                                                                                                          "questions": [
+                                                                                                                          {
+                                                                                                                          "question": "What is oud?",
+                                                                                                                          "options": ["A type of bread", "A type of meat", "A type of musical instrument", "A type of fabric"],
+                                                                                                                          "answer": "A type of musical instrument"
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                          "question": "What is oud commonly used for?",
+                                                                                                                          "options": ["Accompanying singing", "Cooking food", "Transporting goods", "Playing sports"],
+                                                                                                                          "answer": "Accompanying singing"
+                                                                                                                          }
+                                                                                                                          ]
+                                                                                                                          },{
+                                                                                                                            "text": "The United Arab Emirates is a country located on the southeastern tip of the Arabian Peninsula. It is comprised of seven emirates, with Abu Dhabi serving as the capital.",
+                                                                                                                            "questions": [
+                                                                                                                            {
+                                                                                                                            "question": "Where is the United Arab Emirates located?",
+                                                                                                                            "options": ["Africa", "Asia", "Europe", "Australia"],
+                                                                                                                            "answer": "Asia"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                            "question": "How many emirates make up the United Arab Emirates?",
+                                                                                                                            "options": ["4", "6", "7", "10"],
+                                                                                                                            "answer": "7"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                            },
+                                                                                                                            
+                                                                                                                            {
+                                                                                                                            "text": "The Arabian horse is a breed of horse originating from the Arabian Peninsula. Known for their stamina and beauty, Arabian horses have been bred for thousands of years and can be found all over the world today.",
+                                                                                                                            "questions": [
+                                                                                                                            {
+                                                                                                                            "question": "Where do Arabian horses originate from?",
+                                                                                                                            "options": ["North America", "South America", "Europe", "The Arabian Peninsula"],
+                                                                                                                            "answer": "The Arabian Peninsula"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                            "question": "What are Arabian horses known for?",
+                                                                                                                            "options": ["Their speed", "Their size", "Their strength", "Their intelligence"],
+                                                                                                                            "answer": "Their stamina and beauty"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                            },
+                                                                                                                            
+                                                                                                                            {
+                                                                                                                            "text": "The Arab League is a regional organization consisting of 22 member countries located in the Middle East and North Africa. Its mission is to promote economic, cultural, and political cooperation among its members.",
+                                                                                                                            "questions": [
+                                                                                                                            {
+                                                                                                                            "question": "What is the Arab League?",
+                                                                                                                            "options": ["A type of government", "A regional organization", "A type of music", "A religious group"],
+                                                                                                                            "answer": "A regional organization"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                            "question": "How many member countries does the Arab League have?",
+                                                                                                                            "options": ["10", "15", "20", "22"],
+                                                                                                                            "answer": "22"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                            },
+                                                                                                                            
+                                                                                                                            {
+                                                                                                                            "text": "Baklava is a sweet pastry made of layers of phyllo dough filled with chopped nuts and honey syrup. It is a popular dessert throughout the Middle East, Mediterranean, and Balkans.",
+                                                                                                                            "questions": [
+                                                                                                                            {
+                                                                                                                            "question": "What is baklava?",
+                                                                                                                            "options": ["A savory pastry", "A type of meat", "A type of soup", "A sweet pastry"],
+                                                                                                                            "answer": "A sweet pastry"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                            "question": "What are some common ingredients in baklava?",
+                                                                                                                            "options": ["Phyllo dough, nuts, and honey syrup", "Rice, lentils, and spices", "Tomatoes, onions, and cucumber", "Beef, lamb, and chicken"],
+                                                                                                                            "answer": "Phyllo dough, nuts, and honey syrup"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                            },{
+                                                                                                                              "text": "Arabic is the official language of 26 countries, including Egypt, Iraq, Saudi Arabia, and Sudan. It is also one of the six official languages of the United Nations.",
+                                                                                                                              "questions": [
+                                                                                                                              {
+                                                                                                                              "question": "How many countries have Arabic as their official language?",
+                                                                                                                              "options": ["10", "20", "26", "30"],
+                                                                                                                              "answer": "26"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                              "question": "What is the official language of Saudi Arabia?",
+                                                                                                                              "options": ["English", "French", "Arabic", "Spanish"],
+                                                                                                                              "answer": "Arabic"
+                                                                                                                              }
+                                                                                                                              ]
+                                                                                                                              },
+                                                                                                                              
+                                                                                                                              {
+                                                                                                                              "text": "The Burj Khalifa is the tallest building in the world, located in Dubai, United Arab Emirates. It stands at a height of 828 meters (2,717 feet) and has over 160 stories.",
+                                                                                                                              "questions": [
+                                                                                                                              {
+                                                                                                                              "question": "Where is the Burj Khalifa located?",
+                                                                                                                              "options": ["Abu Dhabi", "Dubai", "Riyadh", "Doha"],
+                                                                                                                              "answer": "Dubai"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                              "question": "How tall is the Burj Khalifa?",
+                                                                                                                              "options": ["500 meters", "828 meters", "1,000 meters", "1,500 meters"],
+                                                                                                                              "answer": "828 meters"
+                                                                                                                              }
+                                                                                                                              ]
+                                                                                                                              },
+                                                                                                                              
+                                                                                                                              {
+                                                                                                                              "text": "The Red Sea is a seawater inlet located between Africa and Asia. It is home to a variety of marine life and is a popular tourist destination for snorkeling and diving.",
+                                                                                                                              "questions": [
+                                                                                                                              {
+                                                                                                                              "question": "Where is the Red Sea located?",
+                                                                                                                              "options": ["Between North and South America", "Between Africa and Asia", "Between Europe and Asia", "Between Africa and Europe"],
+                                                                                                                              "answer": "Between Africa and Asia"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                              "question": "What is the Red Sea known for?",
+                                                                                                                              "options": ["Its freshwater fish", "Its beaches", "Its marine life", "Its coral reefs"],
+                                                                                                                              "answer": "Its marine life"
+                                                                                                                              }
+                                                                                                                              ]
+                                                                                                                              },
+                                                                                                                              
+                                                                                                                              {
+                                                                                                                              "text": "The Arabian Desert is the largest desert in Asia and the second-largest desert in the world, covering an area of 2,330,000 square kilometers (900,000 square miles).",
+                                                                                                                              "questions": [
+                                                                                                                              {
+                                                                                                                              "question": "Where is the Arabian Desert located?",
+                                                                                                                              "options": ["Africa", "Asia", "North America", "South America"],
+                                                                                                                              "answer": "Asia"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                              "question": "What is the largest desert in Asia?",
+                                                                                                                              "options": ["Sahara Desert", "Gobi Desert", "Arabian Desert", "Kalahari Desert"],
+                                                                                                                              "answer": "Arabian Desert"
+                                                                                                                              }
+                                                                                                                              ]
+                                                                                                                              },{
+                                                                                                                                "text": "Camels are often referred to as the 'ships of the desert' because of their ability to travel long distances without water. They have two humps (in the case of Bactrian camels) or one hump (in the case of dromedary camels) and are known for their tough and durable bodies.",
+                                                                                                                                "questions": [
+                                                                                                                                {
+                                                                                                                                "question": "Why are camels called the 'ships of the desert'?",
+                                                                                                                                "options": ["Because they are made of wood", "Because they are fast", "Because they can swim", "Because they can travel long distances without water"],
+                                                                                                                                "answer": "Because they can travel long distances without water"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                "question": "How many humps do dromedary camels have?",
+                                                                                                                                "options": ["One", "Two", "Three", "Four"],
+                                                                                                                                "answer": "One"
+                                                                                                                                }
+                                                                                                                                ]
+                                                                                                                                },{
+                                                                                                                                  "text": "The Nile River is the longest river in the world, stretching over 6,650 kilometers (4,130 miles) in length. It flows through eleven countries, including Egypt, Sudan, and Uganda, and provides water for irrigation, transportation, and hydroelectric power.",
+                                                                                                                                  "questions": [
+                                                                                                                                  {
+                                                                                                                                  "question": "What is the Nile River?",
+                                                                                                                                  "options": ["A mountain range", "A desert", "A lake", "A river"],
+                                                                                                                                  "answer": "A river"
+                                                                                                                                  },
+                                                                                                                                  {
+                                                                                                                                  "question": "What are some uses of the Nile River?",
+                                                                                                                                  "options": ["Irrigation, transportation, and fishing", "Mining, logging, and agriculture", "Tourism, education, and research", "Construction, manufacturing, and finance"],
+                                                                                                                                  "answer": "Irrigation, transportation, and hydroelectric power"
+                                                                                                                                  }
+                                                                                                                                  ]
+                                                                                                                                  },
+                                                                                                                                  
+                                                                                                                                  {
+                                                                                                                                  "text": "The Dubai Miracle Garden is the world's largest flower garden, featuring over 45 million flowers in various shapes and sizes. It opened in 2013 and is located in Dubai, United Arab Emirates. The garden features several attractions, including a flower clock, an Emirates A380 plane covered in flowers, and a replica of the Burj Khalifa made entirely of flowers.",
+                                                                                                                                  "questions": [
+                                                                                                                                  {
+                                                                                                                                  "question": "What is the Dubai Miracle Garden?",
+                                                                                                                                  "options": ["A zoo", "A museum", "A park", "A flower garden"],
+                                                                                                                                  "answer": "A flower garden"
+                                                                                                                                  },
+                                                                                                                                  {
+                                                                                                                                  "question": "Where is the Dubai Miracle Garden located?",
+                                                                                                                                  "options": ["Dubai", "Abu Dhabi", "Riyadh", "Doha"],
+                                                                                                                                  "answer": "Dubai"
+                                                                                                                                  }
+                                                                                                                                  ]
+                                                                                                                                  },{
+                                                                                                                                    "text": "Ramadan is the ninth month of the Islamic calendar and is observed by Muslims worldwide as a month of fasting, prayer, reflection, and community. During Ramadan, Muslims abstain from food, drink, and other physical needs from dawn until sunset. It is a time of spiritual discipline, purification, and increased devotion to God.",
+                                                                                                                                    "questions": [
+                                                                                                                                    {
+                                                                                                                                    "question": "In what month of the Islamic calendar is Ramadan observed?",
+                                                                                                                                    "options": ["The first month", "The fourth month", "The seventh month", "The ninth month"],
+                                                                                                                                    "answer": "The ninth month"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                    "question": "What are Muslims expected to abstain from during Ramadan?",
+                                                                                                                                    "options": ["Sleeping during the day", "Reading books", "Eating and drinking", "Watching television"],
+                                                                                                                                    "answer": "Eating and drinking"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                    "question": "What is the purpose of Ramadan for Muslims?",
+                                                                                                                                    "options": ["To gain weight", "To socialize with friends", "To purify the soul", "To earn money"],
+                                                                                                                                    "answer": "To purify the soul"
+                                                                                                                                    }
+                                                                                                                                    ]
+                                                                                                                                    },{
+                                                                                                                                      "text": "Arabic is a Semitic language spoken by more than 420 million people worldwide, making it one of the most widely spoken languages in the world. It is the official language of 26 countries, including Egypt, Iraq, Saudi Arabia, and Morocco. Arabic has a rich history and has influenced many other languages, including Spanish, Portuguese, and English.",
+                                                                                                                                      "questions": [
+                                                                                                                                      {
+                                                                                                                                      "question": "How many people worldwide speak Arabic?",
+                                                                                                                                      "options": ["More than 420 million", "More than 200 million", "More than 500 million", "More than 1 billion"],
+                                                                                                                                      "answer": "More than 420 million"
+                                                                                                                                      },
+                                                                                                                                      {
+                                                                                                                                      "question": "How many countries have Arabic as their official language?",
+                                                                                                                                      "options": ["10", "15", "20", "26"],
+                                                                                                                                      "answer": "26"
+                                                                                                                                      },
+                                                                                                                                      {
+                                                                                                                                      "question": "Which languages have been influenced by Arabic?",
+                                                                                                                                      "options": ["Italian, French, and German", "Spanish, Portuguese, and English", "Mandarin, Cantonese, and Japanese", "Russian, Ukrainian, and Polish"],
+                                                                                                                                      "answer": "Spanish, Portuguese, and English"
+                                                                                                                                      }
+                                                                                                                                      ]
+                                                                                                                                      }
+                                                                                                      
+                                                                                                      
+                                                                                                      
+                                                                                                      
+                                                                                                      
+                                                                                                      
   ]
   

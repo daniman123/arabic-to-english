@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 
+import dater from "../data/readingData/data.json";
 import beginner from "../data/readingData/beginner.json";
 import intermediate from "../data/readingData/intermediate.json";
 import advanced from "../data/readingData/advanced.json";
+
+import JSONData from "../functions/exerciseLevelTracker";
 
 function ReadingExercise() {
   const [text, setText] = useState("");
@@ -12,24 +15,64 @@ function ReadingExercise() {
   const [submitted, setSubmitted] = useState(false);
   const [difficulty, setDifficulty] = useState("");
 
+  const getLength = (data) => {
+    const jsonDataObj = new JSONData(data);
+    const rank = jsonDataObj.getTextsLengthRanking();
+    // console.log(rank);
+  };
+
+  getLength(dater);
+
   const handleDifficultyChange = (difficulty) => {
     setDifficulty(difficulty);
   };
 
   const startExercise = () => {
-    const data = {
-      beginner,
-      intermediate,
-      advanced,
-    };
+    const texts = getTextsByDifficulty(difficulty);
+    const availableData = filterCompletedTexts(texts);
+    const filteredData = filterTextsByLength(availableData);
+    const randomData = getRandomData(filteredData);
 
-    const randomText =
-      data[difficulty][Math.floor(Math.random() * data[difficulty].length)];
+    if (!randomData) {
+      resetExerciseData();
+      return;
+    }
 
-    setText(randomText.text);
-    setQuestions(randomText.questions);
-    setAnswers(new Array(randomText.questions.length).fill(""));
+    setText(randomData.text);
+    setQuestions(randomData.questions);
+    setAnswers(new Array(randomData.questions.length).fill(""));
     setSubmitted(false);
+  };
+
+  const getTextsByDifficulty = (difficulty) => {
+    const data = { beginner, intermediate, advanced };
+    return data[difficulty];
+  };
+
+  const filterCompletedTexts = (texts) => {
+    const completedData =
+      JSON.parse(sessionStorage.getItem("readingExerciseData")) || [];
+    return texts.filter(
+      (text) => !completedData.some((data) => data.text === text.text)
+    );
+  };
+
+  const filterTextsByLength = (texts) => {
+    const maxLength = score < 10 ? 100 : Infinity;
+    const minLength = score >= 17 ? 150 : 0;
+    return texts.filter(
+      (data) => data.text.length >= minLength && data.text.length <= maxLength
+    );
+  };
+
+  const getRandomData = (data) => {
+    return data.length > 0
+      ? data[Math.floor(Math.random() * data.length)]
+      : null;
+  };
+
+  const resetExerciseData = () => {
+    sessionStorage.removeItem("readingExerciseData");
   };
 
   const handleAnswerChange = (e, index) => {
@@ -82,17 +125,25 @@ function ReadingExercise() {
       return;
     }
 
-    let tempScore = score;
-    answers.forEach((answer, index) => {
-      if (answer === questions[index].answer) {
-        tempScore++;
-      } else {
-        tempScore--;
-      }
-    });
+    const totalQuestions = questions.length;
+    const tempScore = answers.reduce((acc, answer, index) => {
+      return answer === questions[index].answer ? acc + 1 : acc;
+    }, 0);
+    const percentage = Math.round((tempScore / totalQuestions) * 100);
 
-    setScore(tempScore);
+    setScore((prevScore) => prevScore + tempScore);
     setSubmitted(true);
+
+    const data =
+      JSON.parse(sessionStorage.getItem("readingExerciseData")) || [];
+    const newData = {
+      text,
+      questions,
+      answers,
+      percentage,
+    };
+    data.push(newData);
+    sessionStorage.setItem("readingExerciseData", JSON.stringify(data));
   };
 
   const resetAnswers = () => {
