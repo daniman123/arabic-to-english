@@ -45,8 +45,16 @@ function ReadingExercise() {
   };
 
   const getTextsByDifficulty = (difficulty) => {
-    const data = { beginner, intermediate, advanced };
-    return data[difficulty];
+    switch (difficulty) {
+      case "beginner":
+        return beginner;
+      case "intermediate":
+        return intermediate;
+      case "advanced":
+        return advanced;
+      default:
+        return null;
+    }
   };
 
   const filterCompletedTexts = (texts) => {
