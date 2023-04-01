@@ -100,7 +100,7 @@ function ReadingExercise() {
     setSubmitted(false);
   };
 
-  const isSubmitDisabled = answers.some((answer) => answer === "");
+  const isSubmitDisabled = answers.includes("");
 
   return (
     <div className="container">
