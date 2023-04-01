@@ -59,7 +59,7 @@ function ReadingExercise() {
 
   const filterCompletedTexts = (texts) => {
     const completedData =
-      JSON.parse(window.sessionStorage.getItem("readingExerciseData")) || [];
+      JSON.parse(window.localStorage.getItem("readingExerciseData")) || [];
     return texts.filter(
       (text) => !completedData.some((data) => data.text === text.text)
     );
@@ -80,7 +80,7 @@ function ReadingExercise() {
   };
 
   const resetExerciseData = () => {
-    window.sessionStorage.removeItem("readingExerciseData");
+    window.localStorage.removeItem("readingExerciseData");
   };
 
   const handleAnswerChange = (e, index) => {
@@ -142,7 +142,7 @@ function ReadingExercise() {
     setScore((prevScore) => prevScore + tempScore);
     setSubmitted(true);
     const data =
-      JSON.parse(window.sessionStorage.getItem("readingExerciseData")) || [];
+      JSON.parse(window.localStorage.getItem("readingExerciseData")) || [];
     const newData = {
       text,
       questions,
@@ -150,7 +150,7 @@ function ReadingExercise() {
       percentage,
     };
     data.push(newData);
-    window.sessionStorage.setItem("readingExerciseData", JSON.stringify(data));
+    window.localStorage.setItem("readingExerciseData", JSON.stringify(data));
   };
 
   const resetAnswers = () => {
