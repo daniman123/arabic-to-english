@@ -59,7 +59,7 @@ function ReadingExercise() {
 
   const filterCompletedTexts = (texts) => {
     const completedData =
-      JSON.parse(sessionStorage.getItem("readingExerciseData")) || [];
+      JSON.parse(window.sessionStorage.getItem("readingExerciseData")) || [];
     return texts.filter(
       (text) => !completedData.some((data) => data.text === text.text)
     );
@@ -80,7 +80,7 @@ function ReadingExercise() {
   };
 
   const resetExerciseData = () => {
-    sessionStorage.removeItem("readingExerciseData");
+    window.sessionStorage.removeItem("readingExerciseData");
   };
 
   const handleAnswerChange = (e, index) => {
