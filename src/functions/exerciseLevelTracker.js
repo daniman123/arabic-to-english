@@ -1,4 +1,4 @@
-class JSONData {
+class exerciseLevelTracker {
   constructor(data) {
     this.data = this.removeDuplicateTexts(data);
   }
@@ -103,4 +103,4 @@ class JSONData {
     );
   }
 }
-export default JSONData;
+export default exerciseLevelTracker;

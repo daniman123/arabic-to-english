@@ -4,12 +4,17 @@ import UserReadingStats from "./UserReadingStats";
 
 import dater from "../data/readingData/data.json";
 
+import exerciseLevelTracker from "../functions/exerciseLevelTracker";
+const lvlTracker = new exerciseLevelTracker(dater);
+
 function ReadingExercise() {
   const [text, setText] = useState("");
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(0);
   const [submitted, setSubmitted] = useState(false);
+
+  console.log(lvlTracker.getTextsLengthRanking());
 
   const startExercise = () => {
     const texts = dater;
@@ -131,7 +136,6 @@ function ReadingExercise() {
 
   const isSubmitDisabled = answers.includes("");
 
-  
   return (
     <div className="container">
       <h1>Reading Comprehension Exercise</h1>
