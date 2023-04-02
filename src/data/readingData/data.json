@@ -4253,5 +4253,66 @@
         "answer": "Because she's knowledgeable in many areas"
       }
     ]
+  },
+  {
+    "text": "Della sells her hair to buy Jim a Christmas present. Meanwhile, Jim sells his watch to buy Della a present. They exchange their gifts on Christmas Eve and realize that their sacrifices for each other have rendered their gifts useless. The story ends with the narrator describing their love as being the most important thing in their lives.",
+    "questions": [
+      {
+        "question": "What did Della sell to buy Jim a Christmas present?",
+        "options": ["Her car", "Her watch", "Her hair", "Her house"],
+        "answer": "Her hair"
+      },
+      {
+        "question": "What did Jim sell to buy Della a Christmas present?",
+        "options": ["His car", "His watch", "His gold chain", "His house"],
+        "answer": "His watch"
+      },
+      {
+        "question": "What did they realize about their gifts on Christmas Eve?",
+        "options": [
+          "They were too expensive",
+          "They were useless",
+          "They were perfect",
+          "None of the above"
+        ],
+        "answer": "They were useless"
+      }
+    ]
+  },
+  {
+    "text": "Mathilde borrows a necklace from her friend for a party and loses it. She and her husband spend years replacing the necklace, only to find out that the original necklace was a fake. Mathilde and her husband then spend the rest of their lives in poverty.",
+    "questions": [
+      {
+        "question": "What did Mathilde borrow from her friend?",
+        "options": ["A dress", "Jewelry", "Shoes", "A hat"],
+        "answer": "Jewelry"
+      },
+      {
+        "question": "What happens to the necklace?",
+        "options": [
+          "Mathilde loses it",
+          "Mathilde returns it to her friend",
+          "Mathilde finds out it's a fake",
+          "Mathilde sells it"
+        ],
+        "answer": "Mathilde loses it"
+      },
+      {
+        "question": "What happens to Mathilde and her husband after they replace the necklace?",
+        "options": [
+          "They live happily ever after",
+          "They become rich and successful",
+          "They find out the necklace was a fake",
+          "None of the above"
+        ],
+        "answer": "They live the rest of their lives in poverty"
+      }
+    ]
+  },
+  {
+    "text": "The cat sat on the mat.",
+    "question": "Where did the cat sit?",
+    "options": ["On the mat", "On the couch", "On the table", "On the chair"],
+    "answer": "On the mat"
   }
 ]
