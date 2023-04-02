@@ -7,6 +7,75 @@ body {
   padding: 0;
 }
 
+/* NAV */
+
+.nav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.nav li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.nav li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav .active {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.nav-clicked {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav-clicked ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-clicked li {
+  float: left;
+}
+
+.nav-clicked li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-clicked li a:hover {
+  background-color: #111;
+}
+
+.nav-clicked .active {
+  background-color: #4CAF50;
+}
+
 
 
 /* Center the content horizontally */

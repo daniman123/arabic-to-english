@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
 import "./App.css";
@@ -8,9 +8,15 @@ import ReadingExercise from "./components/ReadingExercise";
 // import WritingExercise from "./components/WritingExercise";
 
 function App() {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(true);
+  };
+
   return (
-    <div>
-      <nav>
+    <div className={clicked ? "nav-clicked" : "nav"}>
+      <nav onClick={handleClick}>
         <ul>
           <li>
             <Link to="/vocabulary-exercise">Vocabulary Exercises</Link>
