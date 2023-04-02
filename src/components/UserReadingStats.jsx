@@ -17,7 +17,7 @@ const UserReadingStats = ({ score }) => {
 
   return (
     <div className="Reader_level" id={level}>
-    User Level: {level}
+      User Level: {level}
     </div>
   );
 };
