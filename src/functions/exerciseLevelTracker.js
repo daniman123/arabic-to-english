@@ -79,12 +79,28 @@ class JSONData {
 
     return ranking;
   }
+
+  getTextsByDifficultyAndLength(difficulty) {
+    let minLength, maxLength;
+    switch (difficulty) {
+      case "beginner":
+        minLength = 0;
+        maxLength = 99;
+        break;
+      case "intermediate":
+        minLength = 100;
+        maxLength = 249;
+        break;
+      case "advanced":
+        minLength = 250;
+        maxLength = Infinity;
+        break;
+      default:
+        return null;
+    }
+    return this.data.filter(
+      (item) => item.text.length >= minLength && item.text.length <= maxLength
+    );
+  }
 }
-
 export default JSONData;
-
-// const jsonDataObj = new JSONData(jsonData);
-//   console.log(jsonDataObj.getQuestions()); // prints an array of all questions in the JSON data
-//   console.log(jsonDataObj.getTexts()); // prints an array of all text sections in the JSON data
-//   console.log(jsonDataObj.getTextsLength()); // prints an array of the length of each "text" section in the JSON data
-// console.log(jsonDataObj.getTextsLengthRanking()); // prints an array of objects containing the "text" and length of each section, ranked from high to low

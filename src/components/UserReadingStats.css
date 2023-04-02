@@ -1,0 +1,15 @@
+.Reader_level {
+    font-weight: bold;
+}
+
+#Beginner {
+    color: rgb(255, 153, 0);
+}
+
+#Intermediate {
+    color: rgb(255, 196, 0);
+}
+
+#Advanced {
+    color: rgb(94, 255, 0);
+}

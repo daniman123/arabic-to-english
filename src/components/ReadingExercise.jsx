@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 
-import dater from "../data/readingData/data.json";
-import beginner from "../data/readingData/beginner.json";
-import intermediate from "../data/readingData/intermediate.json";
-import advanced from "../data/readingData/advanced.json";
+import UserReadingStats from "./UserReadingStats";
 
-import JSONData from "../functions/exerciseLevelTracker";
+import dater from "../data/readingData/data.json";
 
 function ReadingExercise() {
   const [text, setText] = useState("");
@@ -13,22 +10,9 @@ function ReadingExercise() {
   const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(0);
   const [submitted, setSubmitted] = useState(false);
-  const [difficulty, setDifficulty] = useState("");
-
-  const getLength = (data) => {
-    const jsonDataObj = new JSONData(data);
-    const rank = jsonDataObj.getTextsLengthRanking();
-    // console.log(rank);
-  };
-
-  getLength(dater);
-
-  const handleDifficultyChange = (difficulty) => {
-    setDifficulty(difficulty);
-  };
 
   const startExercise = () => {
-    const texts = getTextsByDifficulty(difficulty);
+    const texts = dater;
     const availableData = filterCompletedTexts(texts);
     const filteredData = filterTextsByLength(availableData);
     const randomData = getRandomData(filteredData);
@@ -44,19 +28,6 @@ function ReadingExercise() {
     setSubmitted(false);
   };
 
-  const getTextsByDifficulty = (difficulty) => {
-    switch (difficulty) {
-      case "beginner":
-        return beginner;
-      case "intermediate":
-        return intermediate;
-      case "advanced":
-        return advanced;
-      default:
-        return null;
-    }
-  };
-
   const filterCompletedTexts = (texts) => {
     const completedData =
       JSON.parse(window.localStorage.getItem("readingExerciseData")) || [];
@@ -66,8 +37,8 @@ function ReadingExercise() {
   };
 
   const filterTextsByLength = (texts) => {
-    const maxLength = score < 10 ? 100 : Infinity;
-    const minLength = score >= 17 ? 150 : 0;
+    const maxLength = score < 10 ? 100 : score < 17 ? 250 : Infinity;
+    const minLength = score < 10 ? 0 : score < 17 ? 101 : 251;
     return texts.filter(
       (data) => data.text.length >= minLength && data.text.length <= maxLength
     );
@@ -185,8 +156,12 @@ function ReadingExercise() {
             <button type="submit" disabled={isSubmitDisabled}>
               Submit
             </button>
-            <p>Your score: {score} / 30</p>
           </form>
+          <br></br>
+          <UserReadingStats score={score} />
+          <p>Your score: {score} / 30</p>
+          <br></br>
+
           <button
             className="next_exercise"
             onClick={() => {
@@ -199,50 +174,8 @@ function ReadingExercise() {
         </div>
       ) : (
         <>
-          <p>اقرأ النص ثم أجب على الأسئلة حول النص</p>
           <p>"Start Exercise" اختر صعوبة وانقر</p>
           <br></br>
-          <div className="sidebar">
-            <p>Select difficulty:</p>
-            <ul>
-              <li>
-                <button
-                  className={
-                    difficulty === "beginner"
-                      ? "difficulty__active"
-                      : "difficulty"
-                  }
-                  onClick={() => handleDifficultyChange("beginner")}
-                >
-                  Beginner
-                </button>
-              </li>
-              <li>
-                <button
-                  className={
-                    difficulty === "intermediate"
-                      ? "difficulty__active"
-                      : "difficulty"
-                  }
-                  onClick={() => handleDifficultyChange("intermediate")}
-                >
-                  Intermediate
-                </button>
-              </li>
-              <li>
-                <button
-                  className={
-                    difficulty === "advanced"
-                      ? "difficulty__active"
-                      : "difficulty"
-                  }
-                  onClick={() => handleDifficultyChange("advanced")}
-                >
-                  Advanced
-                </button>
-              </li>
-            </ul>
-          </div>
 
           <button className="start_exercise" onClick={startExercise}>
             Start Exercise
