@@ -131,6 +131,7 @@ function ReadingExercise() {
 
   const isSubmitDisabled = answers.includes("");
 
+  
   return (
     <div className="container">
       <h1>Reading Comprehension Exercise</h1>
