@@ -4113,5 +4113,145 @@
         "answer": "Attend the wedding and finish his work project later"
       }
     ]
+  },
+  {
+    "text": "Ali is feeling under the weather today.",
+    "questions": [
+      {
+        "question": "What does 'under the weather' mean?",
+        "options": [
+          "Feeling sad",
+          "Feeling cold",
+          "Feeling sick",
+          "Feeling angry"
+        ],
+        "answer": "Feeling sick"
+      },
+      {
+        "question": "Who is feeling under the weather?",
+        "options": ["Fatima", "Ahmed", "Ali", "Zainab"],
+        "answer": "Ali"
+      }
+    ]
+  },
+  {
+    "text": "After graduating from college, Omar decided to spread his wings and move to a new city.",
+    "questions": [
+      {
+        "question": "What does 'spread his wings' mean?",
+        "options": [
+          "To fly",
+          "To move to a new city",
+          "To take a risk and try new things",
+          "To relax"
+        ],
+        "answer": "To take a risk and try new things"
+      },
+      {
+        "question": "What did Omar decide to do after graduating from college?",
+        "options": [
+          "Stay in his hometown",
+          "Travel abroad",
+          "Start a new job",
+          "Move to a new city"
+        ],
+        "answer": "Move to a new city"
+      }
+    ]
+  },
+  {
+    "text": "Ali is feeling under the weather today. He has a stuffy nose and a sore throat. He decided to take the day off from work and rest at home.",
+    "questions": [
+      {
+        "question": "How is Ali feeling today?",
+        "options": [
+          "He's happy",
+          "He's angry",
+          "He's feeling under the weather",
+          "He's energetic"
+        ],
+        "answer": "He's feeling under the weather"
+      },
+      {
+        "question": "Why did Ali take the day off from work?",
+        "options": [
+          "Because he had a headache",
+          "Because he wanted to go on vacation",
+          "Because he had to attend a meeting",
+          "Because he needed to rest at home"
+        ],
+        "answer": "Because he needed to rest at home"
+      }
+    ]
+  },
+  {
+    "text": "Sara was feeling under the weather, so she decided to take a rain check on the dinner invitation.",
+    "questions": [
+      {
+        "question": "What does 'under the weather' mean?",
+        "options": [
+          "Feeling sad",
+          "Feeling sick",
+          "Feeling happy",
+          "Feeling nervous"
+        ],
+        "answer": "Feeling sick"
+      },
+      {
+        "question": "What did Sara do with the dinner invitation?",
+        "options": ["Accepted it", "Declined it", "Postponed it", "Ignored it"],
+        "answer": "Postponed it"
+      }
+    ]
+  },
+  {
+    "text": "Ahmad is in hot water with his boss for missing an important meeting yesterday. He needs to come up with a good excuse to explain his absence.",
+    "questions": [
+      {
+        "question": "What does it mean to be 'in hot water'?",
+        "options": [
+          "To be in trouble",
+          "To be feeling warm",
+          "To be relaxing",
+          "To be sleeping"
+        ],
+        "answer": "To be in trouble"
+      },
+      {
+        "question": "Why does Ahmad need a good excuse?",
+        "options": [
+          "He is feeling unwell",
+          "He missed an important meeting",
+          "He needs to impress his boss",
+          "He is going on vacation"
+        ],
+        "answer": "He missed an important meeting"
+      }
+    ]
+  },
+  {
+    "text": "Sara is a jack of all trades. She can sing, dance, cook, and speak three languages fluently. Her friends always come to her for advice because she's knowledgeable in many areas.",
+    "questions": [
+      {
+        "question": "What does it mean when someone is a jack of all trades?",
+        "options": [
+          "They can do many things well",
+          "They are only good at one thing",
+          "They don't have any skills",
+          "None of the above"
+        ],
+        "answer": "They can do many things well"
+      },
+      {
+        "question": "Why do Sara's friends come to her for advice?",
+        "options": [
+          "Because she can only speak one language",
+          "Because she's knowledgeable in many areas",
+          "Because she's not good at anything",
+          "None of the above"
+        ],
+        "answer": "Because she's knowledgeable in many areas"
+      }
+    ]
   }
 ]
