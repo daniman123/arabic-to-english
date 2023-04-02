@@ -16,13 +16,16 @@ const VocabularyExercise = () => {
   };
 
   return (
-    <div>
-      <h2>Common Words:</h2>
-      <div>
-        <p>Arabic: {words.words[currentWordIndex].arabic}</p>
-        <span>
+    <div className="CommonWords">
+      <h2 className="CommonWords">Common Words:</h2>
+      <div className="CommonWords">
+        <p className="CommonWords">
+          Arabic: {words.words[currentWordIndex].arabic}
+        </p>
+        <span className="CommonWords">
           English:{" "}
           <a
+            className="CommonWords"
             href={`https://translate.google.com/#en/ar/${words.words[currentWordIndex].english}`}
             target="_blank"
             rel="noreferrer"
@@ -30,10 +33,13 @@ const VocabularyExercise = () => {
             {words.words[currentWordIndex].english}
           </a>{" "}
         </span>
-        <p>Arabic sentence: {words.words[currentWordIndex].sentenceArabic}</p>
-        <span>
+        <p className="CommonWords">
+          Arabic sentence: {words.words[currentWordIndex].sentenceArabic}
+        </p>
+        <span className="CommonWords">
           English sentence:{" "}
           <a
+            className="CommonWords"
             href={`https://translate.google.com/#en/ar/${words.words[currentWordIndex].sentenceEnglish}`}
             target="_blank"
             rel="noreferrer"
@@ -42,7 +48,9 @@ const VocabularyExercise = () => {
           </a>{" "}
         </span>
       </div>
-      <button onClick={handleNextClick}>Next</button>
+      <button className="CommonWords" onClick={handleNextClick}>
+        Next
+      </button>
     </div>
   );
 };
