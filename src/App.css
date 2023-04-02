@@ -8,39 +8,6 @@ body {
 }
 
 
-/* Difficulty buttons */
-ul {
-  list-style: none;
-
-}
-div.sidebar > ul>li{
-  margin: 5px;
-  margin-left: -40px;
-}
-
-button.difficulty,button.difficulty__active {
-  vertical-align: middle;
-  width: 120px;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #fff;
-  background-color: #33bd38;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button.difficulty {
-  background-color: #398b73;
-}
-  
-button.difficulty:hover,button.difficulty__active:hover {
-  background-color: #3e8e41;
-  
-}
-
-
 
 /* Center the content horizontally */
 .container {
