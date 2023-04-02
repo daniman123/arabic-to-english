@@ -3029,5 +3029,1089 @@
         "answer": "To express himself"
       }
     ]
+  },
+  {
+    "text": "Ants are social insects that live in colonies. They work together to gather food and care for their young.",
+    "questions": [
+      {
+        "question": "What kind of insects are ants?",
+        "options": ["Solitary", "Social", "Carnivorous", "None of the above"],
+        "answer": "Social"
+      },
+      {
+        "question": "What do ants do together?",
+        "options": [
+          "Fight each other",
+          "Gather food",
+          "Live alone",
+          "None of the above"
+        ],
+        "answer": "Gather food"
+      },
+      {
+        "question": "What do ants do to care for their young?",
+        "options": [
+          "Feed them",
+          "Protect them",
+          "Both of the above",
+          "None of the above"
+        ],
+        "answer": "Both of the above"
+      }
+    ]
+  },
+
+  {
+    "text": "The Great Barrier Reef is the world's largest coral reef system. It is located off the coast of Australia and is home to a diverse array of marine life.",
+    "questions": [
+      {
+        "question": "Where is the Great Barrier Reef located?",
+        "options": ["North America", "Europe", "Australia", "Africa"],
+        "answer": "Australia"
+      },
+      {
+        "question": "What is the Great Barrier Reef?",
+        "options": [
+          "A mountain range",
+          "A desert",
+          "A coral reef system",
+          "None of the above"
+        ],
+        "answer": "A coral reef system"
+      },
+      {
+        "question": "What can be found in the Great Barrier Reef?",
+        "options": [
+          "Plants",
+          "Animals",
+          "Both of the above",
+          "None of the above"
+        ],
+        "answer": "Both of the above"
+      }
+    ]
+  },
+
+  {
+    "text": "The human brain is the control center of the body. It is responsible for processing information, controlling movement, and regulating bodily functions.",
+    "questions": [
+      {
+        "question": "What is the human brain responsible for?",
+        "options": [
+          "Processing information",
+          "Regulating bodily functions",
+          "Controlling movement",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What is the human brain?",
+        "options": ["An organ", "A muscle", "A bone", "None of the above"],
+        "answer": "An organ"
+      },
+      {
+        "question": "Why is the human brain important?",
+        "options": [
+          "It controls the body",
+          "It allows us to think and feel",
+          "Both of the above",
+          "None of the above"
+        ],
+        "answer": "Both of the above"
+      }
+    ]
+  },
+  {
+    "text": "The Eiffel Tower is an iconic landmark in Paris, France. It was built in 1889 and is named after Gustave Eiffel, the engineer who designed it.",
+    "questions": [
+      {
+        "question": "What is the Eiffel Tower?",
+        "options": ["A building", "A bridge", "A statue", "None of the above"],
+        "answer": "A building"
+      },
+      {
+        "question": "Where is the Eiffel Tower located?",
+        "options": ["New York", "Paris", "London", "Tokyo"],
+        "answer": "Paris"
+      },
+      {
+        "question": "Who designed the Eiffel Tower?",
+        "options": [
+          "Gustave Eiffel",
+          "Leonardo da Vinci",
+          "Thomas Edison",
+          "None of the above"
+        ],
+        "answer": "Gustave Eiffel"
+      }
+    ]
+  },
+
+  {
+    "text": "The Amazon Rainforest is the largest tropical rainforest in the world. It covers much of the Amazon basin in South America and is home to a vast array of plant and animal species.",
+    "questions": [
+      {
+        "question": "Where is the Amazon Rainforest located?",
+        "options": ["Africa", "Asia", "South America", "Australia"],
+        "answer": "South America"
+      },
+      {
+        "question": "What is the Amazon Rainforest?",
+        "options": [
+          "A desert",
+          "A tundra",
+          "A tropical rainforest",
+          "None of the above"
+        ],
+        "answer": "A tropical rainforest"
+      },
+      {
+        "question": "What can be found in the Amazon Rainforest?",
+        "options": [
+          "Plants",
+          "Animals",
+          "Both of the above",
+          "None of the above"
+        ],
+        "answer": "Both of the above"
+      }
+    ]
+  },
+
+  {
+    "text": "The Internet is a global network of computers and other devices connected together. It allows people to communicate and share information across the world.",
+    "questions": [
+      {
+        "question": "What is the Internet?",
+        "options": [
+          "A global network of computers",
+          "A social media platform",
+          "A type of computer",
+          "None of the above"
+        ],
+        "answer": "A global network of computers"
+      },
+      {
+        "question": "What does the Internet allow people to do?",
+        "options": [
+          "Communicate and share information",
+          "Watch TV shows",
+          "Play video games",
+          "None of the above"
+        ],
+        "answer": "Communicate and share information"
+      },
+      {
+        "question": "Is the Internet limited to a specific geographic area?",
+        "options": ["Yes", "No", "Not mentioned", "Cannot be determined"],
+        "answer": "No"
+      }
+    ]
+  },
+  {
+    "text": "Did you know that the Arab world has the largest number of countries without rivers? Of the 22 countries in the Arab League, 12 of them do not have any rivers.",
+    "questions": [
+      {
+        "question": "How many Arab countries do not have any rivers?",
+        "options": ["10", "12", "14", "16"],
+        "answer": "12"
+      },
+      {
+        "question": "What is the Arab League?",
+        "options": [
+          "An organization of Arab countries",
+          "A religious group",
+          "A political party",
+          "None of the above"
+        ],
+        "answer": "An organization of Arab countries"
+      },
+      {
+        "question": "Which region has the largest number of countries without rivers?",
+        "options": ["Europe", "Africa", "Asia", "The Arab world"],
+        "answer": "The Arab world"
+      }
+    ]
+  },
+
+  {
+    "text": "Arabic is the fifth most spoken language in the world. It is the official language of 26 countries, making it the second most widely spoken language in the Middle East.",
+    "questions": [
+      {
+        "question": "What is the official language of 26 countries?",
+        "options": ["English", "French", "Spanish", "Arabic"],
+        "answer": "Arabic"
+      },
+      {
+        "question": "What is the ranking of Arabic among the most spoken languages in the world?",
+        "options": ["First", "Second", "Third", "Fifth"],
+        "answer": "Fifth"
+      },
+      {
+        "question": "What is the Middle East?",
+        "options": [
+          "A continent",
+          "A region",
+          "A country",
+          "None of the above"
+        ],
+        "answer": "A region"
+      }
+    ]
+  },
+
+  {
+    "text": "The Arabian Peninsula is the largest peninsula in the world. It is located in Southwest Asia and is home to seven countries, including Saudi Arabia, Oman, and Yemen.",
+    "questions": [
+      {
+        "question": "Where is the Arabian Peninsula located?",
+        "options": [
+          "South Asia",
+          "Southeast Asia",
+          "Southwest Asia",
+          "Central Asia"
+        ],
+        "answer": "Southwest Asia"
+      },
+      {
+        "question": "How many countries are located on the Arabian Peninsula?",
+        "options": ["Four", "Five", "Six", "Seven"],
+        "answer": "Seven"
+      },
+      {
+        "question": "Name one of the countries located on the Arabian Peninsula.",
+        "options": ["Kuwait", "Indonesia", "Australia", "None of the above"],
+        "answer": "Kuwait"
+      }
+    ]
+  },
+  {
+    "text": "Arabic calligraphy is considered one of the highest art forms in the Arab world. It is a form of decorative handwriting that is used to write down verses from the Quran, as well as other texts.",
+    "questions": [
+      {
+        "question": "What is Arabic calligraphy?",
+        "options": [
+          "A form of music",
+          "A type of dance",
+          "A form of decorative handwriting",
+          "A type of food"
+        ],
+        "answer": "A form of decorative handwriting"
+      },
+      {
+        "question": "What is the significance of Arabic calligraphy?",
+        "options": [
+          "It is used to write down verses from the Quran",
+          "It is a form of decoration",
+          "It is used to write down grocery lists",
+          "None of the above"
+        ],
+        "answer": "It is used to write down verses from the Quran"
+      },
+      {
+        "question": "Is Arabic calligraphy considered an art form?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      }
+    ]
+  },
+
+  {
+    "text": "Coffee was first discovered in Ethiopia, but it was the Arabs who introduced it to the world. The word 'coffee' comes from the Arabic word 'qahwah', which means 'wine of the bean'.",
+    "questions": [
+      {
+        "question": "Who introduced coffee to the world?",
+        "options": ["Ethiopians", "Arabs", "Europeans", "Asians"],
+        "answer": "Arabs"
+      },
+      {
+        "question": "Where was coffee first discovered?",
+        "options": ["Arabia", "Europe", "Ethiopia", "Asia"],
+        "answer": "Ethiopia"
+      },
+      {
+        "question": "What is the meaning of the Arabic word 'qahwah'?",
+        "options": ["Tea", "Wine of the bean", "Milk", "Sugar"],
+        "answer": "Wine of the bean"
+      }
+    ]
+  },
+  {
+    "text": "The ancient city of Petra in Jordan is known as the 'Rose City' due to the color of the stone it is carved from. It was one of the most important trading centers in the Middle East and was even visited by Alexander the Great.",
+    "questions": [
+      {
+        "question": "What is the name of the ancient city in Jordan?",
+        "options": ["Petra", "Jerusalem", "Baghdad", "Cairo"],
+        "answer": "Petra"
+      },
+      {
+        "question": "Why is Petra known as the 'Rose City'?",
+        "options": [
+          "Because it is made of roses",
+          "Because it is pink",
+          "Because of the color of the stone it is carved from",
+          "Because it smells like roses"
+        ],
+        "answer": "Because of the color of the stone it is carved from"
+      },
+      {
+        "question": "Who visited Petra in ancient times?",
+        "options": [
+          "Cleopatra",
+          "Julius Caesar",
+          "Alexander the Great",
+          "Napoleon Bonaparte"
+        ],
+        "answer": "Alexander the Great"
+      }
+    ]
+  },
+
+  {
+    "text": "The Arab world has given us many important contributions to science, including algebra, the concept of zero, and the decimal system. These concepts were later transmitted to Europe and played a key role in the development of modern mathematics.",
+    "questions": [
+      {
+        "question": "What are some of the important contributions to science made by the Arab world?",
+        "options": [
+          "Algebra, zero, and the decimal system",
+          "Biology, chemistry, and physics",
+          "Psychology, sociology, and anthropology",
+          "None of the above"
+        ],
+        "answer": "Algebra, zero, and the decimal system"
+      },
+      {
+        "question": "Did these contributions play a key role in the development of modern mathematics?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      },
+      {
+        "question": "Were these concepts transmitted to Europe?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      }
+    ]
+  },
+
+  {
+    "text": "The hamsa is a hand-shaped amulet that is commonly used in Arab and Jewish cultures as a symbol of good luck and protection. It is believed to ward off the evil eye and bring happiness and prosperity.",
+    "questions": [
+      {
+        "question": "What is a hamsa?",
+        "options": [
+          "A type of food",
+          "A type of dance",
+          "A hand-shaped amulet",
+          "A type of clothing"
+        ],
+        "answer": "A hand-shaped amulet"
+      },
+      {
+        "question": "What is the hamsa used for?",
+        "options": [
+          "To bring bad luck",
+          "To ward off the evil eye",
+          "To cause harm",
+          "To bring sadness"
+        ],
+        "answer": "To ward off the evil eye"
+      },
+      {
+        "question": "Is the hamsa used in both Arab and Jewish cultures?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      }
+    ]
+  },
+  {
+    "text": "Qatar is the richest country in the world with a GDP per capita of $124,930. Its wealth comes from its vast reserves of oil and natural gas.",
+    "questions": [
+      {
+        "question": "What is the GDP per capita of Qatar?",
+        "options": ["$124,930", "$75,000", "$50,000", "$100,000"],
+        "answer": "$124,930"
+      },
+      {
+        "question": "What is the main source of wealth for Qatar?",
+        "options": [
+          "Agriculture",
+          "Tourism",
+          "Oil and natural gas reserves",
+          "Manufacturing"
+        ],
+        "answer": "Oil and natural gas reserves"
+      }
+    ]
+  },
+  {
+    "text": "The Bedouin people of the Arabian Peninsula have a unique culture and way of life. They are known for their hospitality, storytelling, and camel racing. Many Bedouins still follow traditional customs and live in tents in the desert.",
+    "questions": [
+      {
+        "question": "What are some of the things that the Bedouin people are known for?",
+        "options": [
+          "Horse racing and fishing",
+          "Hospitality and storytelling",
+          "Skiing and snowboarding",
+          "None of the above"
+        ],
+        "answer": "Hospitality and storytelling"
+      },
+      {
+        "question": "Where do many Bedouins live?",
+        "options": [
+          "In cities",
+          "In houses",
+          "In tents in the desert",
+          "In caves"
+        ],
+        "answer": "In tents in the desert"
+      }
+    ]
+  },
+  {
+    "text": "In the Arabic language, there are no capital letters. All letters are written in the same size, unless they are part of an abbreviation.",
+    "questions": [
+      {
+        "question": "Are there capital letters in the Arabic language?",
+        "options": ["Yes", "No", "Sometimes", "It depends"],
+        "answer": "No"
+      },
+      {
+        "question": "What is the exception to this rule?",
+        "options": [
+          "Letters at the beginning of sentences",
+          "Letters in proper nouns",
+          "Letters in abbreviations",
+          "None of the above"
+        ],
+        "answer": "Letters in abbreviations"
+      }
+    ]
+  },
+  {
+    "text": "The ancient city of Petra in Jordan is also known as the Rose City due to the color of the stone used to carve its buildings and monuments.",
+    "questions": [
+      {
+        "question": "What is the ancient city of Petra known as?",
+        "options": [
+          "The Red City",
+          "The Blue City",
+          "The Green City",
+          "The Rose City"
+        ],
+        "answer": "The Rose City"
+      },
+      {
+        "question": "Why is it called the Rose City?",
+        "options": [
+          "Because of the rose gardens that surround it",
+          "Because of the color of the stone used to carve its buildings and monuments",
+          "Because of its association with a famous historical figure named Rose",
+          "None of the above"
+        ],
+        "answer": "Because of the color of the stone used to carve its buildings and monuments"
+      }
+    ]
+  },
+  {
+    "text": "The Arabic language has a rich vocabulary of words related to hospitality, reflecting the importance of hospitality in Arab culture. One example is the word 'saha', which is used to invite guests to begin eating.",
+    "questions": [
+      {
+        "question": "What is the word used in Arabic to invite guests to begin eating?",
+        "options": ["Marhaba", "Salaam", "Shukran", "Saha"],
+        "answer": "Saha"
+      },
+      {
+        "question": "What does this rich vocabulary of hospitality-related words reflect?",
+        "options": [
+          "The lack of restaurants in Arab countries",
+          "The importance of hospitality in Arab culture",
+          "The abundance of food in Arab countries",
+          "None of the above"
+        ],
+        "answer": "The importance of hospitality in Arab culture"
+      }
+    ]
+  },
+  {
+    "text": "The city of Fez in Morocco is home to the oldest university in the world, the University of Al Quaraouiyine. It was founded in 859 AD by a woman named Fatima al-Fihri, making it one of the first universities in the world.",
+    "questions": [
+      {
+        "question": "What is the name of the oldest university in the world?",
+        "options": [
+          "University of Bologna",
+          "University of Oxford",
+          "University of Al Quaraouiyine",
+          "University of Cambridge"
+        ],
+        "answer": "University of Al Quaraouiyine"
+      },
+      {
+        "question": "Who founded the University of Al Quaraouiyine?",
+        "options": [
+          "A man named Ahmed Al Quaraouiyine",
+          "A woman named Fatima al-Fihri",
+          "A group of scholars",
+          "None of the above"
+        ],
+        "answer": "A woman named Fatima al-Fihri"
+      }
+    ]
+  },
+  {
+    "text": "The flag of Saudi Arabia features the Shahada, which is the Islamic creed, in large green letters above a white horizontal stripe, which sits above a larger green stripe.",
+    "questions": [
+      {
+        "question": "What is written in green letters on the flag of Saudi Arabia?",
+        "options": [
+          "The national motto",
+          "The national anthem",
+          "The Shahada",
+          "The declaration of independence"
+        ],
+        "answer": "The Shahada"
+      },
+      {
+        "question": "What colors are on the flag of Saudi Arabia?",
+        "options": [
+          "Red, white, and blue",
+          "Green and white",
+          "Red and yellow",
+          "Blue and yellow"
+        ],
+        "answer": "Green and white"
+      }
+    ]
+  },
+  {
+    "text": "The Druze are an ethnoreligious group that primarily live in Lebanon, Syria, and Israel. They follow a secretive, esoteric religion that is an offshoot of Ismaili Shia Islam.",
+    "questions": [
+      {
+        "question": "Where do the Druze primarily live?",
+        "options": [
+          "Lebanon, Syria, and Egypt",
+          "Lebanon, Syria, and Turkey",
+          "Lebanon, Syria, and Israel",
+          "Lebanon, Syria, and Jordan"
+        ],
+        "answer": "Lebanon, Syria, and Israel"
+      },
+      {
+        "question": "What is the religion of the Druze?",
+        "options": [
+          "Sunni Islam",
+          "Shia Islam",
+          "Ismaili Shia Islam",
+          "Sufi Islam"
+        ],
+        "answer": "Ismaili Shia Islam"
+      }
+    ]
+  },
+  {
+    "text": "The city of Baghdad, the capital of Iraq, was once the center of the Islamic world and a major hub of culture, education, and trade. It was founded in 762 AD by the Abbasid caliph, Abu Ja'far al-Mansur.",
+    "questions": [
+      {
+        "question": "What is the capital of Iraq?",
+        "options": ["Baghdad", "Dubai", "Cairo", "Riyadh"],
+        "answer": "Baghdad"
+      },
+      {
+        "question": "Who founded the city of Baghdad?",
+        "options": [
+          "Suleiman the Magnificent",
+          "Abu Bakr al-Baghdadi",
+          "Abu Ja'far al-Mansur",
+          "Saladin"
+        ],
+        "answer": "Abu Ja'far al-Mansur"
+      }
+    ]
+  },
+  {
+    "text": "The Nabateans were an ancient Arab tribe that inhabited the area that is now Jordan, Syria, and Saudi Arabia. They are most famous for their city of Petra, which was carved into the rock of a canyon and served as their capital.",
+    "questions": [
+      {
+        "question": "Who were the Nabateans?",
+        "options": [
+          "An ancient Arab tribe",
+          "A medieval Persian empire",
+          "A pre-Columbian civilization",
+          "African nomads"
+        ],
+        "answer": "An ancient Arab tribe"
+      },
+      {
+        "question": "What is the name of the city that served as the capital of the Nabateans?",
+        "options": ["Jerusalem", "Petra", "Cairo", "Damascus"],
+        "answer": "Petra"
+      }
+    ]
+  },
+  {
+    "text": "The Persian Gulf is a shallow sea located in Western Asia, between the Arabian Peninsula and Iran. It is an important region for the oil and gas industry, and is home to several countries including Saudi Arabia, Kuwait, Bahrain, and Qatar.",
+    "questions": [
+      {
+        "question": "Where is the Persian Gulf located?",
+        "options": ["South America", "Africa", "Western Asia", "Europe"],
+        "answer": "Western Asia"
+      },
+      {
+        "question": "What is the Persian Gulf known for?",
+        "options": [
+          "Its beautiful beaches",
+          "Its deep sea trenches",
+          "Its oil and gas reserves",
+          "Its coral reefs"
+        ],
+        "answer": "Its oil and gas reserves"
+      }
+    ]
+  },
+  {
+    "text": "The Bedouin are a group of nomadic Arab people who have historically inhabited the deserts of the Middle East and North Africa. They are known for their unique culture, including their hospitality, poetry, and traditions related to camel-herding.",
+    "questions": [
+      {
+        "question": "Who are the Bedouin?",
+        "options": [
+          "A group of Arab poets",
+          "A nomadic Arab people",
+          "A Persian tribe",
+          "African hunters"
+        ],
+        "answer": "A nomadic Arab people"
+      },
+      {
+        "question": "What are some of the traditions associated with the Bedouin?",
+        "options": [
+          "Poetry and hospitality",
+          "Juggling and acrobatics",
+          "Fishing and boat-making",
+          "Weaving and pottery"
+        ],
+        "answer": "Poetry and hospitality"
+      }
+    ]
+  },
+  {
+    "text": "The ancient city of Babylon was once the capital of Babylonia, an ancient empire that was located in present-day Iraq. The city is known for its famous hanging gardens, which were one of the Seven Wonders of the Ancient World.",
+    "questions": [
+      {
+        "question": "Where was the ancient city of Babylon located?",
+        "options": [
+          "Present-day Iran",
+          "Present-day Iraq",
+          "Present-day Egypt",
+          "Present-day Turkey"
+        ],
+        "answer": "Present-day Iraq"
+      },
+      {
+        "question": "What is Babylon known for?",
+        "options": [
+          "Its famous hanging gardens",
+          "Its impressive pyramid",
+          "Its massive wall",
+          "Its intricate canal system"
+        ],
+        "answer": "Its famous hanging gardens"
+      }
+    ]
+  },
+  {
+    "text": "The Marsh Arabs are a group of people who have traditionally lived in the marshlands of southern Iraq. They are known for their unique way of life, which involves living on floating reed houses and relying on fishing and farming as their primary means of survival.",
+    "questions": [
+      {
+        "question": "Who are the Marsh Arabs?",
+        "options": [
+          "A group of nomads in the Arabian desert",
+          "A group of people who have traditionally lived in the marshlands of southern Iraq",
+          "A group of fishermen in the Persian Gulf",
+          "A group of traders in the Arabian Sea"
+        ],
+        "answer": "A group of people who have traditionally lived in the marshlands of southern Iraq"
+      },
+      {
+        "question": "What is the primary means of survival for the Marsh Arabs?",
+        "options": [
+          "Hunting and gathering",
+          "Fishing and farming",
+          "Herding and trading",
+          "Mining and metalworking"
+        ],
+        "answer": "Fishing and farming"
+      }
+    ]
+  },
+  {
+    "text": "The city of Aleppo in Syria was once a center of trade and culture in the Middle East. It was an important stop on the Silk Road and was known for its beautiful architecture and bustling markets. However, the city has been devastated by the Syrian Civil War, which began in 2011.",
+    "questions": [
+      {
+        "question": "What was Aleppo known for in the past?",
+        "options": [
+          "Its beautiful beaches",
+          "Its oil reserves",
+          "Its bustling markets and beautiful architecture",
+          "Its world-famous restaurants"
+        ],
+        "answer": "Its bustling markets and beautiful architecture"
+      },
+      {
+        "question": "What was the Silk Road?",
+        "options": [
+          "A road made of silk",
+          "A network of trade routes connecting the East and the West",
+          "A famous restaurant in Aleppo",
+          "A festival celebrating silk production"
+        ],
+        "answer": "A network of trade routes connecting the East and the West"
+      },
+      {
+        "question": "What happened to Aleppo during the Syrian Civil War?",
+        "options": [
+          "It was completely destroyed",
+          "It remained untouched",
+          "It became a popular tourist destination",
+          "It became a center of trade and culture"
+        ],
+        "answer": "It was completely destroyed"
+      }
+    ]
+  },
+  {
+    "text": "The Ottoman Empire was a vast empire that existed from 1299 to 1922. At its height, it spanned three continents and was known for its military power, cultural achievements, and religious tolerance. Istanbul, which was known as Constantinople during the Ottoman period, served as the capital of the empire.",
+    "questions": [
+      {
+        "question": "When did the Ottoman Empire exist?",
+        "options": [
+          "From 1299 to 1922",
+          "From 1500 to 1800",
+          "From 1700 to 1900",
+          "From 1800 to 2000"
+        ],
+        "answer": "From 1299 to 1922"
+      },
+      {
+        "question": "What was the Ottoman Empire known for?",
+        "options": [
+          "Military power",
+          "Cultural achievements",
+          "Religious tolerance",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What is the modern-day name for the city that served as the capital of the Ottoman Empire?",
+        "options": ["Baghdad", "Istanbul", "Cairo", "Tehran"],
+        "answer": "Istanbul"
+      }
+    ]
+  },
+  {
+    "text": "The Arabian Peninsula is the largest peninsula in the world and is located in Southwest Asia. It is home to many important Islamic holy sites, including Mecca and Medina.",
+    "questions": [
+      {
+        "question": "Where is the Arabian Peninsula located?",
+        "options": [
+          "North America",
+          "South America",
+          "Europe",
+          "Southwest Asia"
+        ],
+        "answer": "Southwest Asia"
+      },
+      {
+        "question": "What are two important Islamic holy sites located on the Arabian Peninsula?",
+        "options": [
+          "Baghdad and Cairo",
+          "Jerusalem and Bethlehem",
+          "Mecca and Medina",
+          "Riyadh and Jeddah"
+        ],
+        "answer": "Mecca and Medina"
+      }
+    ]
+  },
+  {
+    "text": "Did you know that the word 'zero' actually comes from Arabic? It's used in everyday life for math and numbers. Also, many English words come from Arabic, like 'coffee', 'sugar', and 'alcohol'!",
+    "questions": [
+      {
+        "question": "Where does the word 'zero' come from?",
+        "options": ["English", "Arabic", "Spanish", "French"],
+        "answer": "Arabic"
+      },
+      {
+        "question": "What are some English words that come from Arabic?",
+        "options": [
+          "Coffee, sugar, alcohol",
+          "Hamburger, hotdog, pizza",
+          "Cheese, bread, butter",
+          "Rice, noodles, dumplings"
+        ],
+        "answer": "Coffee, sugar, alcohol"
+      }
+    ]
+  },
+  {
+    "text": "Arab families often gather together for big meals. They love to share food and stories. Many Arabs speak more than one language, like Arabic and English. Do you speak more than one language?",
+    "questions": [
+      {
+        "question": "What do Arab families like to do together during big meals?",
+        "options": [
+          "Play games",
+          "Watch TV",
+          "Share food and stories",
+          "Go for a walk"
+        ],
+        "answer": "Share food and stories"
+      },
+      {
+        "question": "What is a common trait among many Arabs when it comes to language?",
+        "options": [
+          "They only speak Arabic",
+          "They only speak English",
+          "They speak more than one language",
+          "They don't speak any languages besides Arabic"
+        ],
+        "answer": "They speak more than one language"
+      }
+    ]
+  },
+  {
+    "text": "Did you know that Dubai has the world's largest shopping mall? It's called The Dubai Mall and has over 1,200 shops!",
+    "questions": [
+      {
+        "question": "What is the name of the world's largest shopping mall?",
+        "options": [
+          "The Dubai Mall",
+          "The Mall of America",
+          "West Edmonton Mall",
+          "The Mall of the Emirates"
+        ],
+        "answer": "The Dubai Mall"
+      },
+      {
+        "question": "How many shops are in The Dubai Mall?",
+        "options": ["Over 500", "Over 800", "Over 1,000", "Over 1,200"],
+        "answer": "Over 1,200"
+      }
+    ]
+  },
+  {
+    "text": "In Egypt, shisha is a popular social activity. It's a water pipe used to smoke flavored tobacco, and it's usually shared with friends or family.",
+    "questions": [
+      {
+        "question": "What is shisha?",
+        "options": [
+          "A popular social activity in Egypt",
+          "A type of food in Egypt",
+          "A traditional dance in Egypt",
+          "A type of clothing in Egypt"
+        ],
+        "answer": "A water pipe used to smoke flavored tobacco"
+      },
+      {
+        "question": "Who is shisha usually shared with?",
+        "options": ["Strangers", "Neighbors", "Friends or family", "Teachers"],
+        "answer": "Friends or family"
+      }
+    ]
+  },
+  {
+    "text": "Jack's parents were over the moon when he got into Yale, it was his dream school after all. But now that he's there, he's finding it hard to keep up with the workload and feeling homesick.",
+    "questions": [
+      {
+        "question": "What does the phrase 'over the moon' mean?",
+        "options": ["Very happy", "Very sad", "Very tired", "Very angry"],
+        "answer": "Very happy"
+      },
+      {
+        "question": "What is the problem that Jack is facing at Yale?",
+        "options": [
+          "He is finding it hard to make friends",
+          "He is failing his classes",
+          "He is feeling homesick",
+          "He is not enjoying the food"
+        ],
+        "answer": "He is feeling homesick"
+      }
+    ]
+  },
+  {
+    "text": "Sara has been trying to get in shape for months now. She's been hitting the gym every day and eating healthy. But despite all her efforts, she hasn't been seeing the results she wants. Her friend suggests that she might be plateauing and should switch up her workout routine.",
+    "questions": [
+      {
+        "question": "What has Sara been doing to get in shape?",
+        "options": [
+          "Eating junk food and avoiding the gym",
+          "Hitting the gym every day and eating healthy",
+          "Skipping meals and going on a juice cleanse",
+          "None of the above"
+        ],
+        "answer": "Hitting the gym every day and eating healthy"
+      },
+      {
+        "question": "What does it mean to 'plateau'?",
+        "options": [
+          "To see consistent progress",
+          "To see no progress",
+          "To see rapid progress",
+          "To give up on a goal"
+        ],
+        "answer": "To see no progress"
+      },
+      {
+        "question": "What does Sara's friend suggest she do?",
+        "options": [
+          "Keep doing what she's doing",
+          "Stop going to the gym",
+          "Try a new workout routine",
+          "Go on a diet"
+        ],
+        "answer": "Try a new workout routine"
+      }
+    ]
+  },
+  {
+    "text": "John was so excited to start his new job at the marketing firm, but on his first day, he quickly realized that he was in over his head. He didn't understand half of the industry jargon that his coworkers were throwing around, and he felt lost in meetings. He resolved to do some research on his own to catch up.",
+    "questions": [
+      {
+        "question": "How did John feel on his first day at the marketing firm?",
+        "options": ["Excited", "Overwhelmed", "Bored", "Angry"],
+        "answer": "Overwhelmed"
+      },
+      {
+        "question": "What is 'jargon'?",
+        "options": [
+          "A type of dance",
+          "A type of food",
+          "Special words or phrases used by a particular group",
+          "A type of art"
+        ],
+        "answer": "Special words or phrases used by a particular group"
+      },
+      {
+        "question": "What did John decide to do to catch up?",
+        "options": [
+          "Quit his job",
+          "Ask his coworkers to explain everything to him",
+          "Do some research on his own",
+          "Ignore the jargon and hope for the best"
+        ],
+        "answer": "Do some research on his own"
+      }
+    ]
+  },
+  {
+    "text": "In Arab culture, it is common to offer guests coffee or tea as a gesture of hospitality. The phrase 'ya hala' is often used to welcome guests into a home or gathering.",
+    "questions": [
+      {
+        "question": "What is a common gesture of hospitality in Arab culture?",
+        "options": [
+          "Offering food",
+          "Offering water",
+          "Offering coffee or tea",
+          "Offering a gift"
+        ],
+        "answer": "Offering coffee or tea"
+      },
+      {
+        "question": "What phrase is often used to welcome guests in Arab culture?",
+        "options": ["Assalamu alaikum", "Shukran", "Ya hala", "Mabrouk"],
+        "answer": "Ya hala"
+      }
+    ]
+  },
+  {
+    "text": "The expression 'break a leg' is a common idiom used to wish someone good luck before a performance or event. It is believed to have originated in the theater, where saying 'good luck' was considered bad luck.",
+    "questions": [
+      {
+        "question": "What is the meaning of the idiom 'break a leg'?",
+        "options": [
+          "To wish someone good luck",
+          "To wish someone bad luck",
+          "To encourage someone to take risks",
+          "To warn someone of danger"
+        ],
+        "answer": "To wish someone good luck"
+      },
+      {
+        "question": "Where is the expression 'break a leg' believed to have originated?",
+        "options": [
+          "In sports",
+          "In the military",
+          "In the theater",
+          "In politics"
+        ],
+        "answer": "In the theater"
+      }
+    ]
+  },
+  {
+    "text": "Ali is over the moon after getting a promotion at his job. He worked hard to climb the ladder and now he is finally reaping the rewards. His colleagues threw him a party to celebrate his achievement.",
+    "questions": [
+      {
+        "question": "How did Ali feel after getting the promotion?",
+        "options": ["Sad", "Angry", "Happy", "Frustrated"],
+        "answer": "Happy"
+      },
+      {
+        "question": "What did Ali's colleagues do to celebrate his promotion?",
+        "options": [
+          "They gave him a raise",
+          "They fired him",
+          "They threw him a party",
+          "They ignored him"
+        ],
+        "answer": "They threw him a party"
+      },
+      {
+        "question": "What does the phrase 'over the moon' mean?",
+        "options": [
+          "Extremely happy",
+          "Extremely sad",
+          "Extremely angry",
+          "Extremely tired"
+        ],
+        "answer": "Extremely happy"
+      }
+    ]
+  },
+  {
+    "text": "Ahmed was caught between a rock and a hard place. He had to choose between going to his friend's wedding or finishing an important work project. In the end, he decided to attend the wedding and finish his work project later.",
+    "questions": [
+      {
+        "question": "What was Ahmed caught between?",
+        "options": [
+          "A rock and a hard place",
+          "A pillow and a blanket",
+          "A desk and a chair",
+          "A pen and a pencil"
+        ],
+        "answer": "A rock and a hard place"
+      },
+      {
+        "question": "What were Ahmed's two options?",
+        "options": [
+          "Going to work or sleeping in",
+          "Attending a wedding or going on a vacation",
+          "Finishing a work project or attending a wedding",
+          "Watching a movie or reading a book"
+        ],
+        "answer": "Finishing a work project or attending a wedding"
+      },
+      {
+        "question": "What did Ahmed decide to do in the end?",
+        "options": [
+          "Finish his work project and skip the wedding",
+          "Attend the wedding and skip his work project",
+          "Do both the work project and attend the wedding",
+          "Do neither the work project nor attend the wedding"
+        ],
+        "answer": "Attend the wedding and finish his work project later"
+      }
+    ]
   }
 ]
