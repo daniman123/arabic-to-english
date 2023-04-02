@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "../App.css";
 
-import words from "../data/readingData/vocabulary/commonWords.json";
+import words from "../data/vocabulary/commonWords.json";
 
 const VocabularyExercise = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
