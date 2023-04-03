@@ -1,0 +1,121 @@
+.WritingExercise__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Style the start exercise button */
+button.start-exercise {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.start-exercise:hover {
+  background-color: #d32f2f;
+}
+
+/* Style the next exercise button */
+button.next-exercise {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.next-exercise:hover {
+  background-color: #0c7cd5;
+}
+
+.writingExercise {
+  width: 60%;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.writingExercise p {
+  margin-bottom: 10px;
+}
+
+.writingExercise a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.writingExercise a:hover {
+  text-decoration: underline;
+}
+
+.writingExercise form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.writingExercise label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.writingExercise input[type="radio"] {
+  margin-right: 5px;
+}
+
+.writingExercise button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.writingExercise button[type="submit"]:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.writingExercise .result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.writingExercise .result p {
+  margin-bottom: 10px;
+}
+
+.writingExercise .result .correct {
+  color: green;
+}
+
+.writingExercise .result .incorrect {
+  color: red;
+}
+
+.writingExercise .choice-label.correct {
+  color: green;
+}
+
+.writingExercise .choice-label.incorrect {
+  color: red;
+}

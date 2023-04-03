@@ -1,83 +1,508 @@
 {
-    "words": [
-      {
-        "english": "a",
-        "arabic": "ا",
-        "sentenceEnglish": "I have a pencil.",
-        "sentenceArabic": "لدي قلم."
-      },
-      {
-        "english": "an",
-        "arabic": "تعيين غير محدد",
-        "sentenceEnglish": "I need an umbrella.",
-        "sentenceArabic": "أحتاج مظلة."
-      },
-      {
-        "english": "the",
-        "arabic": "ال",
-        "sentenceEnglish": "The book is on the table.",
-        "sentenceArabic": "الكتاب على الطاولة."
-      },
-      {
-        "english": "is",
-        "arabic": "هو",
-        "sentenceEnglish": "She is a doctor.",
-        "sentenceArabic": "هي طبيبة."
-      },
-      {
-        "english": "are",
-        "arabic": "هي",
-        "sentenceEnglish": "They are my friends.",
-        "sentenceArabic": "هم أصدقائي."
-      },
-      {
-        "english": "and",
-        "arabic": "و",
-        "sentenceEnglish": "I like coffee and tea.",
-        "sentenceArabic": "أنا أحب القهوة والشاي."
-      },
-      {
-        "english": "in",
-        "arabic": "في",
-        "sentenceEnglish": "I live in New York.",
-        "sentenceArabic": "أنا أعيش في نيويورك."
-      },
-      {
-        "english": "on",
-        "arabic": "على",
-        "sentenceEnglish": "The cup is on the table.",
-        "sentenceArabic": "الكوب على الطاولة."
-      },
-      {
-        "english": "at",
-        "arabic": "في",
-        "sentenceEnglish": "I will meet you at the park.",
-        "sentenceArabic": "سألقاك في الحديقة."
-      },
-      {
-        "english": "with",
-        "arabic": "مع",
-        "sentenceEnglish": "I went to the store with my sister.",
-        "sentenceArabic": "ذهبت إلى المتجر مع أختي."
-      },
-      {
-        "english": "for",
-        "arabic": "لـ",
-        "sentenceEnglish": "I bought this gift for you.",
-        "sentenceArabic": "اشتريت هذه الهدية لك."
-      },
-      {
-        "english": "from",
-        "arabic": "من",
-        "sentenceEnglish": "I received a letter from my friend.",
-        "sentenceArabic": "تلقيت رسالة من صديقي."
-      },
-      {
-        "english": "to",
-        "arabic": "إلى",
-        "sentenceEnglish": "I am going to the beach.",
-        "sentenceArabic": "أنا ذاهب إلى الشاطئ."
-      }
-    ]
-  }
-  
+  "words": [
+    {
+      "english": "a",
+      "arabic": "هَـٰذَا",
+      "sentenceEnglish": "I have a pencil.",
+      "sentenceArabic": "عِندِي قَلَمٌ."
+    },
+    {
+      "english": "an",
+      "arabic": "هَـٰذِهِ",
+      "sentenceEnglish": "I need an umbrella.",
+      "sentenceArabic": "أَحْتاجُ مِظَلَّةً."
+    },
+    {
+      "english": "the",
+      "arabic": "الـ",
+      "sentenceEnglish": "The book is on the table.",
+      "sentenceArabic": "الكِتابُ عَلَى الطّاوِلَةِ."
+    },
+    {
+      "english": "is",
+      "arabic": "هُوَ",
+      "sentenceEnglish": "She is a doctor.",
+      "sentenceArabic": "هُوَ طَبِيبٌ."
+    },
+    {
+      "english": "are",
+      "arabic": "هُمْ",
+      "sentenceEnglish": "They are my friends.",
+      "sentenceArabic": "هُمْ أَصْدِقائِي."
+    },
+    {
+      "english": "and",
+      "arabic": "وَ",
+      "sentenceEnglish": "I like coffee and tea.",
+      "sentenceArabic": "أَحُبُّ القَهْوَةَ وَالشَّايَ."
+    },
+    {
+      "english": "in",
+      "arabic": "فِي",
+      "sentenceEnglish": "I live in New York.",
+      "sentenceArabic": "أَعِيشُ فِي نِيويُورْكَ."
+    },
+    {
+      "english": "on",
+      "arabic": "عَلَى",
+      "sentenceEnglish": "The cup is on the table.",
+      "sentenceArabic": "الكُوبُ عَلَى الطّاوِلَةِ."
+    },
+    {
+      "english": "at",
+      "arabic": "فِي",
+      "sentenceEnglish": "I will meet you at the park.",
+      "sentenceArabic": "سَأَلْتَقِي بِكَ فِي الحَدِيقَةِ."
+    },
+    {
+      "english": "with",
+      "arabic": "مَعَ",
+      "sentenceEnglish": "I went to the store with my sister.",
+      "sentenceArabic": "ذَهَبْتُ إِلَى المَتْجَرِ مَعَ أُخْتِي."
+    },
+    {
+      "english": "for",
+      "arabic": "لِـ",
+      "sentenceEnglish": "I bought this gift for you.",
+      "sentenceArabic": "اشْتَرَيْتُ هَذِهِ الهَدِيَّةَ لَكَ."
+    },
+    {
+      "english": "to",
+      "arabic": "إِلى",
+      "sentenceEnglish": "I am going to the beach.",
+      "sentenceArabic": "أَنَا ذَاهِبٌ إِلى الشَّاطِئِ."
+    },
+    {
+      "english": "of",
+      "arabic": "مِنْ",
+      "sentenceEnglish": "The cover of the book is red.",
+      "sentenceArabic": "غِطَاءُ الكِتابِ أَحْمَرُ اللَّوْنِ."
+    },
+    {
+      "english": "but",
+      "arabic": "لَكِنَّ",
+      "sentenceEnglish": "I am tired, but I still have work to do.",
+      "sentenceArabic": "أَنَا مُتْعَبٌ، لَكِنَّ لَدَيَّ عَمَلًا يَجِبُ أَنْ أَنْجَزَهُ."
+    },
+    {
+      "english": "or",
+      "arabic": "أَوْ",
+      "sentenceEnglish": "Do you want tea or coffee?",
+      "sentenceArabic": "هَلْ تُرِيدُ الشَّايَ أَوْ القَهْوَةَ؟"
+    },
+    {
+      "english": "not",
+      "arabic": "لَا",
+      "sentenceEnglish": "I do not like vegetables.",
+      "sentenceArabic": "أَنَا لَا أُحِبُّ الخُضْرَاوَاتِ."
+    },
+    {
+      "english": "with",
+      "arabic": "مَعَ",
+      "sentenceEnglish": "I am going to the party with my friends.",
+      "sentenceArabic": "أَنَا ذَاهِبٌ إِلى الحَفْلَةِ مَعَ أَصْدِقَائِي."
+    },
+    {
+      "english": "without",
+      "arabic": "بِدُونَ",
+      "sentenceEnglish": "I cannot drive without my glasses.",
+      "sentenceArabic": "لَا يُمْكِنُنِي القِيادَةَ بِدُونَ نَظَّارَاتِي."
+    },
+    {
+      "english": "because",
+      "arabic": "لِأَنَّ",
+      "sentenceEnglish": "I did not go to work today because I am sick.",
+      "sentenceArabic": "لَمْ أَذْهَبْ لِلعَمَلِ اليَوْمَ لِأَنِّي مَرِيضٌ."
+    },
+    {
+      "english": "while",
+      "arabic": "بَيْنَمَا",
+      "sentenceEnglish": "I like to read while I drink my coffee.",
+      "sentenceArabic": "أُحِبُّ القِرَاءَةَ بَيْنَمَا أَشْرَبُ قَهْوَتِي."
+    },
+    {
+      "english": "after",
+      "arabic": "بَعْدَ",
+      "sentenceEnglish": "I will go to the gym after work.",
+      "sentenceArabic": "سَأَذْهَبُ إِلَى النَّادِي الرِّيَاضِيِّ بَعْدَ العَمَلِ."
+    },
+    {
+      "english": "because",
+      "arabic": "لأَنَّ",
+      "sentenceEnglish": "I am happy because I passed the exam.",
+      "sentenceArabic": "أَنَا سَعِيدٌ لِأَنِّي اجْتَزْتُ الاخْتِبَارَ."
+    },
+    {
+      "english": "not",
+      "arabic": "لا",
+      "sentenceEnglish": "I do not like spicy food.",
+      "sentenceArabic": "أَنَا لا أُحِبُّ الأَكْلَ الحَارَّ."
+    },
+    {
+      "english": "but",
+      "arabic": "لَكِنَّ",
+      "sentenceEnglish": "I am tired but I need to finish my work.",
+      "sentenceArabic": "أَنَا مُتْعَبٌ لَكِنَّي أَحْتاجُ أَنْ أُنْهِيَ عَمَلِي."
+    },
+    {
+      "english": "so",
+      "arabic": "لِذَلِكَ",
+      "sentenceEnglish": "It's raining, so we cannot go to the beach.",
+      "sentenceArabic": "إِنَّهُ يُمْطِرُ، لِذَلِكَ لا نَسْتَطِيعُ الذَّهَابَ إِلَى الشَّاطِئِ."
+    },
+    {
+      "english": "if",
+      "arabic": "إِذَا",
+      "sentenceEnglish": "If it rains, I will stay at home.",
+      "sentenceArabic": "إِذَا امْطَرَ، سَأَبْقَى فِي البَيْتِ."
+    },
+    {
+      "english": "when",
+      "arabic": "عِنْدَمَا",
+      "sentenceEnglish": "I am going to the park when the weather gets better.",
+      "sentenceArabic": "أَنَا ذَاهِبٌ إِلَى الحَدِيقَةِ عِنْدَمَا يَتَحَسَّنُ الطَّقْسُ."
+    },
+    {
+      "english": "where",
+      "arabic": "أَيْنَ",
+      "sentenceEnglish": "Where is the train station?",
+      "sentenceArabic": "أَيْنَ مَحَطَّةُ القِطَارِ؟"
+    },
+    {
+      "english": "who",
+      "arabic": "مَنْ",
+      "sentenceEnglish": "Who is your favorite actor?",
+      "sentenceArabic": "مَنْ هُوَ مُمْثِلُكَ المُفَضَّلُ؟"
+    },
+    {
+      "english": "what",
+      "arabic": "مَا",
+      "sentenceEnglish": "What is your name?",
+      "sentenceArabic": "مَا هُوَ اسْمُكَ؟"
+    },
+    {
+      "english": "there",
+      "arabic": "هُنَاكَ",
+      "sentenceEnglish": "There is a restaurant on the corner.",
+      "sentenceArabic": "هُنَاكَ مَطْعَمٌ عَلَى الزّاوِيَةِ."
+    },
+    {
+      "english": "here",
+      "arabic": "هُنَا",
+      "sentenceEnglish": "I am here now.",
+      "sentenceArabic": "أَنَا هُنَا الآنَ."
+    },
+    {
+      "english": "like",
+      "arabic": "مِثْلُ",
+      "sentenceEnglish": "I like pizza.",
+      "sentenceArabic": "أَنَا أُحِبُّ البِيتْزَا."
+    },
+    {
+      "english": "love",
+      "arabic": "أُحِبُّ",
+      "sentenceEnglish": "I love my family.",
+      "sentenceArabic": "أُحِبُّ عَائِلَتِي."
+    },
+    {
+      "english": "hate",
+      "arabic": "أَكْرَهُ",
+      "sentenceEnglish": "I hate spiders.",
+      "sentenceArabic": "أَنَا أَكْرَهُ العَناكِبَ."
+    },
+    {
+      "english": "hello",
+      "arabic": "مَرْحَباً",
+      "sentenceEnglish": "Hello, how are you?",
+      "sentenceArabic": "مَرْحَباً، كَيْفَ حالُكَ؟"
+    },
+    {
+      "english": "goodbye",
+      "arabic": "مَعَ السَّلامَة",
+      "sentenceEnglish": "Goodbye, see you tomorrow.",
+      "sentenceArabic": "مَعَ السَّلامَة، أَراكَ غَدًا."
+    },
+    {
+      "english": "please",
+      "arabic": "مِنْ فَضْلِكَ",
+      "sentenceEnglish": "Can you please pass me the salt?",
+      "sentenceArabic": "هَلْ يُمْكِنُكَ مِنْ فَضْلِكَ تَمْرِيرُ المِلْحَ؟"
+    },
+    {
+      "english": "thank you",
+      "arabic": "شُكْرًا",
+      "sentenceEnglish": "Thank you for your help.",
+      "sentenceArabic": "شُكْرًا لِمُساعَدَتِكَ."
+    },
+    {
+      "english": "yes",
+      "arabic": "نَعَمْ",
+      "sentenceEnglish": "Yes, I will come to the party.",
+      "sentenceArabic": "نَعَمْ، سَأَحْضُرُ الحَفْلَةَ."
+    },
+    {
+      "english": "no",
+      "arabic": "لا",
+      "sentenceEnglish": "No, I don't want to go out tonight.",
+      "sentenceArabic": "لا، لا أُريدُ أَنْ أَخْرُجَ هَذِهِ اللَّيْلَةَ."
+    },
+    {
+      "english": "sorry",
+      "arabic": "آسِفٌ",
+      "sentenceEnglish": "I'm sorry for being late.",
+      "sentenceArabic": "آسِفٌ لِتَأَخُّرِي."
+    },
+    {
+      "english": "excuse me",
+      "arabic": "عُذْرًا",
+      "sentenceEnglish": "Excuse me, can you help me?",
+      "sentenceArabic": "عُذْرًا، هَلْ يُمْكِنُكَ مُساعَدَتِي؟"
+    },
+    {
+      "english": "where",
+      "arabic": "أَيْنَ",
+      "sentenceEnglish": "Where is the closest gas station?",
+      "sentenceArabic": "أَيْنَ أَقْرَبُ مَحَطَّةِ وَقُودٍ؟"
+    },
+    {
+      "english": "time",
+      "arabic": "وَقْت",
+      "sentenceEnglish": "What time is it?",
+      "sentenceArabic": "كَمْ السَّاعَةُ؟"
+    },
+    {
+      "english": "water",
+      "arabic": "مَاء",
+      "sentenceEnglish": "I am thirsty. Can I have some water?",
+      "sentenceArabic": "أَنَا عَطْشَى. هَلْ يُمْكِنُ أَنْ أَحْصُلَ عَلَى بَعْضِ المَاءِ؟"
+    },
+    {
+      "english": "food",
+      "arabic": "طَعَام",
+      "sentenceEnglish": "I am hungry. Do you have any food?",
+      "sentenceArabic": "أَنَا جَائِع. هَلْ لَدَيْكَ أَيُّ طَعَام؟"
+    },
+    {
+      "english": "book",
+      "arabic": "كِتَاب",
+      "sentenceEnglish": "I love reading books.",
+      "sentenceArabic": "أُحِبُّ قِرَاءَةَ الكُتُبِ."
+    },
+    {
+      "english": "school",
+      "arabic": "مَدْرَسَة",
+      "sentenceEnglish": "I go to school every day.",
+      "sentenceArabic": "أَنَا أَذْهَبُ إِلَى المَدْرَسَةِ كُلَّ يَوْمٍ."
+    },
+    {
+      "english": "teacher",
+      "arabic": "مُعَلِّم",
+      "sentenceEnglish": "My teacher is very kind.",
+      "sentenceArabic": "مُعَلِّمِي طَيِّبٌ جِدًّا."
+    },
+    {
+      "english": "student",
+      "arabic": "طَالِب",
+      "sentenceEnglish": "I am a student at the university.",
+      "sentenceArabic": "أَنَا طَالِبٌ فِي الجَامِعَةِ."
+    },
+    {
+      "english": "computer",
+      "arabic": "حَاسُوب",
+      "sentenceEnglish": "I use the computer for work.",
+      "sentenceArabic": "أَنَا أَسْتَخْدِمُ الحَاسُوبَ لِلعَمَلِ."
+    },
+    {
+      "english": "phone",
+      "arabic": "هَاتِف",
+      "sentenceEnglish": "I need to buy a new phone.",
+      "sentenceArabic": "أَحْتَاجُ إِلَى شِرَاءِ هَاتِفٍ جَدِيدٍ."
+    },
+    {
+      "english": "camera",
+      "arabic": "كَامِيرَا",
+      "sentenceEnglish": "I love taking pictures with my camera.",
+      "sentenceArabic": "أُحِبُّ التَّقَاطَ الصُّورَ بِكَامِيرَتِي."
+    },
+    {
+      "english": "woman",
+      "arabic": "امرأة",
+      "sentenceEnglish": "The woman is walking on the street.",
+      "sentenceArabic": "المرأة تسير في الشارع."
+    },
+    {
+      "english": "man",
+      "arabic": "رجل",
+      "sentenceEnglish": "The man is wearing a hat.",
+      "sentenceArabic": "الرجل يرتدي قبعة."
+    },
+    {
+      "english": "child",
+      "arabic": "طفل",
+      "sentenceEnglish": "The child is playing with a ball.",
+      "sentenceArabic": "الطفل يلعب بكرة."
+    },
+    {
+      "english": "food",
+      "arabic": "طعام",
+      "sentenceEnglish": "I like to eat spicy food.",
+      "sentenceArabic": "أنا أحب أكل الطعام الحار."
+    },
+    {
+      "english": "water",
+      "arabic": "ماء",
+      "sentenceEnglish": "I need to drink water.",
+      "sentenceArabic": "أنا بحاجة لشرب الماء."
+    },
+    {
+      "english": "house",
+      "arabic": "منزل",
+      "sentenceEnglish": "The house has a big garden.",
+      "sentenceArabic": "المنزل لديه حديقة كبيرة."
+    },
+    {
+      "english": "car",
+      "arabic": "سيارة",
+      "sentenceEnglish": "I drive a red car.",
+      "sentenceArabic": "أقود سيارة حمراء."
+    },
+    {
+      "english": "book",
+      "arabic": "كتاب",
+      "sentenceEnglish": "I like to read books in my free time.",
+      "sentenceArabic": "أحب أن أقرأ الكتب في وقت فراغي."
+    },
+    {
+      "english": "computer",
+      "arabic": "حاسوب",
+      "sentenceEnglish": "I use my computer for work.",
+      "sentenceArabic": "أستخدم حاسوبي للعمل."
+    },
+    {
+      "english": "phone",
+      "arabic": "هاتف",
+      "sentenceEnglish": "I need to charge my phone.",
+      "sentenceArabic": "أحتاج إلى شحن هاتفي."
+    },
+    {
+      "english": "now",
+      "arabic": "الآن",
+      "sentenceEnglish": "I am busy now.",
+      "sentenceArabic": "أنا مشغول الآن."
+    },
+    {
+      "english": "always",
+      "arabic": "دَائِمًا",
+      "sentenceEnglish": "I always drink coffee in the morning.",
+      "sentenceArabic": "أنا أشرب القهوة دائمًا في الصباح."
+    },
+    {
+      "english": "never",
+      "arabic": "أَبَدًا",
+      "sentenceEnglish": "I never eat sushi.",
+      "sentenceArabic": "أنا لا أكل السوشي أبدًا."
+    },
+    {
+      "english": "sometimes",
+      "arabic": "أَحْيَانًا",
+      "sentenceEnglish": "I sometimes watch TV.",
+      "sentenceArabic": "أنا أشاهد التلفزيون أحيانًا."
+    },
+    {
+      "english": "tomorrow",
+      "arabic": "غَدًا",
+      "sentenceEnglish": "I will go to the dentist tomorrow.",
+      "sentenceArabic": "سأذهب إلى طبيب الأسنان غدًا."
+    },
+    {
+      "english": "yesterday",
+      "arabic": "أمس",
+      "sentenceEnglish": "I watched a movie yesterday.",
+      "sentenceArabic": "شاهدت فيلمًا أمس."
+    },
+    {
+      "english": "weekend",
+      "arabic": "نَهْايَةُ الأُسْبُوعِ",
+      "sentenceEnglish": "I like to go to the beach on the weekend.",
+      "sentenceArabic": "أحب الذهاب إلى الشاطئ في نهاية الأسبوع."
+    },
+    {
+      "english": "holiday",
+      "arabic": "عُطْلَةٌ",
+      "sentenceEnglish": "I am planning to travel during the holiday.",
+      "sentenceArabic": "أنا أخطط للسفر خلال العطلة."
+    },
+    {
+      "english": "morning",
+      "arabic": "الصَّبَاحُ",
+      "sentenceEnglish": "I like to exercise in the morning.",
+      "sentenceArabic": "أحب ممارسة التمارين الرياضية في الصباح."
+    },
+    {
+      "english": "afternoon",
+      "arabic": "الظُّهْرُ",
+      "sentenceEnglish": "I have a meeting in the afternoon.",
+      "sentenceArabic": "لدي اجتماع في الظهر."
+    },
+    {
+      "english": "boy",
+      "arabic": "ولد",
+      "sentenceEnglish": "The boy is playing in the park.",
+      "sentenceArabic": "الولد يلعب في الحديقة."
+    },
+    {
+      "english": "girl",
+      "arabic": "بنت",
+      "sentenceEnglish": "The girl is reading a book.",
+      "sentenceArabic": "البنت تقرأ كتاباً."
+    },
+    {
+      "english": "book",
+      "arabic": "كتاب",
+      "sentenceEnglish": "I borrowed a book from the library.",
+      "sentenceArabic": "استعرضت كتاباً من المكتبة."
+    },
+    {
+      "english": "car",
+      "arabic": "سيارة",
+      "sentenceEnglish": "I drove my car to work today.",
+      "sentenceArabic": "قادت سيارتي إلى العمل اليوم."
+    },
+    {
+      "english": "computer",
+      "arabic": "حاسوب",
+      "sentenceEnglish": "I use my computer for work and entertainment.",
+      "sentenceArabic": "أستخدم حاسوبي للعمل والترفيه."
+    },
+    {
+      "english": "house",
+      "arabic": "منزل",
+      "sentenceEnglish": "I live in a small house in the suburbs.",
+      "sentenceArabic": "أعيش في منزل صغير في الضواحي."
+    },
+    {
+      "english": "food",
+      "arabic": "طعام",
+      "sentenceEnglish": "I love to try new types of food.",
+      "sentenceArabic": "أحب تجربة أنواع جديدة من الطعام."
+    },
+    {
+      "english": "water",
+      "arabic": "ماء",
+      "sentenceEnglish": "I drink a lot of water every day.",
+      "sentenceArabic": "أشرب الكثير من الماء كل يوم."
+    },
+    {
+      "english": "school",
+      "arabic": "مدرسة",
+      "sentenceEnglish": "I am studying at a school for computer science.",
+      "sentenceArabic": "أنا أدرس في مدرسة لعلوم الحاسوب."
+    },
+    {
+      "english": "university",
+      "arabic": "جامعة",
+      "sentenceEnglish": "I graduated from a university with a degree in business.",
+      "sentenceArabic": "تخرجت من جامعة بدرجة في الأعمال."
+    }
+  ]
+}

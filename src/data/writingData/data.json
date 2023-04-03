@@ -1,0 +1,77 @@
+[
+  {
+    "sentence": "Tom was walking to the 1 to buy some groceries. On his way, he saw a 2 that was giving away free samples of ice cream. He decided to try some and was 3 by how delicious it was. When he got to the 4, he bought some ice cream to take home for later.",
+    "choices": [
+      {
+        "number": "1",
+        "options": ["market", "park", "museum", "school"],
+        "answer": "market"
+      },
+      {
+        "number": "2",
+        "options": ["restaurant", "store", "library", "museum"],
+        "answer": "market"
+      },
+      {
+        "number": "3",
+        "options": ["surprised", "disappointed", "tired", "angry"],
+        "answer": "market"
+      },
+      {
+        "number": "4",
+        "options": ["market", "park", "museum", "school"],
+        "answer": "market"
+      }
+    ]
+  },
+  {
+    "sentence": "Jane was running late for her 1 appointment. She quickly put on her 2 and rushed out the door. As she was driving, she got stuck in 3. She realized she was not going to make it on time, so she called to 4 and rescheduled.",
+    "choices": [
+      {
+        "number": "1",
+        "options": ["doctor", "hair salon", "job interview", "meeting"],
+        "answer": "meeting"
+      },
+      {
+        "number": "2",
+        "options": ["coat", "sneakers", "suit", "sunglasses"],
+        "answer": "suit"
+      },
+      {
+        "number": "3",
+        "options": ["traffic", "rain", "road work", "accident"],
+        "answer": "traffic"
+      },
+      {
+        "number": "4",
+        "options": ["reschedule", "cancel", "proceed", "postpone"],
+        "answer": "reschedule"
+      }
+    ]
+  },
+  {
+    "sentence": "Max decided to take a 1 class to learn a new skill. He chose to take a 2 class because he always admired musicians and wanted to learn how to play an instrument. His first lesson was difficult, but his instructor was patient and helped him 3 the basics. After several weeks of practice, Max was able to 4 a song and was proud of his progress.",
+    "choices": [
+      {
+        "number": "1",
+        "options": ["cooking", "language", "dance", "music"],
+        "answer": "music"
+      },
+      {
+        "number": "2",
+        "options": ["guitar", "painting", "yoga", "cooking"],
+        "answer": "guitar"
+      },
+      {
+        "number": "3",
+        "options": ["teach", "skip", "master", "learn"],
+        "answer": "learn"
+      },
+      {
+        "number": "4",
+        "options": ["sing", "dance", "play", "draw"],
+        "answer": "play"
+      }
+    ]
+  }
+]

@@ -5,7 +5,7 @@ import "./App.css";
 
 import VocabularyExercise from "./components/CommonWords";
 import ReadingExercise from "./components/ReadingExercise";
-// import WritingExercise from "./components/WritingExercise";
+import WritingExercise from "./components/WritingExercise";
 
 function App() {
   const [clicked, setClicked] = useState(false);
@@ -25,18 +25,16 @@ function App() {
             <li>
               <Link to="/reading-exercise">Reading Exercises</Link>
             </li>
-            {/* <li>
-            <Link to="/writing">Writing Exercises</Link>
-          </li>*/}
+            <li>
+              <Link to="/writing-exercise">Writing Exercise</Link>
+            </li>
           </ul>
         </nav>
       </div>
       <Routes>
         <Route path="/vocabulary-exercise" element={<VocabularyExercise />} />
         <Route path="/reading-exercise" element={<ReadingExercise />} />
-        {/* <Route path="/writing">
-            <WritingExercise />
-          </Route> */}
+        <Route path="/writing-exercise" element={<WritingExercise />} />
       </Routes>
     </div>
   );
