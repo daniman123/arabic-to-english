@@ -10,6 +10,12 @@ h1 {
   margin-bottom: 20px;
 }
 
+.writing__instr {
+  word-wrap: break-word;
+  /* font-size: 16px; */
+  width: 50%;
+}
+
 /* Style the start exercise button */
 button.start-exercise {
   padding: 10px 20px;
