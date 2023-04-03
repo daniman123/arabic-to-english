@@ -49,6 +49,16 @@ const WritingExercise = () => {
   return (
     <div className="WritingExercise__container">
       <h1>Writing Exercise</h1>
+      <p>
+        تمرين ملء الفراغات هو نوع من التمارين التعليمية التي يتم فيها تقديم
+        عبارة أو جملة مع كلمة واحدة أو أكثر مفقودة. يجب على المستخدم ملء
+        المسافات المفقودة عن طريق كتابة الكلمات المناسبة في المساحات الفارغة
+        الموجودة. يتم استبدال المساحات الفارغة بالأرقام ، ثم عليك النقر فوق
+        الكلمة المفقودة الصحيحة تحت الرقم المقابل لها. يستخدم هذا النوع من
+        التمارين عادة لاختبار معرفة الشخص وفهمه لموضوع معين. لبدء التمرين ، يرجى
+        
+        ."Start Exercise" النقر على الزر الذي يقول
+      </p>
       {exercise.sentence ? (
         <div className="writingExercise">
           <p>
@@ -92,12 +102,16 @@ const WritingExercise = () => {
 
           {submitted && (
             <div className="result">
-              <button className="next-exercise" onClick={startExercise}>Next Exercise</button>
+              <button className="next-exercise" onClick={startExercise}>
+                Next Exercise
+              </button>
             </div>
           )}
         </div>
       ) : (
-        <button className="start-exercise" onClick={startExercise}>Start Exercise</button>
+        <button className="start-exercise" onClick={startExercise}>
+          Start Exercise
+        </button>
       )}
     </div>
   );
