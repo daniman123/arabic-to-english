@@ -5,7 +5,7 @@ import commonWords from "../data/vocabulary/commonWords.json";
 
 import VocabularyExercise from "./Vocabulary/CommonWords";
 import ReadingExercise from "./Reading/ReadingExercise";
-import WritingExercise from "./WritingExercise";
+import WritingExercise from "./Writing/WritingExercise";
 
 const AppRoutes = () => {
   return (
