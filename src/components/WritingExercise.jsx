@@ -3,11 +3,7 @@ import exerciseData from "../data/writingData/data.json";
 import "./WritingExercise.css";
 
 const WritingExercise = () => {
-  const [exercise, setExercise] = useState({
-    index: 0,
-    sentence: "",
-    choices: [],
-  });
+  const [exercise, setExercise] = useState({});
   const [answers, setAnswers] = useState([]);
   const [submitted, setSubmitted] = useState(false);
 
@@ -42,7 +38,7 @@ const WritingExercise = () => {
   const getAnswerClass = (choice, option) => {
     if (!submitted) return "";
     if (choice.answer === option) return "correct";
-    if (answers[choice.number - 1] === option) return "incorrect";
+    if (answers[choice.number - 1]?.trim() === option) return "incorrect";
     return "";
   };
 
@@ -65,19 +61,19 @@ const WritingExercise = () => {
             ))}
           </p>
           <form onSubmit={submitAnswers}>
-            {exercise.choices.map((choice, index) => (
+            {exercise.choices.map((choice) => (
               <div key={choice.number}>
                 <p>{choice.number}. </p>
-                {choice.options.map((option, optionIndex) => (
+                {choice.options.map((option) => (
                   <label
-                    key={optionIndex}
+                    key={option}
                     className={getAnswerClass(choice, option)}
                   >
                     <input
                       type="radio"
                       value={option}
-                      checked={answers[index] === option}
-                      onChange={(e) => handleAnswerChange(e, index)}
+                      checked={answers[choice.number - 1] === option}
+                      onChange={(e) => handleAnswerChange(e, choice.number - 1)}
                       disabled={submitted}
                     />
                     {option}
@@ -92,14 +88,18 @@ const WritingExercise = () => {
 
           {submitted && (
             <div className="result">
-              <button className="next-exercise" onClick={startExercise}>
+              <button
+                className="next-exercise"
+                onClick={startExercise}
+                disabled={!submitted}
+              >
                 Next Exercise
               </button>
             </div>
           )}
         </div>
       ) : (
-        <>
+        <div className="writingExercise">
           <p className="writing__instr">
             تمرين ملء الفراغات هو نوع من التمارين التعليمية التي يتم فيها تقديم
             عبارة أو جملة مع كلمة واحدة أو أكثر مفقودة. يجب على المستخدم ملء
@@ -107,7 +107,7 @@ const WritingExercise = () => {
             الموجودة. يتم استبدال المساحات الفارغة بالأرقام ، ثم عليك النقر فوق
             الكلمة المفقودة الصحيحة تحت الرقم المقابل لها. يستخدم هذا النوع من
             التمارين عادة لاختبار معرفة الشخص وفهمه لموضوع معين. لبدء التمرين ،
-            يرجى 
+            يرجى
             <br></br>
             <br></br>
             ."Start Exercise" النقر على الزر الذي يقول
@@ -115,7 +115,7 @@ const WritingExercise = () => {
           <button className="start-exercise" onClick={startExercise}>
             Start Exercise
           </button>
-        </>
+        </div>
       )}
     </div>
   );
