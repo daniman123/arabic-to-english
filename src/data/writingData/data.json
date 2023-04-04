@@ -10,12 +10,12 @@
       {
         "number": "2",
         "options": ["restaurant", "store", "library", "museum"],
-        "answer": "market"
+        "answer": "store"
       },
       {
         "number": "3",
         "options": ["surprised", "disappointed", "tired", "angry"],
-        "answer": "market"
+        "answer": "surprised"
       },
       {
         "number": "4",

@@ -4,8 +4,8 @@ import UserReadingStats from "./UserReadingStats";
 
 import dater from "../data/readingData/data.json";
 
-import exerciseLevelTracker from "../functions/exerciseLevelTracker";
-const lvlTracker = new exerciseLevelTracker(dater);
+// import exerciseLevelTracker from "../functions/exerciseLevelTracker";
+// const lvlTracker = new exerciseLevelTracker(dater);
 
 function ReadingExercise() {
   const [text, setText] = useState("");
@@ -14,7 +14,7 @@ function ReadingExercise() {
   const [score, setScore] = useState(0);
   const [submitted, setSubmitted] = useState(false);
 
-  console.log(lvlTracker.getTextsLengthRanking());
+  // console.log(lvlTracker.getTextsLengthRanking());
 
   const startExercise = () => {
     const texts = dater;
