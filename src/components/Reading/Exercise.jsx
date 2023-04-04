@@ -2,6 +2,7 @@ import React from "react";
 import Text from "./Text";
 import Question from "./Question";
 import UserStats from "./UserStats";
+import UserReadingStats from "./UserReadingStats";
 
 const Exercise = ({
   text,
@@ -36,6 +37,7 @@ const Exercise = ({
         </button>
       </form>
       <br />
+      <UserReadingStats score={score} />
       <UserStats score={score} />
       <br />
 
