@@ -3,7 +3,9 @@ import { Routes, Route, Link } from "react-router-dom";
 
 import "./App.css";
 
-import VocabularyExercise from "./components/CommonWords";
+import JsonData from "./data/vocabulary/commonWords.json";
+
+import VocabularyExercise from "./components/Vocabulary/CommonWords";
 import ReadingExercise from "./components/Reading/ReadingExercise";
 import WritingExercise from "./components/WritingExercise";
 
@@ -32,7 +34,10 @@ function App() {
         </nav>
       </div>
       <Routes>
-        <Route path="/vocabulary-exercise" element={<VocabularyExercise />} />
+        <Route
+          path="/vocabulary-exercise"
+          element={<VocabularyExercise words={JsonData.words} />}
+        />
         <Route path="/reading-exercise" element={<ReadingExercise />} />
         <Route path="/writing-exercise" element={<WritingExercise />} />
       </Routes>
