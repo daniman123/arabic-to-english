@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 
-import UserReadingStats from "./UserReadingStats";
-
-import dater from "../data/readingData/data.json";
-
-// import exerciseLevelTracker from "../functions/exerciseLevelTracker";
-// const lvlTracker = new exerciseLevelTracker(dater);
+import {
+  getRandomData,
+  resetExerciseData,
+  saveExerciseData,
+} from "../readingExFiles/ExerciseData";
+import Question from "../readingExFiles/Question";
+import UserStats from "../readingExFiles/UserStats";
 
 function ReadingExercise() {
   const [text, setText] = useState("");
@@ -14,13 +15,8 @@ function ReadingExercise() {
   const [score, setScore] = useState(0);
   const [submitted, setSubmitted] = useState(false);
 
-  // console.log(lvlTracker.getTextsLengthRanking());
-
   const startExercise = () => {
-    const texts = dater;
-    const availableData = filterCompletedTexts(texts);
-    const filteredData = filterTextsByLength(availableData);
-    const randomData = getRandomData(filteredData);
+    const randomData = getRandomData(score);
 
     if (!randomData) {
       resetExerciseData();
@@ -33,74 +29,11 @@ function ReadingExercise() {
     setSubmitted(false);
   };
 
-  const filterCompletedTexts = (texts) => {
-    const completedData =
-      JSON.parse(window.localStorage.getItem("readingExerciseData")) || [];
-    return texts.filter(
-      (text) => !completedData.some((data) => data.text === text.text)
-    );
-  };
-
-  const filterTextsByLength = (texts) => {
-    const maxLength = score < 10 ? 100 : score < 17 ? 250 : Infinity;
-    const minLength = score < 10 ? 0 : score < 17 ? 101 : 251;
-    return texts.filter(
-      (data) => data.text.length >= minLength && data.text.length <= maxLength
-    );
-  };
-
-  const getRandomData = (data) => {
-    return data.length > 0
-      ? data[Math.floor(Math.random() * data.length)]
-      : null;
-  };
-
-  const resetExerciseData = () => {
-    window.localStorage.removeItem("readingExerciseData");
-  };
-
   const handleAnswerChange = (e, index) => {
     const newAnswers = [...answers];
     newAnswers[index] = e.target.value;
     setAnswers(newAnswers);
   };
-
-  const renderQuestion = (question, index) => (
-    <div key={index}>
-      <p>
-        <span>
-          <a
-            href={`https://translate.google.com/#en/ar/${question.question}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {question.question}
-          </a>{" "}
-        </span>
-      </p>
-      {question.options.map((option, optionIndex) => (
-        <label
-          key={optionIndex}
-          className={
-            submitted
-              ? option === question.answer
-                ? "correct"
-                : "incorrect"
-              : ""
-          }
-        >
-          <input
-            type="radio"
-            name={`question-${index}`}
-            value={option}
-            checked={answers[index] === option}
-            onChange={(e) => handleAnswerChange(e, index)}
-          />
-          {option}
-        </label>
-      ))}
-    </div>
-  );
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -117,16 +50,7 @@ function ReadingExercise() {
 
     setScore((prevScore) => prevScore + tempScore);
     setSubmitted(true);
-    const data =
-      JSON.parse(window.localStorage.getItem("readingExerciseData")) || [];
-    const newData = {
-      text,
-      questions,
-      answers,
-      percentage,
-    };
-    data.push(newData);
-    window.localStorage.setItem("readingExerciseData", JSON.stringify(data));
+    saveExerciseData(text, questions, answers, percentage);
   };
 
   const resetAnswers = () => {
@@ -156,15 +80,23 @@ function ReadingExercise() {
             ))}
           </p>
           <form onSubmit={handleSubmit}>
-            {questions.map(renderQuestion)}
+            {questions.map((question, index) => (
+              <Question
+                key={index}
+                question={question}
+                index={index}
+                answers={answers}
+                submitted={submitted}
+                handleAnswerChange={handleAnswerChange}
+              />
+            ))}
             <br />
             <button type="submit" disabled={isSubmitDisabled}>
               Submit
             </button>
           </form>
           <br></br>
-          <UserReadingStats score={score} />
-          <p>Your score: {score} / 30</p>
+          <UserStats score={score} />
           <br></br>
 
           <button
@@ -188,7 +120,8 @@ function ReadingExercise() {
             التعليمية الأخرى لتقييم قدرات الطالب في القراءة والفهم.
             <br></br>
             <br></br>
-            "Start Exercise".لبدء تمرين فهم القراءة، يرجى النقر على الزر الذي يقول 
+            "Start Exercise".لبدء تمرين فهم القراءة، يرجى النقر على الزر الذي
+            يقول
           </p>
           <br></br>
 
