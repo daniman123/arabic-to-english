@@ -4,7 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 import VocabularyExercise from "./components/CommonWords";
-import ReadingExercise from "./components/ReadingExercise";
+import ReadingExercise from "./components/Reading/ReadingExercise";
 import WritingExercise from "./components/WritingExercise";
 
 function App() {
