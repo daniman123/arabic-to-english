@@ -31,7 +31,6 @@ const WritingExercise = () => {
 
   const submitAnswers = (e) => {
     e.preventDefault();
-    if (submitted) return;
     setSubmitted(true);
   };
 
