@@ -11,13 +11,14 @@ const VocabularyExercise = ({ words }) => {
   };
 
   return (
-    <>
+    <div className="CommonWords">
       <VocabularyExerciseUI word={words[currentWordIndex]} />
+      <br></br>
       <VocabularyExerciseState
         words={words}
         onIndexChange={handleIndexChange}
       />
-    </>
+    </div>
   );
 };
 

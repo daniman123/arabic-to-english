@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const VocabularyExerciseState = ({ words, onIndexChange }) => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
@@ -11,6 +12,7 @@ const VocabularyExerciseState = ({ words, onIndexChange }) => {
   };
 
   return (
+    
     <button className="CommonWords" onClick={handleNextClick}>
       Next
     </button>

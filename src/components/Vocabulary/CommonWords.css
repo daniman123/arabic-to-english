@@ -1,8 +1,8 @@
 .CommonWords {
-    margin: 1rem auto;
-    margin-top: 3rem;
-    max-width: 800px; /* adjust as needed */
-    }
+  margin: 1rem auto;
+  margin-top: 3rem;
+  max-width: 800px; /* adjust as needed */
+}
 
 .CommonWords h2 {
   font-size: 1.5rem;
@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-.CommonWords button {
+button.CommonWords {
   background-color: #0077ff;
   color: #fff;
   border: none;
@@ -28,6 +28,6 @@
   transition: background-color 0.3s ease;
 }
 
-.CommonWords button:hover {
+button.CommonWords:hover {
   background-color: #005ae6;
 }
