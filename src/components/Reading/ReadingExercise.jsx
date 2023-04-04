@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-
 import {
   getRandomData,
   resetExerciseData,
   saveExerciseData,
 } from "./ExerciseData";
-import Question from "./Question";
-import UserStats from "./UserStats";
+import Introduction from "./Introduction";
+import Exercise from "./Exercise";
 
 function ReadingExercise() {
   const [text, setText] = useState("");
@@ -20,6 +19,10 @@ function ReadingExercise() {
 
     if (!randomData) {
       resetExerciseData();
+      setText("");
+      setQuestions([]);
+      setAnswers([]);
+      setSubmitted(false);
       return;
     }
 
@@ -65,70 +68,20 @@ function ReadingExercise() {
       <h1>Reading Comprehension Exercise</h1>
 
       {text ? (
-        <div>
-          <p className="text">
-            {text.split(" ").map((word, index) => (
-              <span key={index}>
-                <a
-                  href={`https://translate.google.com/#en/ar/${word}`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {word}
-                </a>{" "}
-              </span>
-            ))}
-          </p>
-          <form onSubmit={handleSubmit}>
-            {questions.map((question, index) => (
-              <Question
-                key={index}
-                question={question}
-                index={index}
-                answers={answers}
-                submitted={submitted}
-                handleAnswerChange={handleAnswerChange}
-              />
-            ))}
-            <br />
-            <button type="submit" disabled={isSubmitDisabled}>
-              Submit
-            </button>
-          </form>
-          <br></br>
-          <UserStats score={score} />
-          <br></br>
-
-          <button
-            className="next_exercise"
-            onClick={() => {
-              resetAnswers();
-              startExercise();
-            }}
-          >
-            Next Exercise
-          </button>
-        </div>
+        <Exercise
+          text={text}
+          questions={questions}
+          answers={answers}
+          submitted={submitted}
+          handleAnswerChange={handleAnswerChange}
+          handleSubmit={handleSubmit}
+          isSubmitDisabled={isSubmitDisabled}
+          score={score}
+          resetAnswers={resetAnswers}
+          startExercise={startExercise}
+        />
       ) : (
-        <>
-          <p>
-            تمرين فهم القراءة هو نوع من التمارين التعليمية، حيث يتم تقديم مقالة
-            أو نص للمستخدم للقراءة والفهم. ثم يتعين على المستخدم الإجابة على
-            الأسئلة المتعلقة بالنص، مما يختبر فهمه وفهمه للنص. يساعد هذا النوع
-            من التمارين على تطوير وتحسين مهارات القراءة، بالإضافة إلى المهارات
-            النقدية والتحليلية. ويتم استخدامه عادة في المدارس والمؤسسات
-            التعليمية الأخرى لتقييم قدرات الطالب في القراءة والفهم.
-            <br></br>
-            <br></br>
-            "Start Exercise".لبدء تمرين فهم القراءة، يرجى النقر على الزر الذي
-            يقول
-          </p>
-          <br></br>
-
-          <button className="start_exercise" onClick={startExercise}>
-            Start Exercise
-          </button>
-        </>
+        <Introduction startExercise={startExercise} />
       )}
     </div>
   );
