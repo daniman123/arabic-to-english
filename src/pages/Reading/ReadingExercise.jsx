@@ -1,11 +1,10 @@
+
 import React, { useState } from "react";
-import {
-  getRandomData,
-  resetExerciseData,
-  saveExerciseData,
-} from "./ExerciseData";
 import Introduction from "./Introduction";
 import Exercise from "./Exercise";
+import { saveExerciseData } from "./ExerciseData";
+
+import { startExercise, calculateScore } from "./ExerciseLogic";
 
 function ReadingExercise() {
   const [text, setText] = useState("");
@@ -14,34 +13,10 @@ function ReadingExercise() {
   const [score, setScore] = useState(0);
   const [submitted, setSubmitted] = useState(false);
 
-  const startExercise = () => {
-    const randomData = getRandomData(score || 0);
-
-    if (!randomData) {
-      resetExerciseData();
-      setText("");
-      setQuestions([]);
-      setAnswers([]);
-      setSubmitted(false);
-      return;
-    }
-
-    setText(randomData.text);
-    setQuestions(randomData.questions || []); // add this check
-    setAnswers(new Array(randomData.questions?.length || 0).fill(""));
-    setSubmitted(false);
-  };
-
   const handleAnswerChange = (e, index) => {
     const newAnswers = [...answers];
     newAnswers[index] = e.target.value;
     setAnswers(newAnswers);
-  };
-
-  const calculateScore = (questions, answers) => {
-    return answers.reduce((acc, answer, index) => {
-      return answer === questions[index].answer ? acc + 1 : acc;
-    }, 0);
   };
 
   const handleSubmit = (e) => {
@@ -81,10 +56,28 @@ function ReadingExercise() {
           isSubmitDisabled={isSubmitDisabled}
           score={score}
           resetAnswers={resetAnswers}
-          startExercise={startExercise}
+          startExercise={() =>
+            startExercise(
+              score,
+              setText,
+              setQuestions,
+              setAnswers,
+              setSubmitted
+            )
+          }
         />
       ) : (
-        <Introduction startExercise={startExercise} />
+        <Introduction
+          startExercise={() =>
+            startExercise(
+              score,
+              setText,
+              setQuestions,
+              setAnswers,
+              setSubmitted
+            )
+          }
+        />
       )}
     </div>
   );
