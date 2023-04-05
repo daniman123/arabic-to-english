@@ -1,27 +1,43 @@
 import React from "react";
 
-function Question({ question, index, answers, submitted, handleAnswerChange }) {
+function QuestionText({ question }) {
   return (
-    <div key={index}>
+    <div>
       <p>
         <span>
           <a
-            href={`https://translate.google.com/#en/ar/${question.question}`}
+            href={`https://translate.google.com/#en/ar/${question}`}
             target="_blank"
             rel="noreferrer"
           >
-            {question.question}
+            {question}
           </a>{" "}
         </span>
       </p>
-      {question.options.map((option, optionIndex) => (
+    </div>
+  );
+}
+
+function QuestionOptions({
+  options,
+  index,
+  selectedAnswer,
+  onAnswerChange,
+  correctAnswerStyle,
+  incorrectAnswerStyle,
+}) {
+  const submitted = selectedAnswer !== null;
+
+  return (
+    <div>
+      {options.map((option, optionIndex) => (
         <label
           key={optionIndex}
           className={
             submitted
-              ? option === question.answer
-                ? "correct"
-                : "incorrect"
+              ? option === selectedAnswer
+                ? correctAnswerStyle
+                : incorrectAnswerStyle
               : ""
           }
         >
@@ -29,12 +45,35 @@ function Question({ question, index, answers, submitted, handleAnswerChange }) {
             type="radio"
             name={`question-${index}`}
             value={option}
-            checked={answers[index] === option}
-            onChange={(e) => handleAnswerChange(e, index)}
+            checked={selectedAnswer === option}
+            onChange={(e) => onAnswerChange(e.target.value)}
           />
           {option}
         </label>
       ))}
+    </div>
+  );
+}
+
+function Question({
+  question,
+  index,
+  answers,
+  onAnswerChange,
+  correctAnswerStyle,
+  incorrectAnswerStyle,
+}) {
+  return (
+    <div key={index}>
+      <QuestionText question={question.question} />
+      <QuestionOptions
+        options={question.options}
+        index={index}
+        selectedAnswer={answers[index]}
+        onAnswerChange={(value) => onAnswerChange(index, value)}
+        correctAnswerStyle={correctAnswerStyle}
+        incorrectAnswerStyle={incorrectAnswerStyle}
+      />
     </div>
   );
 }

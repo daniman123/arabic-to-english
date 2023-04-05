@@ -22,5 +22,3 @@ export default function Text({ text, getLink = getDefaultLink }) {
 
   return <p className="text">{wordsWithLinks}</p>;
 }
-
-
