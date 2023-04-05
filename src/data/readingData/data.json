@@ -2827,7 +2827,7 @@
       },
       {
         "question": "How often does Jenny perform?",
-        "options": ["Once a month", "Once a week", "Twice a week", "Every day"],
+        "options": ["Once a month", "Once a week", "Twice a week", "Often"],
         "answer": "Often"
       }
     ]
