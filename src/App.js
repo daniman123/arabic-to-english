@@ -1,15 +1,9 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import AppRoutes from "./components/AppRoutes";
+import Home from "./pages/Home/Home";
 
 const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <AppRoutes />
-    </div>
-  );
+  return <Home />;
 };
 
 export default App;
