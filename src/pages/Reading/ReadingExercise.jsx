@@ -15,7 +15,7 @@ function ReadingExercise() {
   const [submitted, setSubmitted] = useState(false);
 
   const startExercise = () => {
-    const randomData = getRandomData(score);
+    const randomData = getRandomData(score || 0);
 
     if (!randomData) {
       resetExerciseData();
@@ -27,8 +27,8 @@ function ReadingExercise() {
     }
 
     setText(randomData.text);
-    setQuestions(randomData.questions);
-    setAnswers(new Array(randomData.questions.length).fill(""));
+    setQuestions(randomData.questions || []); // add this check
+    setAnswers(new Array(randomData.questions?.length || 0).fill(""));
     setSubmitted(false);
   };
 
@@ -38,6 +38,12 @@ function ReadingExercise() {
     setAnswers(newAnswers);
   };
 
+  const calculateScore = (questions, answers) => {
+    return answers.reduce((acc, answer, index) => {
+      return answer === questions[index].answer ? acc + 1 : acc;
+    }, 0);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -45,11 +51,8 @@ function ReadingExercise() {
       return;
     }
 
-    const totalQuestions = questions.length;
-    const tempScore = answers.reduce((acc, answer, index) => {
-      return answer === questions[index].answer ? acc + 1 : acc;
-    }, 0);
-    const percentage = Math.round((tempScore / totalQuestions) * 100);
+    const tempScore = calculateScore(questions, answers);
+    const percentage = Math.round((tempScore / questions.length) * 100);
 
     setScore((prevScore) => prevScore + tempScore);
     setSubmitted(true);

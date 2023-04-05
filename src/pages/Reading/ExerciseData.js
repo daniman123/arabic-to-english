@@ -8,9 +8,19 @@ export function filterCompletedTexts() {
   );
 }
 
+const getLengthRangeForScore = (score) => {
+  if (score < 10) {
+    return [0, 100];
+  } else if (score < 17) {
+    return [101, 250];
+  } else {
+    return [251, Infinity];
+  }
+};
+
 export function filterTextsByLength(score) {
-  const maxLength = score < 10 ? 100 : score < 17 ? 250 : Infinity;
-  const minLength = score < 10 ? 0 : score < 17 ? 101 : 251;
+  const [minLength, maxLength] = getLengthRangeForScore(score);
+
   return filterCompletedTexts().filter(
     (data) => data.text.length >= minLength && data.text.length <= maxLength
   );

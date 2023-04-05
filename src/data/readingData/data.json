@@ -4311,8 +4311,17 @@
   },
   {
     "text": "The cat sat on the mat.",
-    "question": "Where did the cat sit?",
-    "options": ["On the mat", "On the couch", "On the table", "On the chair"],
-    "answer": "On the mat"
+    "questions": [
+      {
+        "question": "Where did the cat sit?",
+        "options": [
+          "On the mat",
+          "On the couch",
+          "On the table",
+          "On the chair"
+        ],
+        "answer": "On the mat"
+      }
+    ]
   }
 ]
