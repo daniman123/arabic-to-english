@@ -8,15 +8,8 @@ export function filterCompletedTexts() {
   );
 }
 
-const getLengthRangeForScore = (score) => {
-  if (score < 10) {
-    return [0, 100];
-  } else if (score < 17) {
-    return [101, 250];
-  } else {
-    return [251, Infinity];
-  }
-};
+const getLengthRangeForScore = (score) =>
+  score < 10 ? [0, 100] : score < 17 ? [101, 250] : [251, Infinity];
 
 export function filterTextsByLength(score) {
   const [minLength, maxLength] = getLengthRangeForScore(score);
