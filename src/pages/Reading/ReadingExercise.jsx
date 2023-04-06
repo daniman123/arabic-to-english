@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import Introduction from "./Introduction";
 import Exercise from "./Exercise";
@@ -15,7 +14,7 @@ function ReadingExercise() {
 
   const handleAnswerChange = (e, index) => {
     const newAnswers = [...answers];
-    newAnswers[index] = e.target.value;
+    newAnswers[index] = e;
     setAnswers(newAnswers);
   };
 

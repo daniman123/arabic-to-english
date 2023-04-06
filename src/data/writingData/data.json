@@ -73,5 +73,55 @@
         "answer": "play"
       }
     ]
+  },
+  {
+    "sentence": "Sophie was feeling stressed and wanted to try a 1 class to relax. She chose to take a 2 class because she had heard that it was a great way to unwind. During her first session, Sophie struggled to 3 the breathing exercises, but her instructor was supportive and gave her tips to help her 4 . After several classes, Sophie felt much calmer and was grateful that she had tried something new.",
+    "choices": [
+      {
+        "number": "1",
+        "options": ["cooking", "language", "meditation", "art"],
+        "answer": "meditation"
+      },
+      {
+        "number": "2",
+        "options": ["yoga", "drama", "swimming", "photography"],
+        "answer": "yoga"
+      },
+      {
+        "number": "3",
+        "options": ["teach", "skip", "master", "practice"],
+        "answer": "master"
+      },
+      {
+        "number": "4",
+        "options": ["focus", "procrastinate", "multitask", "overthink"],
+        "answer": "focus"
+      }
+    ]
+  },
+  {
+    "sentence": "After graduating from college, Tom decided to take a 1 class to improve his job prospects. He chose to take a 2 class because he had always been interested in computers and wanted to learn more about programming. At first, Tom found the programming concepts difficult to 3 , but his instructor was knowledgeable and provided clear explanations to help him 4 the material. After completing the course, Tom felt more confident in his programming abilities and was able to secure a job in the tech industry.",
+    "choices": [
+      {
+        "number": "1",
+        "options": ["dance", "language", "cooking", "programming"],
+        "answer": "programming"
+      },
+      {
+        "number": "2",
+        "options": ["guitar", "painting", "yoga", "computer programming"],
+        "answer": "computer programming"
+      },
+      {
+        "number": "3",
+        "options": ["understand", "teach", "skip", "master"],
+        "answer": "understand"
+      },
+      {
+        "number": "4",
+        "options": ["struggle", "memorize", "apply", "ignore"],
+        "answer": "apply"
+      }
+    ]
   }
 ]

@@ -1,0 +1,15 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* or any other appropriate height value */
+}
+
+.home__title {
+  margin-top: 0;
+  margin-bottom: -300px;
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+}

@@ -22,12 +22,11 @@ function QuestionOptions({
   options,
   index,
   selectedAnswer,
-  onAnswerChange,
+  handleAnswerChange,
   correctAnswerStyle,
   incorrectAnswerStyle,
+  submitted,
 }) {
-  const submitted = selectedAnswer !== null;
-
   return (
     <div>
       {options.map((option, optionIndex) => (
@@ -36,8 +35,8 @@ function QuestionOptions({
           className={
             submitted
               ? option === selectedAnswer
-                ? correctAnswerStyle
-                : incorrectAnswerStyle
+                ? "correct"
+                : "incorrect"
               : ""
           }
         >
@@ -46,7 +45,7 @@ function QuestionOptions({
             name={`question-${index}`}
             value={option}
             checked={selectedAnswer === option}
-            onChange={(e) => onAnswerChange(e.target.value)}
+            onChange={(e) => handleAnswerChange(e.target.value, index)}
           />
           {option}
         </label>
@@ -59,9 +58,10 @@ function Question({
   question,
   index,
   answers,
-  onAnswerChange,
+  handleAnswerChange,
   correctAnswerStyle,
   incorrectAnswerStyle,
+  submitted,
 }) {
   return (
     <div key={index}>
@@ -70,9 +70,10 @@ function Question({
         options={question.options}
         index={index}
         selectedAnswer={answers[index]}
-        onAnswerChange={(value) => onAnswerChange(index, value)}
+        handleAnswerChange={handleAnswerChange}
         correctAnswerStyle={correctAnswerStyle}
         incorrectAnswerStyle={incorrectAnswerStyle}
+        submitted={submitted}
       />
     </div>
   );
