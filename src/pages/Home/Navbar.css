@@ -1,3 +1,4 @@
+/* HOME */
 .home__container {
   display: flex;
   flex-direction: column;
@@ -8,38 +9,132 @@
 
 .home__title {
   margin-top: 0;
-  margin-bottom: -300px;
+  margin-bottom: 100px;
   font-size: 48px;
   color: #333;
   text-align: center;
 }
 
-nav ul li a {
-  margin-top: 25px;
-}
-
-nav ul li:nth-child(1):before {
-  content: "This is the Vocabulary Exercises section";
-}
-
-nav ul li:nth-child(2):before {
-  content: "This is the Reading Exercises section";
-}
-
-nav ul li:nth-child(3):before {
-  content: "This is the Writing Exercises section";
-}
-
-nav ul li:nth-child(1):before,
-nav ul li:nth-child(2):before,
-nav ul li:nth-child(3):before {
-  font-size: 14px;
-  color: #fff;
-  background-color: #333;
-  padding: 5px 10px;
+.info-bubble {
+  width: 150px;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 15px;
+  padding: 5px;
+  border: 1px solid #333;
   border-radius: 5px;
+  font-size: 12px;
+  color: #f2f2f2;
+  background-color: black;
+  position: relative; /* Add this */
+  bottom: -30px;
 }
 
-.nav-clicked nav ul li:before {
-  content: none;
+.info-bubble:after {
+  content: "";
+  left: 50%;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #000000c5 transparent transparent transparent;
+  position: absolute;
+  bottom: -10px; /* Adjust this */
+  transform: translateX(-50%); /* Keep this */
+}
+
+/* NAV */
+.nav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.nav li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav li a:hover:before {
+  transform: translateX(0);
+}
+
+.nav .active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.nav .active:before {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(0);
+}
+
+/* NAV-CLICKED */
+.nav-clicked {
+  background-color: transparent;
+  transition: background-color 0.7s ease-in-out;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav-clicked:active {
+  background-color: #333;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-clicked ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-clicked li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-clicked li a:hover {
+  background-color: #111;
+}
+
+.nav-clicked .active {
+  background-color: #4caf50;
 }

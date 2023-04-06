@@ -1,26 +1,35 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 
-function Navbar() {
+function App() {
   const [isNavClicked, setIsNavClicked] = useState(false);
-
-  const handleNavClick = () => {
-    setIsNavClicked(true);
-  };
 
   return (
     <div className={isNavClicked ? "" : "home__container"}>
       {isNavClicked ? (
         <></>
       ) : (
-        <h1 className="home__title">من العربية إلى الإنجليزية</h1>
+        <>
+          <h1 className="home__title">من العربية إلى الإنجليزية</h1>
+          <div>
+            <span className="info-bubble">
+              Learn new words and improve your vocabulary skills
+            </span>
+            <span className="info-bubble">
+              Practice reading comprehension and improve your understanding
+            </span>
+            <span className="info-bubble">
+              Improve your writing skills and learn new writing techniques
+            </span>
+          </div>
+        </>
       )}
 
       <div
         className={isNavClicked ? "nav-clicked" : "nav"}
-        onClick={handleNavClick}
+        onClick={() => setIsNavClicked(true)}
       >
         <nav>
           <ul>
@@ -40,4 +49,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default App;

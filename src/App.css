@@ -7,115 +7,6 @@ body {
   padding: 0;
 }
 
-/* NAV */
-
-.nav {
-  background-color: #f2f2f2;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 450px;
-  transition: all 10.5s ease-in-out;
-}
-
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav li {
-  margin: 10px;
-}
-
-.nav li a {
-  display: block;
-  color: #333;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  font-size: 20px;
-}
-
-.nav li a:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-in-out;
-}
-
-.nav li a:hover:before {
-  transform: translateX(0);
-}
-
-.nav .active {
-  background-color: #4CAF50;
-  color: #fff;
-}
-
-.nav .active:before {
-  background-color: rgba(255, 255, 255, 0.1);
-  transform: translateX(0);
-}
-
-/* NAV-CLICKED */
-.nav-clicked {
-  background-color: transparent;
-  transition: background-color 5.5s ease-in-out;
-  background-color: #333;
-  overflow: hidden;
-  transition: all 0.5s ease-in-out;
-}
-
-.nav-clicked:active {
-  background-color: #333;
-  overflow: hidden;
-  transition: all 1.5s ease-in-out;
-  }
-
-.nav-clicked ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-clicked li {
-  margin: 10px;
-}
-
-.nav-clicked li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.nav-clicked li a:hover {
-  background-color: #111;
-}
-
-.nav-clicked .active {
-  background-color: #4CAF50;
-}
-
-
-
 /* Center the content horizontally */
 .container {
   max-width: 800px;
@@ -160,7 +51,6 @@ a:hover {
   border-bottom: 1px solid transparent;
 }
 
-
 /* Style the radio buttons and labels */
 label {
   display: block;
@@ -168,13 +58,12 @@ label {
 }
 
 .correct {
-    color: green;
+  color: green;
 }
 
 .incorrect {
-    color: red;
+  color: red;
 }
-
 
 input[type="radio"] {
   margin-right: 10px;
@@ -197,7 +86,8 @@ button[type="submit"]:hover {
 }
 
 /* Style the .next_exercise button */
-.next_exercise,.start_exercise  {
+.next_exercise,
+.start_exercise {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4cafaf;
@@ -208,10 +98,10 @@ button[type="submit"]:hover {
   transition: background-color 0.3s ease;
 }
 
-.next_exercise:hover,.start_exercise:hover  {
+.next_exercise:hover,
+.start_exercise:hover {
   background-color: #3e8e73;
 }
-
 
 /* Style the score display */
 .score {
