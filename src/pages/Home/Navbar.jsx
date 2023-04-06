@@ -31,7 +31,7 @@ function Navbar() {
               <Link to="/reading-exercise">Reading Exercises</Link>
             </li>
             <li>
-              <Link to="/writing-exercise">Writing Exercise</Link>
+              <Link to="/writing-exercise">Writing Exercises</Link>
             </li>
           </ul>
         </nav>

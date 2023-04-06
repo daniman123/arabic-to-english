@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh; /* or any other appropriate height value */
+  height: 70vh;
 }
 
 .home__title {
@@ -12,4 +12,34 @@
   font-size: 48px;
   color: #333;
   text-align: center;
+}
+
+nav ul li a {
+  margin-top: 25px;
+}
+
+nav ul li:nth-child(1):before {
+  content: "This is the Vocabulary Exercises section";
+}
+
+nav ul li:nth-child(2):before {
+  content: "This is the Reading Exercises section";
+}
+
+nav ul li:nth-child(3):before {
+  content: "This is the Writing Exercises section";
+}
+
+nav ul li:nth-child(1):before,
+nav ul li:nth-child(2):before,
+nav ul li:nth-child(3):before {
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-clicked nav ul li:before {
+  content: none;
 }
